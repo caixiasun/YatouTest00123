@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11535.1" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11523"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AnimationController">
+            <connections>
+                <outlet property="gifImageView" destination="aWp-EW-4K9" id="e26-N1-znA"/>
+                <outlet property="pngImageView" destination="oA1-2f-d6p" id="Pb3-Qy-zi2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aWp-EW-4K9">
+                    <rect key="frame" x="5" y="100" width="365" height="567"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duF-O5-oIg">
+                    <rect key="frame" x="34" y="71" width="103" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="gif"/>
+                    <connections>
+                        <action selector="gifAction:" destination="-1" eventType="touchUpInside" id="QSw-yY-4zF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WSR-Qw-0Kc">
+                    <rect key="frame" x="241" y="71" width="101" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="png"/>
+                    <connections>
+                        <action selector="pngAction:" destination="-1" eventType="touchUpInside" id="e25-GV-uC7"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oA1-2f-d6p">
+                    <rect key="frame" x="5" y="100" width="365" height="567"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="oA1-2f-d6p" firstAttribute="centerY" secondItem="aWp-EW-4K9" secondAttribute="centerY" id="48O-iI-w41"/>
+                <constraint firstItem="oA1-2f-d6p" firstAttribute="width" secondItem="aWp-EW-4K9" secondAttribute="width" id="9ki-7R-O3a"/>
+                <constraint firstItem="aWp-EW-4K9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="Ddn-FS-1IH"/>
+                <constraint firstAttribute="bottom" secondItem="aWp-EW-4K9" secondAttribute="bottom" id="OTd-QW-9X3"/>
+                <constraint firstItem="aWp-EW-4K9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="OnN-xo-6gH"/>
+                <constraint firstItem="oA1-2f-d6p" firstAttribute="centerX" secondItem="aWp-EW-4K9" secondAttribute="centerX" id="RB2-uk-SrL"/>
+                <constraint firstItem="oA1-2f-d6p" firstAttribute="height" secondItem="aWp-EW-4K9" secondAttribute="height" id="VPx-oa-HLu"/>
+                <constraint firstAttribute="trailing" secondItem="aWp-EW-4K9" secondAttribute="trailing" constant="5" id="hfy-i8-LrH"/>
+            </constraints>
+            <point key="canvasLocation" x="25.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

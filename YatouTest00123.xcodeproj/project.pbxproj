@@ -1,0 +1,1628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003B4C031DBF4539006ED54F /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 003B4C011DBF4539006ED54F /* 2.jpg */; };
+		003B4C041DBF4539006ED54F /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 003B4C021DBF4539006ED54F /* 3.jpg */; };
+		003B4C061DBF5645006ED54F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003B4C051DBF5645006ED54F /* OpenGLES.framework */; };
+		005A69D71DCB279500EDDEA6 /* BluetoothController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005A69D51DCB279500EDDEA6 /* BluetoothController.m */; };
+		005A69D81DCB279500EDDEA6 /* BluetoothController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005A69D61DCB279500EDDEA6 /* BluetoothController.xib */; };
+		005A69DA1DCB2F4C00EDDEA6 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005A69D91DCB2F4C00EDDEA6 /* CoreBluetooth.framework */; };
+		009E0BA31DADD3040066A458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 009E0BA21DADD3040066A458 /* main.m */; };
+		009E0BA61DADD3040066A458 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 009E0BA51DADD3040066A458 /* AppDelegate.m */; };
+		009E0BAC1DADD3040066A458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009E0BAA1DADD3040066A458 /* Main.storyboard */; };
+		009E0BAF1DADD3040066A458 /* YatouTest00123.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 009E0BAD1DADD3040066A458 /* YatouTest00123.xcdatamodeld */; };
+		009E0BB11DADD3040066A458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009E0BB01DADD3040066A458 /* Assets.xcassets */; };
+		009E0BB41DADD3040066A458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009E0BB21DADD3040066A458 /* LaunchScreen.storyboard */; };
+		009E0BBF1DADD3040066A458 /* YatouTest00123Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 009E0BBE1DADD3040066A458 /* YatouTest00123Tests.m */; };
+		009E0BCA1DADD5E70066A458 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 009E0BC91DADD5E70066A458 /* 1.jpg */; };
+		00BEEE371DB5B804008A8122 /* BaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BEEE2F1DB5B804008A8122 /* BaseMapViewController.m */; };
+		00BEEE381DB5B804008A8122 /* Demo2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BEEE311DB5B804008A8122 /* Demo2Controller.m */; };
+		00BEEE391DB5B804008A8122 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BEEE331DB5B804008A8122 /* MapViewController.m */; };
+		00BEEE3A1DB5B804008A8122 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BEEE351DB5B804008A8122 /* ViewController.m */; };
+		00BEEE3E1DB5B879008A8122 /* YTCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BEEE3D1DB5B879008A8122 /* YTCalendarView.m */; };
+		00BEEE411DB5BA77008A8122 /* NSDate+YTDateCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BEEE401DB5BA77008A8122 /* NSDate+YTDateCategory.m */; };
+		00BEEE491DB5C9AB008A8122 /* calendar_forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00BEEE481DB5C9AB008A8122 /* calendar_forward@2x.png */; };
+		00BEEE4B1DB5CBBE008A8122 /* calendar_backward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00BEEE4A1DB5CBBE008A8122 /* calendar_backward@2x.png */; };
+		00BEEE4E1DB5F5F8008A8122 /* YTCalendarDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BEEE4D1DB5F5F8008A8122 /* YTCalendarDay.m */; };
+		00BEEE511DB5FD04008A8122 /* Demo3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BEEE501DB5FD04008A8122 /* Demo3Controller.m */; };
+		00BEEE5C1DB5FD13008A8122 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BEEE541DB5FD13008A8122 /* ALView+PureLayout.m */; };
+		00BEEE5D1DB5FD13008A8122 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BEEE561DB5FD13008A8122 /* NSArray+PureLayout.m */; };
+		00BEEE5E1DB5FD13008A8122 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BEEE581DB5FD13008A8122 /* NSLayoutConstraint+PureLayout.m */; };
+		00C22ED91DC19BC30048A58E /* AnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C22ED71DC19BC30048A58E /* AnimationController.m */; };
+		00C22EDA1DC19BC30048A58E /* AnimationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C22ED81DC19BC30048A58E /* AnimationController.xib */; };
+		00C22FA51DC19CAC0048A58E /* 气球0001.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EDC1DC19CAC0048A58E /* 气球0001.gif */; };
+		00C22FA61DC19CAC0048A58E /* 气球0002.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EDD1DC19CAC0048A58E /* 气球0002.gif */; };
+		00C22FA71DC19CAC0048A58E /* 气球0003.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EDE1DC19CAC0048A58E /* 气球0003.gif */; };
+		00C22FA81DC19CAC0048A58E /* 气球0004.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EDF1DC19CAC0048A58E /* 气球0004.gif */; };
+		00C22FA91DC19CAC0048A58E /* 气球0005.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE01DC19CAC0048A58E /* 气球0005.gif */; };
+		00C22FAA1DC19CAC0048A58E /* 气球0006.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE11DC19CAC0048A58E /* 气球0006.gif */; };
+		00C22FAB1DC19CAC0048A58E /* 气球0007.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE21DC19CAC0048A58E /* 气球0007.gif */; };
+		00C22FAC1DC19CAC0048A58E /* 气球0008.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE31DC19CAC0048A58E /* 气球0008.gif */; };
+		00C22FAD1DC19CAC0048A58E /* 气球0009.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE41DC19CAC0048A58E /* 气球0009.gif */; };
+		00C22FAE1DC19CAC0048A58E /* 气球0010.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE51DC19CAC0048A58E /* 气球0010.gif */; };
+		00C22FAF1DC19CAC0048A58E /* 气球0011.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE61DC19CAC0048A58E /* 气球0011.gif */; };
+		00C22FB01DC19CAC0048A58E /* 气球0012.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE71DC19CAC0048A58E /* 气球0012.gif */; };
+		00C22FB11DC19CAC0048A58E /* 气球0013.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE81DC19CAC0048A58E /* 气球0013.gif */; };
+		00C22FB21DC19CAC0048A58E /* 气球0014.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE91DC19CAC0048A58E /* 气球0014.gif */; };
+		00C22FB31DC19CAC0048A58E /* 气球0015.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EEA1DC19CAC0048A58E /* 气球0015.gif */; };
+		00C22FB41DC19CAC0048A58E /* 气球0016.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EEB1DC19CAC0048A58E /* 气球0016.gif */; };
+		00C22FB51DC19CAC0048A58E /* 气球0017.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EEC1DC19CAC0048A58E /* 气球0017.gif */; };
+		00C22FB61DC19CAC0048A58E /* 气球0018.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EED1DC19CAC0048A58E /* 气球0018.gif */; };
+		00C22FB71DC19CAC0048A58E /* 气球0019.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EEE1DC19CAC0048A58E /* 气球0019.gif */; };
+		00C22FB81DC19CAC0048A58E /* 气球0020.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EEF1DC19CAC0048A58E /* 气球0020.gif */; };
+		00C22FB91DC19CAC0048A58E /* 气球0021.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF01DC19CAC0048A58E /* 气球0021.gif */; };
+		00C22FBA1DC19CAC0048A58E /* 气球0022.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF11DC19CAC0048A58E /* 气球0022.gif */; };
+		00C22FBB1DC19CAC0048A58E /* 气球0023.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF21DC19CAC0048A58E /* 气球0023.gif */; };
+		00C22FBC1DC19CAC0048A58E /* 气球0024.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF31DC19CAC0048A58E /* 气球0024.gif */; };
+		00C22FBD1DC19CAC0048A58E /* 气球0025.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF41DC19CAC0048A58E /* 气球0025.gif */; };
+		00C22FBE1DC19CAC0048A58E /* 气球0026.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF51DC19CAC0048A58E /* 气球0026.gif */; };
+		00C22FBF1DC19CAC0048A58E /* 气球0027.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF61DC19CAC0048A58E /* 气球0027.gif */; };
+		00C22FC01DC19CAC0048A58E /* 气球0028.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF71DC19CAC0048A58E /* 气球0028.gif */; };
+		00C22FC11DC19CAC0048A58E /* 气球0029.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF81DC19CAC0048A58E /* 气球0029.gif */; };
+		00C22FC21DC19CAC0048A58E /* 气球0030.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF91DC19CAC0048A58E /* 气球0030.gif */; };
+		00C22FC31DC19CAC0048A58E /* 气球0031.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EFA1DC19CAC0048A58E /* 气球0031.gif */; };
+		00C22FC41DC19CAC0048A58E /* 气球0032.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EFB1DC19CAC0048A58E /* 气球0032.gif */; };
+		00C22FC51DC19CAC0048A58E /* 气球0033.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EFC1DC19CAC0048A58E /* 气球0033.gif */; };
+		00C22FC61DC19CAC0048A58E /* 气球0034.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EFD1DC19CAC0048A58E /* 气球0034.gif */; };
+		00C22FC71DC19CAC0048A58E /* 气球0035.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EFE1DC19CAC0048A58E /* 气球0035.gif */; };
+		00C22FC81DC19CAC0048A58E /* 气球0036.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EFF1DC19CAC0048A58E /* 气球0036.gif */; };
+		00C22FC91DC19CAC0048A58E /* 气球0037.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F001DC19CAC0048A58E /* 气球0037.gif */; };
+		00C22FCA1DC19CAC0048A58E /* 气球0038.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F011DC19CAC0048A58E /* 气球0038.gif */; };
+		00C22FCB1DC19CAC0048A58E /* 气球0039.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F021DC19CAC0048A58E /* 气球0039.gif */; };
+		00C22FCC1DC19CAC0048A58E /* 气球0040.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F031DC19CAC0048A58E /* 气球0040.gif */; };
+		00C22FCD1DC19CAC0048A58E /* 气球0041.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F041DC19CAC0048A58E /* 气球0041.gif */; };
+		00C22FCE1DC19CAC0048A58E /* 气球0042.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F051DC19CAC0048A58E /* 气球0042.gif */; };
+		00C22FCF1DC19CAC0048A58E /* 气球0043.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F061DC19CAC0048A58E /* 气球0043.gif */; };
+		00C22FD01DC19CAC0048A58E /* 气球0044.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F071DC19CAC0048A58E /* 气球0044.gif */; };
+		00C22FD11DC19CAC0048A58E /* 气球0045.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F081DC19CAC0048A58E /* 气球0045.gif */; };
+		00C22FD21DC19CAC0048A58E /* 气球0046.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F091DC19CAC0048A58E /* 气球0046.gif */; };
+		00C22FD31DC19CAC0048A58E /* 气球0047.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F0A1DC19CAC0048A58E /* 气球0047.gif */; };
+		00C22FD41DC19CAC0048A58E /* 气球0048.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F0B1DC19CAC0048A58E /* 气球0048.gif */; };
+		00C22FD51DC19CAC0048A58E /* 气球0049.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F0C1DC19CAC0048A58E /* 气球0049.gif */; };
+		00C22FD61DC19CAC0048A58E /* 气球0050.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F0D1DC19CAC0048A58E /* 气球0050.gif */; };
+		00C22FD71DC19CAC0048A58E /* 气球0051.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F0E1DC19CAC0048A58E /* 气球0051.gif */; };
+		00C22FD81DC19CAC0048A58E /* 气球0052.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F0F1DC19CAC0048A58E /* 气球0052.gif */; };
+		00C22FD91DC19CAC0048A58E /* 气球0053.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F101DC19CAC0048A58E /* 气球0053.gif */; };
+		00C22FDA1DC19CAC0048A58E /* 气球0054.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F111DC19CAC0048A58E /* 气球0054.gif */; };
+		00C22FDB1DC19CAC0048A58E /* 气球0055.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F121DC19CAC0048A58E /* 气球0055.gif */; };
+		00C22FDC1DC19CAC0048A58E /* 气球0056.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F131DC19CAC0048A58E /* 气球0056.gif */; };
+		00C22FDD1DC19CAC0048A58E /* 气球0057.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F141DC19CAC0048A58E /* 气球0057.gif */; };
+		00C22FDE1DC19CAC0048A58E /* 气球0058.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F151DC19CAC0048A58E /* 气球0058.gif */; };
+		00C22FDF1DC19CAC0048A58E /* 气球0059.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F161DC19CAC0048A58E /* 气球0059.gif */; };
+		00C22FE01DC19CAC0048A58E /* 气球0060.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F171DC19CAC0048A58E /* 气球0060.gif */; };
+		00C22FE11DC19CAC0048A58E /* 气球0061.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F181DC19CAC0048A58E /* 气球0061.gif */; };
+		00C22FE21DC19CAC0048A58E /* 气球0062.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F191DC19CAC0048A58E /* 气球0062.gif */; };
+		00C22FE31DC19CAC0048A58E /* 气球0063.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F1A1DC19CAC0048A58E /* 气球0063.gif */; };
+		00C22FE41DC19CAC0048A58E /* 气球0064.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F1B1DC19CAC0048A58E /* 气球0064.gif */; };
+		00C22FE51DC19CAC0048A58E /* 气球0065.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F1C1DC19CAC0048A58E /* 气球0065.gif */; };
+		00C22FE61DC19CAC0048A58E /* 气球0066.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F1D1DC19CAC0048A58E /* 气球0066.gif */; };
+		00C22FE71DC19CAC0048A58E /* 气球0067.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F1E1DC19CAC0048A58E /* 气球0067.gif */; };
+		00C22FE81DC19CAC0048A58E /* 气球0068.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F1F1DC19CAC0048A58E /* 气球0068.gif */; };
+		00C22FE91DC19CAC0048A58E /* 气球0069.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F201DC19CAC0048A58E /* 气球0069.gif */; };
+		00C22FEA1DC19CAC0048A58E /* 气球0070.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F211DC19CAC0048A58E /* 气球0070.gif */; };
+		00C22FEB1DC19CAC0048A58E /* 气球0071.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F221DC19CAC0048A58E /* 气球0071.gif */; };
+		00C22FEC1DC19CAC0048A58E /* 气球0072.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F231DC19CAC0048A58E /* 气球0072.gif */; };
+		00C22FED1DC19CAC0048A58E /* 气球0073.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F241DC19CAC0048A58E /* 气球0073.gif */; };
+		00C22FEE1DC19CAC0048A58E /* 气球0074.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F251DC19CAC0048A58E /* 气球0074.gif */; };
+		00C22FEF1DC19CAC0048A58E /* 气球0075.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F261DC19CAC0048A58E /* 气球0075.gif */; };
+		00C22FF01DC19CAC0048A58E /* 气球0076.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F271DC19CAC0048A58E /* 气球0076.gif */; };
+		00C22FF11DC19CAC0048A58E /* 气球0077.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F281DC19CAC0048A58E /* 气球0077.gif */; };
+		00C22FF21DC19CAC0048A58E /* 气球0078.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F291DC19CAC0048A58E /* 气球0078.gif */; };
+		00C22FF31DC19CAC0048A58E /* 气球0079.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F2A1DC19CAC0048A58E /* 气球0079.gif */; };
+		00C22FF41DC19CAC0048A58E /* 气球0080.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F2B1DC19CAC0048A58E /* 气球0080.gif */; };
+		00C22FF51DC19CAC0048A58E /* 气球0081.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F2C1DC19CAC0048A58E /* 气球0081.gif */; };
+		00C22FF61DC19CAC0048A58E /* 气球0082.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F2D1DC19CAC0048A58E /* 气球0082.gif */; };
+		00C22FF71DC19CAC0048A58E /* 气球0083.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F2E1DC19CAC0048A58E /* 气球0083.gif */; };
+		00C22FF81DC19CAC0048A58E /* 气球0084.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F2F1DC19CAC0048A58E /* 气球0084.gif */; };
+		00C22FF91DC19CAC0048A58E /* 气球0085.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F301DC19CAC0048A58E /* 气球0085.gif */; };
+		00C22FFA1DC19CAC0048A58E /* 气球0086.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F311DC19CAC0048A58E /* 气球0086.gif */; };
+		00C22FFB1DC19CAC0048A58E /* 气球0087.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F321DC19CAC0048A58E /* 气球0087.gif */; };
+		00C22FFC1DC19CAC0048A58E /* 气球0088.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F331DC19CAC0048A58E /* 气球0088.gif */; };
+		00C22FFD1DC19CAC0048A58E /* 气球0089.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F341DC19CAC0048A58E /* 气球0089.gif */; };
+		00C22FFE1DC19CAC0048A58E /* 气球0090.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F351DC19CAC0048A58E /* 气球0090.gif */; };
+		00C22FFF1DC19CAC0048A58E /* 气球0091.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F361DC19CAC0048A58E /* 气球0091.gif */; };
+		00C230001DC19CAC0048A58E /* 气球0092.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F371DC19CAC0048A58E /* 气球0092.gif */; };
+		00C230011DC19CAC0048A58E /* 气球0093.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F381DC19CAC0048A58E /* 气球0093.gif */; };
+		00C230021DC19CAC0048A58E /* 气球0094.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F391DC19CAC0048A58E /* 气球0094.gif */; };
+		00C230031DC19CAC0048A58E /* 气球0095.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F3A1DC19CAC0048A58E /* 气球0095.gif */; };
+		00C230041DC19CAC0048A58E /* 气球0096.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F3B1DC19CAC0048A58E /* 气球0096.gif */; };
+		00C230051DC19CAC0048A58E /* 气球0097.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F3C1DC19CAC0048A58E /* 气球0097.gif */; };
+		00C230061DC19CAC0048A58E /* 气球0098.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F3D1DC19CAC0048A58E /* 气球0098.gif */; };
+		00C230071DC19CAC0048A58E /* 气球0099.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F3E1DC19CAC0048A58E /* 气球0099.gif */; };
+		00C230081DC19CAC0048A58E /* 气球0100.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F3F1DC19CAC0048A58E /* 气球0100.gif */; };
+		00C230091DC19CAC0048A58E /* 气球0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F411DC19CAC0048A58E /* 气球0001.png */; };
+		00C2300A1DC19CAC0048A58E /* 气球0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F421DC19CAC0048A58E /* 气球0002.png */; };
+		00C2300B1DC19CAC0048A58E /* 气球0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F431DC19CAC0048A58E /* 气球0003.png */; };
+		00C2300C1DC19CAC0048A58E /* 气球0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F441DC19CAC0048A58E /* 气球0004.png */; };
+		00C2300D1DC19CAC0048A58E /* 气球0005.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F451DC19CAC0048A58E /* 气球0005.png */; };
+		00C2300E1DC19CAC0048A58E /* 气球0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F461DC19CAC0048A58E /* 气球0006.png */; };
+		00C2300F1DC19CAC0048A58E /* 气球0007.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F471DC19CAC0048A58E /* 气球0007.png */; };
+		00C230101DC19CAC0048A58E /* 气球0008.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F481DC19CAC0048A58E /* 气球0008.png */; };
+		00C230111DC19CAC0048A58E /* 气球0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F491DC19CAC0048A58E /* 气球0009.png */; };
+		00C230121DC19CAC0048A58E /* 气球0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F4A1DC19CAC0048A58E /* 气球0010.png */; };
+		00C230131DC19CAC0048A58E /* 气球0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F4B1DC19CAC0048A58E /* 气球0011.png */; };
+		00C230141DC19CAC0048A58E /* 气球0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F4C1DC19CAC0048A58E /* 气球0012.png */; };
+		00C230151DC19CAC0048A58E /* 气球0013.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F4D1DC19CAC0048A58E /* 气球0013.png */; };
+		00C230161DC19CAC0048A58E /* 气球0014.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F4E1DC19CAC0048A58E /* 气球0014.png */; };
+		00C230171DC19CAC0048A58E /* 气球0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F4F1DC19CAC0048A58E /* 气球0015.png */; };
+		00C230181DC19CAC0048A58E /* 气球0016.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F501DC19CAC0048A58E /* 气球0016.png */; };
+		00C230191DC19CAC0048A58E /* 气球0017.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F511DC19CAC0048A58E /* 气球0017.png */; };
+		00C2301A1DC19CAC0048A58E /* 气球0018.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F521DC19CAC0048A58E /* 气球0018.png */; };
+		00C2301B1DC19CAC0048A58E /* 气球0019.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F531DC19CAC0048A58E /* 气球0019.png */; };
+		00C2301C1DC19CAC0048A58E /* 气球0020.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F541DC19CAC0048A58E /* 气球0020.png */; };
+		00C2301D1DC19CAC0048A58E /* 气球0021.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F551DC19CAC0048A58E /* 气球0021.png */; };
+		00C2301E1DC19CAC0048A58E /* 气球0022.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F561DC19CAC0048A58E /* 气球0022.png */; };
+		00C2301F1DC19CAC0048A58E /* 气球0023.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F571DC19CAC0048A58E /* 气球0023.png */; };
+		00C230201DC19CAC0048A58E /* 气球0024.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F581DC19CAC0048A58E /* 气球0024.png */; };
+		00C230211DC19CAC0048A58E /* 气球0025.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F591DC19CAC0048A58E /* 气球0025.png */; };
+		00C230221DC19CAC0048A58E /* 气球0026.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F5A1DC19CAC0048A58E /* 气球0026.png */; };
+		00C230231DC19CAC0048A58E /* 气球0027.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F5B1DC19CAC0048A58E /* 气球0027.png */; };
+		00C230241DC19CAC0048A58E /* 气球0028.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F5C1DC19CAC0048A58E /* 气球0028.png */; };
+		00C230251DC19CAC0048A58E /* 气球0029.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F5D1DC19CAC0048A58E /* 气球0029.png */; };
+		00C230261DC19CAC0048A58E /* 气球0030.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F5E1DC19CAC0048A58E /* 气球0030.png */; };
+		00C230271DC19CAC0048A58E /* 气球0031.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F5F1DC19CAC0048A58E /* 气球0031.png */; };
+		00C230281DC19CAC0048A58E /* 气球0032.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F601DC19CAC0048A58E /* 气球0032.png */; };
+		00C230291DC19CAC0048A58E /* 气球0033.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F611DC19CAC0048A58E /* 气球0033.png */; };
+		00C2302A1DC19CAC0048A58E /* 气球0034.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F621DC19CAC0048A58E /* 气球0034.png */; };
+		00C2302B1DC19CAC0048A58E /* 气球0035.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F631DC19CAC0048A58E /* 气球0035.png */; };
+		00C2302C1DC19CAC0048A58E /* 气球0036.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F641DC19CAC0048A58E /* 气球0036.png */; };
+		00C2302D1DC19CAC0048A58E /* 气球0037.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F651DC19CAC0048A58E /* 气球0037.png */; };
+		00C2302E1DC19CAC0048A58E /* 气球0038.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F661DC19CAC0048A58E /* 气球0038.png */; };
+		00C2302F1DC19CAC0048A58E /* 气球0039.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F671DC19CAC0048A58E /* 气球0039.png */; };
+		00C230301DC19CAC0048A58E /* 气球0040.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F681DC19CAC0048A58E /* 气球0040.png */; };
+		00C230311DC19CAC0048A58E /* 气球0041.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F691DC19CAC0048A58E /* 气球0041.png */; };
+		00C230321DC19CAC0048A58E /* 气球0042.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F6A1DC19CAC0048A58E /* 气球0042.png */; };
+		00C230331DC19CAC0048A58E /* 气球0043.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F6B1DC19CAC0048A58E /* 气球0043.png */; };
+		00C230341DC19CAC0048A58E /* 气球0044.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F6C1DC19CAC0048A58E /* 气球0044.png */; };
+		00C230351DC19CAC0048A58E /* 气球0045.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F6D1DC19CAC0048A58E /* 气球0045.png */; };
+		00C230361DC19CAC0048A58E /* 气球0046.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F6E1DC19CAC0048A58E /* 气球0046.png */; };
+		00C230371DC19CAC0048A58E /* 气球0047.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F6F1DC19CAC0048A58E /* 气球0047.png */; };
+		00C230381DC19CAC0048A58E /* 气球0048.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F701DC19CAC0048A58E /* 气球0048.png */; };
+		00C230391DC19CAC0048A58E /* 气球0049.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F711DC19CAC0048A58E /* 气球0049.png */; };
+		00C2303A1DC19CAC0048A58E /* 气球0050.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F721DC19CAC0048A58E /* 气球0050.png */; };
+		00C2303B1DC19CAC0048A58E /* 气球0051.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F731DC19CAC0048A58E /* 气球0051.png */; };
+		00C2303C1DC19CAC0048A58E /* 气球0052.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F741DC19CAC0048A58E /* 气球0052.png */; };
+		00C2303D1DC19CAC0048A58E /* 气球0053.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F751DC19CAC0048A58E /* 气球0053.png */; };
+		00C2303E1DC19CAC0048A58E /* 气球0054.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F761DC19CAC0048A58E /* 气球0054.png */; };
+		00C2303F1DC19CAC0048A58E /* 气球0055.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F771DC19CAC0048A58E /* 气球0055.png */; };
+		00C230401DC19CAC0048A58E /* 气球0056.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F781DC19CAC0048A58E /* 气球0056.png */; };
+		00C230411DC19CAC0048A58E /* 气球0057.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F791DC19CAC0048A58E /* 气球0057.png */; };
+		00C230421DC19CAC0048A58E /* 气球0058.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F7A1DC19CAC0048A58E /* 气球0058.png */; };
+		00C230431DC19CAC0048A58E /* 气球0059.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F7B1DC19CAC0048A58E /* 气球0059.png */; };
+		00C230441DC19CAC0048A58E /* 气球0060.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F7C1DC19CAC0048A58E /* 气球0060.png */; };
+		00C230451DC19CAC0048A58E /* 气球0061.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F7D1DC19CAC0048A58E /* 气球0061.png */; };
+		00C230461DC19CAC0048A58E /* 气球0062.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F7E1DC19CAC0048A58E /* 气球0062.png */; };
+		00C230471DC19CAC0048A58E /* 气球0063.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F7F1DC19CAC0048A58E /* 气球0063.png */; };
+		00C230481DC19CAC0048A58E /* 气球0064.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F801DC19CAC0048A58E /* 气球0064.png */; };
+		00C230491DC19CAC0048A58E /* 气球0065.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F811DC19CAC0048A58E /* 气球0065.png */; };
+		00C2304A1DC19CAC0048A58E /* 气球0066.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F821DC19CAC0048A58E /* 气球0066.png */; };
+		00C2304B1DC19CAC0048A58E /* 气球0067.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F831DC19CAC0048A58E /* 气球0067.png */; };
+		00C2304C1DC19CAC0048A58E /* 气球0068.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F841DC19CAC0048A58E /* 气球0068.png */; };
+		00C2304D1DC19CAC0048A58E /* 气球0069.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F851DC19CAC0048A58E /* 气球0069.png */; };
+		00C2304E1DC19CAC0048A58E /* 气球0070.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F861DC19CAC0048A58E /* 气球0070.png */; };
+		00C2304F1DC19CAC0048A58E /* 气球0071.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F871DC19CAC0048A58E /* 气球0071.png */; };
+		00C230501DC19CAC0048A58E /* 气球0072.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F881DC19CAC0048A58E /* 气球0072.png */; };
+		00C230511DC19CAC0048A58E /* 气球0073.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F891DC19CAC0048A58E /* 气球0073.png */; };
+		00C230521DC19CAC0048A58E /* 气球0074.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F8A1DC19CAC0048A58E /* 气球0074.png */; };
+		00C230531DC19CAC0048A58E /* 气球0075.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F8B1DC19CAC0048A58E /* 气球0075.png */; };
+		00C230541DC19CAC0048A58E /* 气球0076.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F8C1DC19CAC0048A58E /* 气球0076.png */; };
+		00C230551DC19CAC0048A58E /* 气球0077.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F8D1DC19CAC0048A58E /* 气球0077.png */; };
+		00C230561DC19CAC0048A58E /* 气球0078.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F8E1DC19CAC0048A58E /* 气球0078.png */; };
+		00C230571DC19CAC0048A58E /* 气球0079.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F8F1DC19CAC0048A58E /* 气球0079.png */; };
+		00C230581DC19CAC0048A58E /* 气球0080.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F901DC19CAC0048A58E /* 气球0080.png */; };
+		00C230591DC19CAC0048A58E /* 气球0081.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F911DC19CAC0048A58E /* 气球0081.png */; };
+		00C2305A1DC19CAC0048A58E /* 气球0082.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F921DC19CAC0048A58E /* 气球0082.png */; };
+		00C2305B1DC19CAC0048A58E /* 气球0083.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F931DC19CAC0048A58E /* 气球0083.png */; };
+		00C2305C1DC19CAC0048A58E /* 气球0084.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F941DC19CAC0048A58E /* 气球0084.png */; };
+		00C2305D1DC19CAC0048A58E /* 气球0085.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F951DC19CAC0048A58E /* 气球0085.png */; };
+		00C2305E1DC19CAC0048A58E /* 气球0086.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F961DC19CAC0048A58E /* 气球0086.png */; };
+		00C2305F1DC19CAC0048A58E /* 气球0087.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F971DC19CAC0048A58E /* 气球0087.png */; };
+		00C230601DC19CAC0048A58E /* 气球0088.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F981DC19CAC0048A58E /* 气球0088.png */; };
+		00C230611DC19CAC0048A58E /* 气球0089.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F991DC19CAC0048A58E /* 气球0089.png */; };
+		00C230621DC19CAC0048A58E /* 气球0090.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F9A1DC19CAC0048A58E /* 气球0090.png */; };
+		00C230631DC19CAC0048A58E /* 气球0091.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F9B1DC19CAC0048A58E /* 气球0091.png */; };
+		00C230641DC19CAC0048A58E /* 气球0092.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F9C1DC19CAC0048A58E /* 气球0092.png */; };
+		00C230651DC19CAC0048A58E /* 气球0093.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F9D1DC19CAC0048A58E /* 气球0093.png */; };
+		00C230661DC19CAC0048A58E /* 气球0094.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F9E1DC19CAC0048A58E /* 气球0094.png */; };
+		00C230671DC19CAC0048A58E /* 气球0095.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F9F1DC19CAC0048A58E /* 气球0095.png */; };
+		00C230681DC19CAC0048A58E /* 气球0096.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22FA01DC19CAC0048A58E /* 气球0096.png */; };
+		00C230691DC19CAC0048A58E /* 气球0097.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22FA11DC19CAC0048A58E /* 气球0097.png */; };
+		00C2306A1DC19CAC0048A58E /* 气球0098.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22FA21DC19CAC0048A58E /* 气球0098.png */; };
+		00C2306B1DC19CAC0048A58E /* 气球0099.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22FA31DC19CAC0048A58E /* 气球0099.png */; };
+		00C2306C1DC19CAC0048A58E /* 气球0100.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22FA41DC19CAC0048A58E /* 气球0100.png */; };
+		00C2306E1DC1ACA00048A58E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C2306D1DC1ACA00048A58E /* ImageIO.framework */; };
+		00E52B9D1DB4B4DC004B9BED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E52B9C1DB4B4DC004B9BED /* MapKit.framework */; };
+		00EA19C71DB709D900BD0078 /* Demo4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EA19C51DB709D900BD0078 /* Demo4Controller.m */; };
+		00EA19C81DB709D900BD0078 /* Demo4Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EA19C61DB709D900BD0078 /* Demo4Controller.xib */; };
+		00EA19CC1DB70D1000BD0078 /* YTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EA19CB1DB70D1000BD0078 /* YTNavigationController.m */; };
+		00EA19D81DB7210D00BD0078 /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EA19D71DB7210D00BD0078 /* DMHeartFlyView.m */; };
+		00EA19DC1DB7253D00BD0078 /* TestHeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EA19DB1DB7253D00BD0078 /* TestHeartView.m */; };
+		00EA19E41DB74D4D00BD0078 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EA19E21DB74D4D00BD0078 /* MainController.m */; };
+		00EA19E51DB74D4D00BD0078 /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EA19E31DB74D4D00BD0078 /* MainController.xib */; };
+		00EA19EB1DB7506A00BD0078 /* Demo2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EA19EA1DB7506A00BD0078 /* Demo2Controller.xib */; };
+		00EA19ED1DB751E100BD0078 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EA19EC1DB751E100BD0078 /* ViewController.xib */; };
+		CE0EA0CACB3D9FAE3259991B /* libPods-YatouTest00123.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90534603AA7573242F2CA58A /* libPods-YatouTest00123.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		009E0BBB1DADD3040066A458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009E0B961DADD3040066A458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 009E0B9D1DADD3040066A458;
+			remoteInfo = YatouTest00123;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003B4C011DBF4539006ED54F /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		003B4C021DBF4539006ED54F /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		003B4C051DBF5645006ED54F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		005A69D41DCB279500EDDEA6 /* BluetoothController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothController.h; sourceTree = "<group>"; };
+		005A69D51DCB279500EDDEA6 /* BluetoothController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothController.m; sourceTree = "<group>"; };
+		005A69D61DCB279500EDDEA6 /* BluetoothController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BluetoothController.xib; sourceTree = "<group>"; };
+		005A69D91DCB2F4C00EDDEA6 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		009E0B9E1DADD3040066A458 /* YatouTest00123.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YatouTest00123.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		009E0BA21DADD3040066A458 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		009E0BA41DADD3040066A458 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		009E0BA51DADD3040066A458 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		009E0BAB1DADD3040066A458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		009E0BAE1DADD3040066A458 /* YatouTest00123.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YatouTest00123.xcdatamodel; sourceTree = "<group>"; };
+		009E0BB01DADD3040066A458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		009E0BB31DADD3040066A458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		009E0BB51DADD3040066A458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009E0BBA1DADD3040066A458 /* YatouTest00123Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YatouTest00123Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		009E0BBE1DADD3040066A458 /* YatouTest00123Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YatouTest00123Tests.m; sourceTree = "<group>"; };
+		009E0BC01DADD3040066A458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009E0BC91DADD5E70066A458 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		00BEEE2E1DB5B804008A8122 /* BaseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMapViewController.h; sourceTree = "<group>"; };
+		00BEEE2F1DB5B804008A8122 /* BaseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMapViewController.m; sourceTree = "<group>"; };
+		00BEEE301DB5B804008A8122 /* Demo2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2Controller.h; sourceTree = "<group>"; };
+		00BEEE311DB5B804008A8122 /* Demo2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2Controller.m; sourceTree = "<group>"; };
+		00BEEE321DB5B804008A8122 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		00BEEE331DB5B804008A8122 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		00BEEE341DB5B804008A8122 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00BEEE351DB5B804008A8122 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00BEEE3C1DB5B879008A8122 /* YTCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTCalendarView.h; sourceTree = "<group>"; };
+		00BEEE3D1DB5B879008A8122 /* YTCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTCalendarView.m; sourceTree = "<group>"; };
+		00BEEE3F1DB5BA77008A8122 /* NSDate+YTDateCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YTDateCategory.h"; sourceTree = "<group>"; };
+		00BEEE401DB5BA77008A8122 /* NSDate+YTDateCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YTDateCategory.m"; sourceTree = "<group>"; };
+		00BEEE481DB5C9AB008A8122 /* calendar_forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar_forward@2x.png"; sourceTree = "<group>"; };
+		00BEEE4A1DB5CBBE008A8122 /* calendar_backward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar_backward@2x.png"; sourceTree = "<group>"; };
+		00BEEE4C1DB5F5F8008A8122 /* YTCalendarDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTCalendarDay.h; sourceTree = "<group>"; };
+		00BEEE4D1DB5F5F8008A8122 /* YTCalendarDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTCalendarDay.m; sourceTree = "<group>"; };
+		00BEEE4F1DB5FD04008A8122 /* Demo3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo3Controller.h; sourceTree = "<group>"; };
+		00BEEE501DB5FD04008A8122 /* Demo3Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo3Controller.m; sourceTree = "<group>"; };
+		00BEEE531DB5FD13008A8122 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		00BEEE541DB5FD13008A8122 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		00BEEE551DB5FD13008A8122 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		00BEEE561DB5FD13008A8122 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		00BEEE571DB5FD13008A8122 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		00BEEE581DB5FD13008A8122 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		00BEEE591DB5FD13008A8122 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		00BEEE5A1DB5FD13008A8122 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		00BEEE5B1DB5FD13008A8122 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		00C22ED61DC19BC30048A58E /* AnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationController.h; sourceTree = "<group>"; };
+		00C22ED71DC19BC30048A58E /* AnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationController.m; sourceTree = "<group>"; };
+		00C22ED81DC19BC30048A58E /* AnimationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationController.xib; sourceTree = "<group>"; };
+		00C22EDC1DC19CAC0048A58E /* 气球0001.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0001.gif"; sourceTree = "<group>"; };
+		00C22EDD1DC19CAC0048A58E /* 气球0002.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0002.gif"; sourceTree = "<group>"; };
+		00C22EDE1DC19CAC0048A58E /* 气球0003.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0003.gif"; sourceTree = "<group>"; };
+		00C22EDF1DC19CAC0048A58E /* 气球0004.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0004.gif"; sourceTree = "<group>"; };
+		00C22EE01DC19CAC0048A58E /* 气球0005.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0005.gif"; sourceTree = "<group>"; };
+		00C22EE11DC19CAC0048A58E /* 气球0006.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0006.gif"; sourceTree = "<group>"; };
+		00C22EE21DC19CAC0048A58E /* 气球0007.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0007.gif"; sourceTree = "<group>"; };
+		00C22EE31DC19CAC0048A58E /* 气球0008.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0008.gif"; sourceTree = "<group>"; };
+		00C22EE41DC19CAC0048A58E /* 气球0009.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0009.gif"; sourceTree = "<group>"; };
+		00C22EE51DC19CAC0048A58E /* 气球0010.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0010.gif"; sourceTree = "<group>"; };
+		00C22EE61DC19CAC0048A58E /* 气球0011.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0011.gif"; sourceTree = "<group>"; };
+		00C22EE71DC19CAC0048A58E /* 气球0012.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0012.gif"; sourceTree = "<group>"; };
+		00C22EE81DC19CAC0048A58E /* 气球0013.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0013.gif"; sourceTree = "<group>"; };
+		00C22EE91DC19CAC0048A58E /* 气球0014.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0014.gif"; sourceTree = "<group>"; };
+		00C22EEA1DC19CAC0048A58E /* 气球0015.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0015.gif"; sourceTree = "<group>"; };
+		00C22EEB1DC19CAC0048A58E /* 气球0016.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0016.gif"; sourceTree = "<group>"; };
+		00C22EEC1DC19CAC0048A58E /* 气球0017.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0017.gif"; sourceTree = "<group>"; };
+		00C22EED1DC19CAC0048A58E /* 气球0018.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0018.gif"; sourceTree = "<group>"; };
+		00C22EEE1DC19CAC0048A58E /* 气球0019.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0019.gif"; sourceTree = "<group>"; };
+		00C22EEF1DC19CAC0048A58E /* 气球0020.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0020.gif"; sourceTree = "<group>"; };
+		00C22EF01DC19CAC0048A58E /* 气球0021.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0021.gif"; sourceTree = "<group>"; };
+		00C22EF11DC19CAC0048A58E /* 气球0022.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0022.gif"; sourceTree = "<group>"; };
+		00C22EF21DC19CAC0048A58E /* 气球0023.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0023.gif"; sourceTree = "<group>"; };
+		00C22EF31DC19CAC0048A58E /* 气球0024.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0024.gif"; sourceTree = "<group>"; };
+		00C22EF41DC19CAC0048A58E /* 气球0025.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0025.gif"; sourceTree = "<group>"; };
+		00C22EF51DC19CAC0048A58E /* 气球0026.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0026.gif"; sourceTree = "<group>"; };
+		00C22EF61DC19CAC0048A58E /* 气球0027.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0027.gif"; sourceTree = "<group>"; };
+		00C22EF71DC19CAC0048A58E /* 气球0028.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0028.gif"; sourceTree = "<group>"; };
+		00C22EF81DC19CAC0048A58E /* 气球0029.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0029.gif"; sourceTree = "<group>"; };
+		00C22EF91DC19CAC0048A58E /* 气球0030.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0030.gif"; sourceTree = "<group>"; };
+		00C22EFA1DC19CAC0048A58E /* 气球0031.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0031.gif"; sourceTree = "<group>"; };
+		00C22EFB1DC19CAC0048A58E /* 气球0032.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0032.gif"; sourceTree = "<group>"; };
+		00C22EFC1DC19CAC0048A58E /* 气球0033.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0033.gif"; sourceTree = "<group>"; };
+		00C22EFD1DC19CAC0048A58E /* 气球0034.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0034.gif"; sourceTree = "<group>"; };
+		00C22EFE1DC19CAC0048A58E /* 气球0035.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0035.gif"; sourceTree = "<group>"; };
+		00C22EFF1DC19CAC0048A58E /* 气球0036.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0036.gif"; sourceTree = "<group>"; };
+		00C22F001DC19CAC0048A58E /* 气球0037.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0037.gif"; sourceTree = "<group>"; };
+		00C22F011DC19CAC0048A58E /* 气球0038.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0038.gif"; sourceTree = "<group>"; };
+		00C22F021DC19CAC0048A58E /* 气球0039.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0039.gif"; sourceTree = "<group>"; };
+		00C22F031DC19CAC0048A58E /* 气球0040.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0040.gif"; sourceTree = "<group>"; };
+		00C22F041DC19CAC0048A58E /* 气球0041.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0041.gif"; sourceTree = "<group>"; };
+		00C22F051DC19CAC0048A58E /* 气球0042.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0042.gif"; sourceTree = "<group>"; };
+		00C22F061DC19CAC0048A58E /* 气球0043.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0043.gif"; sourceTree = "<group>"; };
+		00C22F071DC19CAC0048A58E /* 气球0044.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0044.gif"; sourceTree = "<group>"; };
+		00C22F081DC19CAC0048A58E /* 气球0045.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0045.gif"; sourceTree = "<group>"; };
+		00C22F091DC19CAC0048A58E /* 气球0046.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0046.gif"; sourceTree = "<group>"; };
+		00C22F0A1DC19CAC0048A58E /* 气球0047.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0047.gif"; sourceTree = "<group>"; };
+		00C22F0B1DC19CAC0048A58E /* 气球0048.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0048.gif"; sourceTree = "<group>"; };
+		00C22F0C1DC19CAC0048A58E /* 气球0049.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0049.gif"; sourceTree = "<group>"; };
+		00C22F0D1DC19CAC0048A58E /* 气球0050.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0050.gif"; sourceTree = "<group>"; };
+		00C22F0E1DC19CAC0048A58E /* 气球0051.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0051.gif"; sourceTree = "<group>"; };
+		00C22F0F1DC19CAC0048A58E /* 气球0052.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0052.gif"; sourceTree = "<group>"; };
+		00C22F101DC19CAC0048A58E /* 气球0053.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0053.gif"; sourceTree = "<group>"; };
+		00C22F111DC19CAC0048A58E /* 气球0054.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0054.gif"; sourceTree = "<group>"; };
+		00C22F121DC19CAC0048A58E /* 气球0055.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0055.gif"; sourceTree = "<group>"; };
+		00C22F131DC19CAC0048A58E /* 气球0056.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0056.gif"; sourceTree = "<group>"; };
+		00C22F141DC19CAC0048A58E /* 气球0057.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0057.gif"; sourceTree = "<group>"; };
+		00C22F151DC19CAC0048A58E /* 气球0058.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0058.gif"; sourceTree = "<group>"; };
+		00C22F161DC19CAC0048A58E /* 气球0059.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0059.gif"; sourceTree = "<group>"; };
+		00C22F171DC19CAC0048A58E /* 气球0060.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0060.gif"; sourceTree = "<group>"; };
+		00C22F181DC19CAC0048A58E /* 气球0061.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0061.gif"; sourceTree = "<group>"; };
+		00C22F191DC19CAC0048A58E /* 气球0062.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0062.gif"; sourceTree = "<group>"; };
+		00C22F1A1DC19CAC0048A58E /* 气球0063.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0063.gif"; sourceTree = "<group>"; };
+		00C22F1B1DC19CAC0048A58E /* 气球0064.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0064.gif"; sourceTree = "<group>"; };
+		00C22F1C1DC19CAC0048A58E /* 气球0065.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0065.gif"; sourceTree = "<group>"; };
+		00C22F1D1DC19CAC0048A58E /* 气球0066.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0066.gif"; sourceTree = "<group>"; };
+		00C22F1E1DC19CAC0048A58E /* 气球0067.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0067.gif"; sourceTree = "<group>"; };
+		00C22F1F1DC19CAC0048A58E /* 气球0068.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0068.gif"; sourceTree = "<group>"; };
+		00C22F201DC19CAC0048A58E /* 气球0069.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0069.gif"; sourceTree = "<group>"; };
+		00C22F211DC19CAC0048A58E /* 气球0070.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0070.gif"; sourceTree = "<group>"; };
+		00C22F221DC19CAC0048A58E /* 气球0071.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0071.gif"; sourceTree = "<group>"; };
+		00C22F231DC19CAC0048A58E /* 气球0072.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0072.gif"; sourceTree = "<group>"; };
+		00C22F241DC19CAC0048A58E /* 气球0073.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0073.gif"; sourceTree = "<group>"; };
+		00C22F251DC19CAC0048A58E /* 气球0074.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0074.gif"; sourceTree = "<group>"; };
+		00C22F261DC19CAC0048A58E /* 气球0075.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0075.gif"; sourceTree = "<group>"; };
+		00C22F271DC19CAC0048A58E /* 气球0076.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0076.gif"; sourceTree = "<group>"; };
+		00C22F281DC19CAC0048A58E /* 气球0077.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0077.gif"; sourceTree = "<group>"; };
+		00C22F291DC19CAC0048A58E /* 气球0078.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0078.gif"; sourceTree = "<group>"; };
+		00C22F2A1DC19CAC0048A58E /* 气球0079.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0079.gif"; sourceTree = "<group>"; };
+		00C22F2B1DC19CAC0048A58E /* 气球0080.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0080.gif"; sourceTree = "<group>"; };
+		00C22F2C1DC19CAC0048A58E /* 气球0081.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0081.gif"; sourceTree = "<group>"; };
+		00C22F2D1DC19CAC0048A58E /* 气球0082.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0082.gif"; sourceTree = "<group>"; };
+		00C22F2E1DC19CAC0048A58E /* 气球0083.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0083.gif"; sourceTree = "<group>"; };
+		00C22F2F1DC19CAC0048A58E /* 气球0084.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0084.gif"; sourceTree = "<group>"; };
+		00C22F301DC19CAC0048A58E /* 气球0085.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0085.gif"; sourceTree = "<group>"; };
+		00C22F311DC19CAC0048A58E /* 气球0086.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0086.gif"; sourceTree = "<group>"; };
+		00C22F321DC19CAC0048A58E /* 气球0087.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0087.gif"; sourceTree = "<group>"; };
+		00C22F331DC19CAC0048A58E /* 气球0088.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0088.gif"; sourceTree = "<group>"; };
+		00C22F341DC19CAC0048A58E /* 气球0089.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0089.gif"; sourceTree = "<group>"; };
+		00C22F351DC19CAC0048A58E /* 气球0090.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0090.gif"; sourceTree = "<group>"; };
+		00C22F361DC19CAC0048A58E /* 气球0091.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0091.gif"; sourceTree = "<group>"; };
+		00C22F371DC19CAC0048A58E /* 气球0092.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0092.gif"; sourceTree = "<group>"; };
+		00C22F381DC19CAC0048A58E /* 气球0093.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0093.gif"; sourceTree = "<group>"; };
+		00C22F391DC19CAC0048A58E /* 气球0094.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0094.gif"; sourceTree = "<group>"; };
+		00C22F3A1DC19CAC0048A58E /* 气球0095.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0095.gif"; sourceTree = "<group>"; };
+		00C22F3B1DC19CAC0048A58E /* 气球0096.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0096.gif"; sourceTree = "<group>"; };
+		00C22F3C1DC19CAC0048A58E /* 气球0097.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0097.gif"; sourceTree = "<group>"; };
+		00C22F3D1DC19CAC0048A58E /* 气球0098.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0098.gif"; sourceTree = "<group>"; };
+		00C22F3E1DC19CAC0048A58E /* 气球0099.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0099.gif"; sourceTree = "<group>"; };
+		00C22F3F1DC19CAC0048A58E /* 气球0100.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0100.gif"; sourceTree = "<group>"; };
+		00C22F411DC19CAC0048A58E /* 气球0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0001.png"; sourceTree = "<group>"; };
+		00C22F421DC19CAC0048A58E /* 气球0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0002.png"; sourceTree = "<group>"; };
+		00C22F431DC19CAC0048A58E /* 气球0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0003.png"; sourceTree = "<group>"; };
+		00C22F441DC19CAC0048A58E /* 气球0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0004.png"; sourceTree = "<group>"; };
+		00C22F451DC19CAC0048A58E /* 气球0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0005.png"; sourceTree = "<group>"; };
+		00C22F461DC19CAC0048A58E /* 气球0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0006.png"; sourceTree = "<group>"; };
+		00C22F471DC19CAC0048A58E /* 气球0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0007.png"; sourceTree = "<group>"; };
+		00C22F481DC19CAC0048A58E /* 气球0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0008.png"; sourceTree = "<group>"; };
+		00C22F491DC19CAC0048A58E /* 气球0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0009.png"; sourceTree = "<group>"; };
+		00C22F4A1DC19CAC0048A58E /* 气球0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0010.png"; sourceTree = "<group>"; };
+		00C22F4B1DC19CAC0048A58E /* 气球0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0011.png"; sourceTree = "<group>"; };
+		00C22F4C1DC19CAC0048A58E /* 气球0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0012.png"; sourceTree = "<group>"; };
+		00C22F4D1DC19CAC0048A58E /* 气球0013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0013.png"; sourceTree = "<group>"; };
+		00C22F4E1DC19CAC0048A58E /* 气球0014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0014.png"; sourceTree = "<group>"; };
+		00C22F4F1DC19CAC0048A58E /* 气球0015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0015.png"; sourceTree = "<group>"; };
+		00C22F501DC19CAC0048A58E /* 气球0016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0016.png"; sourceTree = "<group>"; };
+		00C22F511DC19CAC0048A58E /* 气球0017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0017.png"; sourceTree = "<group>"; };
+		00C22F521DC19CAC0048A58E /* 气球0018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0018.png"; sourceTree = "<group>"; };
+		00C22F531DC19CAC0048A58E /* 气球0019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0019.png"; sourceTree = "<group>"; };
+		00C22F541DC19CAC0048A58E /* 气球0020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0020.png"; sourceTree = "<group>"; };
+		00C22F551DC19CAC0048A58E /* 气球0021.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0021.png"; sourceTree = "<group>"; };
+		00C22F561DC19CAC0048A58E /* 气球0022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0022.png"; sourceTree = "<group>"; };
+		00C22F571DC19CAC0048A58E /* 气球0023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0023.png"; sourceTree = "<group>"; };
+		00C22F581DC19CAC0048A58E /* 气球0024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0024.png"; sourceTree = "<group>"; };
+		00C22F591DC19CAC0048A58E /* 气球0025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0025.png"; sourceTree = "<group>"; };
+		00C22F5A1DC19CAC0048A58E /* 气球0026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0026.png"; sourceTree = "<group>"; };
+		00C22F5B1DC19CAC0048A58E /* 气球0027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0027.png"; sourceTree = "<group>"; };
+		00C22F5C1DC19CAC0048A58E /* 气球0028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0028.png"; sourceTree = "<group>"; };
+		00C22F5D1DC19CAC0048A58E /* 气球0029.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0029.png"; sourceTree = "<group>"; };
+		00C22F5E1DC19CAC0048A58E /* 气球0030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0030.png"; sourceTree = "<group>"; };
+		00C22F5F1DC19CAC0048A58E /* 气球0031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0031.png"; sourceTree = "<group>"; };
+		00C22F601DC19CAC0048A58E /* 气球0032.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0032.png"; sourceTree = "<group>"; };
+		00C22F611DC19CAC0048A58E /* 气球0033.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0033.png"; sourceTree = "<group>"; };
+		00C22F621DC19CAC0048A58E /* 气球0034.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0034.png"; sourceTree = "<group>"; };
+		00C22F631DC19CAC0048A58E /* 气球0035.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0035.png"; sourceTree = "<group>"; };
+		00C22F641DC19CAC0048A58E /* 气球0036.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0036.png"; sourceTree = "<group>"; };
+		00C22F651DC19CAC0048A58E /* 气球0037.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0037.png"; sourceTree = "<group>"; };
+		00C22F661DC19CAC0048A58E /* 气球0038.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0038.png"; sourceTree = "<group>"; };
+		00C22F671DC19CAC0048A58E /* 气球0039.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0039.png"; sourceTree = "<group>"; };
+		00C22F681DC19CAC0048A58E /* 气球0040.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0040.png"; sourceTree = "<group>"; };
+		00C22F691DC19CAC0048A58E /* 气球0041.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0041.png"; sourceTree = "<group>"; };
+		00C22F6A1DC19CAC0048A58E /* 气球0042.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0042.png"; sourceTree = "<group>"; };
+		00C22F6B1DC19CAC0048A58E /* 气球0043.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0043.png"; sourceTree = "<group>"; };
+		00C22F6C1DC19CAC0048A58E /* 气球0044.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0044.png"; sourceTree = "<group>"; };
+		00C22F6D1DC19CAC0048A58E /* 气球0045.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0045.png"; sourceTree = "<group>"; };
+		00C22F6E1DC19CAC0048A58E /* 气球0046.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0046.png"; sourceTree = "<group>"; };
+		00C22F6F1DC19CAC0048A58E /* 气球0047.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0047.png"; sourceTree = "<group>"; };
+		00C22F701DC19CAC0048A58E /* 气球0048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0048.png"; sourceTree = "<group>"; };
+		00C22F711DC19CAC0048A58E /* 气球0049.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0049.png"; sourceTree = "<group>"; };
+		00C22F721DC19CAC0048A58E /* 气球0050.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0050.png"; sourceTree = "<group>"; };
+		00C22F731DC19CAC0048A58E /* 气球0051.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0051.png"; sourceTree = "<group>"; };
+		00C22F741DC19CAC0048A58E /* 气球0052.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0052.png"; sourceTree = "<group>"; };
+		00C22F751DC19CAC0048A58E /* 气球0053.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0053.png"; sourceTree = "<group>"; };
+		00C22F761DC19CAC0048A58E /* 气球0054.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0054.png"; sourceTree = "<group>"; };
+		00C22F771DC19CAC0048A58E /* 气球0055.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0055.png"; sourceTree = "<group>"; };
+		00C22F781DC19CAC0048A58E /* 气球0056.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0056.png"; sourceTree = "<group>"; };
+		00C22F791DC19CAC0048A58E /* 气球0057.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0057.png"; sourceTree = "<group>"; };
+		00C22F7A1DC19CAC0048A58E /* 气球0058.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0058.png"; sourceTree = "<group>"; };
+		00C22F7B1DC19CAC0048A58E /* 气球0059.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0059.png"; sourceTree = "<group>"; };
+		00C22F7C1DC19CAC0048A58E /* 气球0060.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0060.png"; sourceTree = "<group>"; };
+		00C22F7D1DC19CAC0048A58E /* 气球0061.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0061.png"; sourceTree = "<group>"; };
+		00C22F7E1DC19CAC0048A58E /* 气球0062.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0062.png"; sourceTree = "<group>"; };
+		00C22F7F1DC19CAC0048A58E /* 气球0063.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0063.png"; sourceTree = "<group>"; };
+		00C22F801DC19CAC0048A58E /* 气球0064.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0064.png"; sourceTree = "<group>"; };
+		00C22F811DC19CAC0048A58E /* 气球0065.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0065.png"; sourceTree = "<group>"; };
+		00C22F821DC19CAC0048A58E /* 气球0066.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0066.png"; sourceTree = "<group>"; };
+		00C22F831DC19CAC0048A58E /* 气球0067.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0067.png"; sourceTree = "<group>"; };
+		00C22F841DC19CAC0048A58E /* 气球0068.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0068.png"; sourceTree = "<group>"; };
+		00C22F851DC19CAC0048A58E /* 气球0069.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0069.png"; sourceTree = "<group>"; };
+		00C22F861DC19CAC0048A58E /* 气球0070.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0070.png"; sourceTree = "<group>"; };
+		00C22F871DC19CAC0048A58E /* 气球0071.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0071.png"; sourceTree = "<group>"; };
+		00C22F881DC19CAC0048A58E /* 气球0072.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0072.png"; sourceTree = "<group>"; };
+		00C22F891DC19CAC0048A58E /* 气球0073.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0073.png"; sourceTree = "<group>"; };
+		00C22F8A1DC19CAC0048A58E /* 气球0074.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0074.png"; sourceTree = "<group>"; };
+		00C22F8B1DC19CAC0048A58E /* 气球0075.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0075.png"; sourceTree = "<group>"; };
+		00C22F8C1DC19CAC0048A58E /* 气球0076.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0076.png"; sourceTree = "<group>"; };
+		00C22F8D1DC19CAC0048A58E /* 气球0077.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0077.png"; sourceTree = "<group>"; };
+		00C22F8E1DC19CAC0048A58E /* 气球0078.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0078.png"; sourceTree = "<group>"; };
+		00C22F8F1DC19CAC0048A58E /* 气球0079.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0079.png"; sourceTree = "<group>"; };
+		00C22F901DC19CAC0048A58E /* 气球0080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0080.png"; sourceTree = "<group>"; };
+		00C22F911DC19CAC0048A58E /* 气球0081.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0081.png"; sourceTree = "<group>"; };
+		00C22F921DC19CAC0048A58E /* 气球0082.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0082.png"; sourceTree = "<group>"; };
+		00C22F931DC19CAC0048A58E /* 气球0083.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0083.png"; sourceTree = "<group>"; };
+		00C22F941DC19CAC0048A58E /* 气球0084.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0084.png"; sourceTree = "<group>"; };
+		00C22F951DC19CAC0048A58E /* 气球0085.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0085.png"; sourceTree = "<group>"; };
+		00C22F961DC19CAC0048A58E /* 气球0086.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0086.png"; sourceTree = "<group>"; };
+		00C22F971DC19CAC0048A58E /* 气球0087.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0087.png"; sourceTree = "<group>"; };
+		00C22F981DC19CAC0048A58E /* 气球0088.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0088.png"; sourceTree = "<group>"; };
+		00C22F991DC19CAC0048A58E /* 气球0089.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0089.png"; sourceTree = "<group>"; };
+		00C22F9A1DC19CAC0048A58E /* 气球0090.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0090.png"; sourceTree = "<group>"; };
+		00C22F9B1DC19CAC0048A58E /* 气球0091.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0091.png"; sourceTree = "<group>"; };
+		00C22F9C1DC19CAC0048A58E /* 气球0092.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0092.png"; sourceTree = "<group>"; };
+		00C22F9D1DC19CAC0048A58E /* 气球0093.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0093.png"; sourceTree = "<group>"; };
+		00C22F9E1DC19CAC0048A58E /* 气球0094.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0094.png"; sourceTree = "<group>"; };
+		00C22F9F1DC19CAC0048A58E /* 气球0095.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0095.png"; sourceTree = "<group>"; };
+		00C22FA01DC19CAC0048A58E /* 气球0096.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0096.png"; sourceTree = "<group>"; };
+		00C22FA11DC19CAC0048A58E /* 气球0097.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0097.png"; sourceTree = "<group>"; };
+		00C22FA21DC19CAC0048A58E /* 气球0098.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0098.png"; sourceTree = "<group>"; };
+		00C22FA31DC19CAC0048A58E /* 气球0099.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0099.png"; sourceTree = "<group>"; };
+		00C22FA41DC19CAC0048A58E /* 气球0100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0100.png"; sourceTree = "<group>"; };
+		00C2306D1DC1ACA00048A58E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		00E52B9C1DB4B4DC004B9BED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		00EA19C41DB709D900BD0078 /* Demo4Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo4Controller.h; sourceTree = "<group>"; };
+		00EA19C51DB709D900BD0078 /* Demo4Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo4Controller.m; sourceTree = "<group>"; };
+		00EA19C61DB709D900BD0078 /* Demo4Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Demo4Controller.xib; sourceTree = "<group>"; };
+		00EA19CA1DB70D1000BD0078 /* YTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTNavigationController.h; sourceTree = "<group>"; };
+		00EA19CB1DB70D1000BD0078 /* YTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTNavigationController.m; sourceTree = "<group>"; };
+		00EA19D61DB7210D00BD0078 /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
+		00EA19D71DB7210D00BD0078 /* DMHeartFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHeartFlyView.m; sourceTree = "<group>"; };
+		00EA19DA1DB7253D00BD0078 /* TestHeartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHeartView.h; sourceTree = "<group>"; };
+		00EA19DB1DB7253D00BD0078 /* TestHeartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHeartView.m; sourceTree = "<group>"; };
+		00EA19E11DB74D4D00BD0078 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		00EA19E21DB74D4D00BD0078 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		00EA19E31DB74D4D00BD0078 /* MainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainController.xib; sourceTree = "<group>"; };
+		00EA19EA1DB7506A00BD0078 /* Demo2Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Demo2Controller.xib; sourceTree = "<group>"; };
+		00EA19EC1DB751E100BD0078 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		564C5721E6CDF03BF8CFC84A /* Pods-YatouTest00123.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatouTest00123.release.xcconfig"; path = "Pods/Target Support Files/Pods-YatouTest00123/Pods-YatouTest00123.release.xcconfig"; sourceTree = "<group>"; };
+		7853DEB143B9830FD547C16B /* Pods-YatouTest00123.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatouTest00123.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YatouTest00123/Pods-YatouTest00123.debug.xcconfig"; sourceTree = "<group>"; };
+		90534603AA7573242F2CA58A /* libPods-YatouTest00123.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YatouTest00123.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		009E0B9B1DADD3040066A458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005A69DA1DCB2F4C00EDDEA6 /* CoreBluetooth.framework in Frameworks */,
+				00C2306E1DC1ACA00048A58E /* ImageIO.framework in Frameworks */,
+				003B4C061DBF5645006ED54F /* OpenGLES.framework in Frameworks */,
+				00E52B9D1DB4B4DC004B9BED /* MapKit.framework in Frameworks */,
+				CE0EA0CACB3D9FAE3259991B /* libPods-YatouTest00123.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009E0BB71DADD3040066A458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005A69D31DCB277300EDDEA6 /* 蓝牙连接 */ = {
+			isa = PBXGroup;
+			children = (
+				005A69D41DCB279500EDDEA6 /* BluetoothController.h */,
+				005A69D51DCB279500EDDEA6 /* BluetoothController.m */,
+				005A69D61DCB279500EDDEA6 /* BluetoothController.xib */,
+			);
+			name = "蓝牙连接";
+			sourceTree = "<group>";
+		};
+		009E0B951DADD3040066A458 = {
+			isa = PBXGroup;
+			children = (
+				009E0BA01DADD3040066A458 /* YatouTest00123 */,
+				009E0BBD1DADD3040066A458 /* YatouTest00123Tests */,
+				009E0B9F1DADD3040066A458 /* Products */,
+				00E52B9B1DB4B4DC004B9BED /* Frameworks */,
+				8539990496A32D1BAEFB7CEA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		009E0B9F1DADD3040066A458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				009E0B9E1DADD3040066A458 /* YatouTest00123.app */,
+				009E0BBA1DADD3040066A458 /* YatouTest00123Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		009E0BA01DADD3040066A458 /* YatouTest00123 */ = {
+			isa = PBXGroup;
+			children = (
+				009E0BA41DADD3040066A458 /* AppDelegate.h */,
+				009E0BA51DADD3040066A458 /* AppDelegate.m */,
+				00BEEE2D1DB5B804008A8122 /* Controller */,
+				00BEEE361DB5B804008A8122 /* View */,
+				00BEEE521DB5FD13008A8122 /* PureLayout */,
+				00EA19D51DB7210D00BD0078 /* HeartFlyView-master */,
+				009E0BA11DADD3040066A458 /* Supporting Files */,
+			);
+			path = YatouTest00123;
+			sourceTree = "<group>";
+		};
+		009E0BA11DADD3040066A458 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00C22EDB1DC19CAC0048A58E /* gif */,
+				00C22F401DC19CAC0048A58E /* png */,
+				003B4C011DBF4539006ED54F /* 2.jpg */,
+				003B4C021DBF4539006ED54F /* 3.jpg */,
+				009E0BC91DADD5E70066A458 /* 1.jpg */,
+				009E0BAA1DADD3040066A458 /* Main.storyboard */,
+				009E0BB01DADD3040066A458 /* Assets.xcassets */,
+				009E0BB21DADD3040066A458 /* LaunchScreen.storyboard */,
+				009E0BB51DADD3040066A458 /* Info.plist */,
+				009E0BAD1DADD3040066A458 /* YatouTest00123.xcdatamodeld */,
+				009E0BA21DADD3040066A458 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		009E0BBD1DADD3040066A458 /* YatouTest00123Tests */ = {
+			isa = PBXGroup;
+			children = (
+				009E0BBE1DADD3040066A458 /* YatouTest00123Tests.m */,
+				009E0BC01DADD3040066A458 /* Info.plist */,
+			);
+			path = YatouTest00123Tests;
+			sourceTree = "<group>";
+		};
+		00BEEE2D1DB5B804008A8122 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				005A69D31DCB277300EDDEA6 /* 蓝牙连接 */,
+				00C22ED51DC19B940048A58E /* 帧动画 */,
+				00EA19E71DB74E5D00BD0078 /* MainController */,
+				00EA19E91DB74E9000BD0078 /* 日历 */,
+				00EA19E81DB74E7300BD0078 /* 直播界面--强制某个界面横屏 */,
+				00EA19E61DB74E3900BD0078 /* 高德地图Demo */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		00BEEE361DB5B804008A8122 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00EA19D91DB7252D00BD0078 /* Test */,
+				00EA19C91DB70CF000BD0078 /* YTNavigationController */,
+				00BEEE3B1DB5B831008A8122 /* YTCalendarView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00BEEE3B1DB5B831008A8122 /* YTCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				00BEEE451DB5C571008A8122 /* calendarimages */,
+				00BEEE3C1DB5B879008A8122 /* YTCalendarView.h */,
+				00BEEE3D1DB5B879008A8122 /* YTCalendarView.m */,
+				00BEEE4C1DB5F5F8008A8122 /* YTCalendarDay.h */,
+				00BEEE4D1DB5F5F8008A8122 /* YTCalendarDay.m */,
+				00BEEE3F1DB5BA77008A8122 /* NSDate+YTDateCategory.h */,
+				00BEEE401DB5BA77008A8122 /* NSDate+YTDateCategory.m */,
+			);
+			path = YTCalendarView;
+			sourceTree = "<group>";
+		};
+		00BEEE451DB5C571008A8122 /* calendarimages */ = {
+			isa = PBXGroup;
+			children = (
+				00BEEE4A1DB5CBBE008A8122 /* calendar_backward@2x.png */,
+				00BEEE481DB5C9AB008A8122 /* calendar_forward@2x.png */,
+			);
+			path = calendarimages;
+			sourceTree = "<group>";
+		};
+		00BEEE521DB5FD13008A8122 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				00BEEE531DB5FD13008A8122 /* ALView+PureLayout.h */,
+				00BEEE541DB5FD13008A8122 /* ALView+PureLayout.m */,
+				00BEEE551DB5FD13008A8122 /* NSArray+PureLayout.h */,
+				00BEEE561DB5FD13008A8122 /* NSArray+PureLayout.m */,
+				00BEEE571DB5FD13008A8122 /* NSLayoutConstraint+PureLayout.h */,
+				00BEEE581DB5FD13008A8122 /* NSLayoutConstraint+PureLayout.m */,
+				00BEEE591DB5FD13008A8122 /* PureLayout+Internal.h */,
+				00BEEE5A1DB5FD13008A8122 /* PureLayout.h */,
+				00BEEE5B1DB5FD13008A8122 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		00C22ED51DC19B940048A58E /* 帧动画 */ = {
+			isa = PBXGroup;
+			children = (
+				00C22ED61DC19BC30048A58E /* AnimationController.h */,
+				00C22ED71DC19BC30048A58E /* AnimationController.m */,
+				00C22ED81DC19BC30048A58E /* AnimationController.xib */,
+			);
+			name = "帧动画";
+			sourceTree = "<group>";
+		};
+		00C22EDB1DC19CAC0048A58E /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				00C22EDC1DC19CAC0048A58E /* 气球0001.gif */,
+				00C22EDD1DC19CAC0048A58E /* 气球0002.gif */,
+				00C22EDE1DC19CAC0048A58E /* 气球0003.gif */,
+				00C22EDF1DC19CAC0048A58E /* 气球0004.gif */,
+				00C22EE01DC19CAC0048A58E /* 气球0005.gif */,
+				00C22EE11DC19CAC0048A58E /* 气球0006.gif */,
+				00C22EE21DC19CAC0048A58E /* 气球0007.gif */,
+				00C22EE31DC19CAC0048A58E /* 气球0008.gif */,
+				00C22EE41DC19CAC0048A58E /* 气球0009.gif */,
+				00C22EE51DC19CAC0048A58E /* 气球0010.gif */,
+				00C22EE61DC19CAC0048A58E /* 气球0011.gif */,
+				00C22EE71DC19CAC0048A58E /* 气球0012.gif */,
+				00C22EE81DC19CAC0048A58E /* 气球0013.gif */,
+				00C22EE91DC19CAC0048A58E /* 气球0014.gif */,
+				00C22EEA1DC19CAC0048A58E /* 气球0015.gif */,
+				00C22EEB1DC19CAC0048A58E /* 气球0016.gif */,
+				00C22EEC1DC19CAC0048A58E /* 气球0017.gif */,
+				00C22EED1DC19CAC0048A58E /* 气球0018.gif */,
+				00C22EEE1DC19CAC0048A58E /* 气球0019.gif */,
+				00C22EEF1DC19CAC0048A58E /* 气球0020.gif */,
+				00C22EF01DC19CAC0048A58E /* 气球0021.gif */,
+				00C22EF11DC19CAC0048A58E /* 气球0022.gif */,
+				00C22EF21DC19CAC0048A58E /* 气球0023.gif */,
+				00C22EF31DC19CAC0048A58E /* 气球0024.gif */,
+				00C22EF41DC19CAC0048A58E /* 气球0025.gif */,
+				00C22EF51DC19CAC0048A58E /* 气球0026.gif */,
+				00C22EF61DC19CAC0048A58E /* 气球0027.gif */,
+				00C22EF71DC19CAC0048A58E /* 气球0028.gif */,
+				00C22EF81DC19CAC0048A58E /* 气球0029.gif */,
+				00C22EF91DC19CAC0048A58E /* 气球0030.gif */,
+				00C22EFA1DC19CAC0048A58E /* 气球0031.gif */,
+				00C22EFB1DC19CAC0048A58E /* 气球0032.gif */,
+				00C22EFC1DC19CAC0048A58E /* 气球0033.gif */,
+				00C22EFD1DC19CAC0048A58E /* 气球0034.gif */,
+				00C22EFE1DC19CAC0048A58E /* 气球0035.gif */,
+				00C22EFF1DC19CAC0048A58E /* 气球0036.gif */,
+				00C22F001DC19CAC0048A58E /* 气球0037.gif */,
+				00C22F011DC19CAC0048A58E /* 气球0038.gif */,
+				00C22F021DC19CAC0048A58E /* 气球0039.gif */,
+				00C22F031DC19CAC0048A58E /* 气球0040.gif */,
+				00C22F041DC19CAC0048A58E /* 气球0041.gif */,
+				00C22F051DC19CAC0048A58E /* 气球0042.gif */,
+				00C22F061DC19CAC0048A58E /* 气球0043.gif */,
+				00C22F071DC19CAC0048A58E /* 气球0044.gif */,
+				00C22F081DC19CAC0048A58E /* 气球0045.gif */,
+				00C22F091DC19CAC0048A58E /* 气球0046.gif */,
+				00C22F0A1DC19CAC0048A58E /* 气球0047.gif */,
+				00C22F0B1DC19CAC0048A58E /* 气球0048.gif */,
+				00C22F0C1DC19CAC0048A58E /* 气球0049.gif */,
+				00C22F0D1DC19CAC0048A58E /* 气球0050.gif */,
+				00C22F0E1DC19CAC0048A58E /* 气球0051.gif */,
+				00C22F0F1DC19CAC0048A58E /* 气球0052.gif */,
+				00C22F101DC19CAC0048A58E /* 气球0053.gif */,
+				00C22F111DC19CAC0048A58E /* 气球0054.gif */,
+				00C22F121DC19CAC0048A58E /* 气球0055.gif */,
+				00C22F131DC19CAC0048A58E /* 气球0056.gif */,
+				00C22F141DC19CAC0048A58E /* 气球0057.gif */,
+				00C22F151DC19CAC0048A58E /* 气球0058.gif */,
+				00C22F161DC19CAC0048A58E /* 气球0059.gif */,
+				00C22F171DC19CAC0048A58E /* 气球0060.gif */,
+				00C22F181DC19CAC0048A58E /* 气球0061.gif */,
+				00C22F191DC19CAC0048A58E /* 气球0062.gif */,
+				00C22F1A1DC19CAC0048A58E /* 气球0063.gif */,
+				00C22F1B1DC19CAC0048A58E /* 气球0064.gif */,
+				00C22F1C1DC19CAC0048A58E /* 气球0065.gif */,
+				00C22F1D1DC19CAC0048A58E /* 气球0066.gif */,
+				00C22F1E1DC19CAC0048A58E /* 气球0067.gif */,
+				00C22F1F1DC19CAC0048A58E /* 气球0068.gif */,
+				00C22F201DC19CAC0048A58E /* 气球0069.gif */,
+				00C22F211DC19CAC0048A58E /* 气球0070.gif */,
+				00C22F221DC19CAC0048A58E /* 气球0071.gif */,
+				00C22F231DC19CAC0048A58E /* 气球0072.gif */,
+				00C22F241DC19CAC0048A58E /* 气球0073.gif */,
+				00C22F251DC19CAC0048A58E /* 气球0074.gif */,
+				00C22F261DC19CAC0048A58E /* 气球0075.gif */,
+				00C22F271DC19CAC0048A58E /* 气球0076.gif */,
+				00C22F281DC19CAC0048A58E /* 气球0077.gif */,
+				00C22F291DC19CAC0048A58E /* 气球0078.gif */,
+				00C22F2A1DC19CAC0048A58E /* 气球0079.gif */,
+				00C22F2B1DC19CAC0048A58E /* 气球0080.gif */,
+				00C22F2C1DC19CAC0048A58E /* 气球0081.gif */,
+				00C22F2D1DC19CAC0048A58E /* 气球0082.gif */,
+				00C22F2E1DC19CAC0048A58E /* 气球0083.gif */,
+				00C22F2F1DC19CAC0048A58E /* 气球0084.gif */,
+				00C22F301DC19CAC0048A58E /* 气球0085.gif */,
+				00C22F311DC19CAC0048A58E /* 气球0086.gif */,
+				00C22F321DC19CAC0048A58E /* 气球0087.gif */,
+				00C22F331DC19CAC0048A58E /* 气球0088.gif */,
+				00C22F341DC19CAC0048A58E /* 气球0089.gif */,
+				00C22F351DC19CAC0048A58E /* 气球0090.gif */,
+				00C22F361DC19CAC0048A58E /* 气球0091.gif */,
+				00C22F371DC19CAC0048A58E /* 气球0092.gif */,
+				00C22F381DC19CAC0048A58E /* 气球0093.gif */,
+				00C22F391DC19CAC0048A58E /* 气球0094.gif */,
+				00C22F3A1DC19CAC0048A58E /* 气球0095.gif */,
+				00C22F3B1DC19CAC0048A58E /* 气球0096.gif */,
+				00C22F3C1DC19CAC0048A58E /* 气球0097.gif */,
+				00C22F3D1DC19CAC0048A58E /* 气球0098.gif */,
+				00C22F3E1DC19CAC0048A58E /* 气球0099.gif */,
+				00C22F3F1DC19CAC0048A58E /* 气球0100.gif */,
+			);
+			name = gif;
+			path = "气球gif";
+			sourceTree = "<group>";
+		};
+		00C22F401DC19CAC0048A58E /* png */ = {
+			isa = PBXGroup;
+			children = (
+				00C22F411DC19CAC0048A58E /* 气球0001.png */,
+				00C22F421DC19CAC0048A58E /* 气球0002.png */,
+				00C22F431DC19CAC0048A58E /* 气球0003.png */,
+				00C22F441DC19CAC0048A58E /* 气球0004.png */,
+				00C22F451DC19CAC0048A58E /* 气球0005.png */,
+				00C22F461DC19CAC0048A58E /* 气球0006.png */,
+				00C22F471DC19CAC0048A58E /* 气球0007.png */,
+				00C22F481DC19CAC0048A58E /* 气球0008.png */,
+				00C22F491DC19CAC0048A58E /* 气球0009.png */,
+				00C22F4A1DC19CAC0048A58E /* 气球0010.png */,
+				00C22F4B1DC19CAC0048A58E /* 气球0011.png */,
+				00C22F4C1DC19CAC0048A58E /* 气球0012.png */,
+				00C22F4D1DC19CAC0048A58E /* 气球0013.png */,
+				00C22F4E1DC19CAC0048A58E /* 气球0014.png */,
+				00C22F4F1DC19CAC0048A58E /* 气球0015.png */,
+				00C22F501DC19CAC0048A58E /* 气球0016.png */,
+				00C22F511DC19CAC0048A58E /* 气球0017.png */,
+				00C22F521DC19CAC0048A58E /* 气球0018.png */,
+				00C22F531DC19CAC0048A58E /* 气球0019.png */,
+				00C22F541DC19CAC0048A58E /* 气球0020.png */,
+				00C22F551DC19CAC0048A58E /* 气球0021.png */,
+				00C22F561DC19CAC0048A58E /* 气球0022.png */,
+				00C22F571DC19CAC0048A58E /* 气球0023.png */,
+				00C22F581DC19CAC0048A58E /* 气球0024.png */,
+				00C22F591DC19CAC0048A58E /* 气球0025.png */,
+				00C22F5A1DC19CAC0048A58E /* 气球0026.png */,
+				00C22F5B1DC19CAC0048A58E /* 气球0027.png */,
+				00C22F5C1DC19CAC0048A58E /* 气球0028.png */,
+				00C22F5D1DC19CAC0048A58E /* 气球0029.png */,
+				00C22F5E1DC19CAC0048A58E /* 气球0030.png */,
+				00C22F5F1DC19CAC0048A58E /* 气球0031.png */,
+				00C22F601DC19CAC0048A58E /* 气球0032.png */,
+				00C22F611DC19CAC0048A58E /* 气球0033.png */,
+				00C22F621DC19CAC0048A58E /* 气球0034.png */,
+				00C22F631DC19CAC0048A58E /* 气球0035.png */,
+				00C22F641DC19CAC0048A58E /* 气球0036.png */,
+				00C22F651DC19CAC0048A58E /* 气球0037.png */,
+				00C22F661DC19CAC0048A58E /* 气球0038.png */,
+				00C22F671DC19CAC0048A58E /* 气球0039.png */,
+				00C22F681DC19CAC0048A58E /* 气球0040.png */,
+				00C22F691DC19CAC0048A58E /* 气球0041.png */,
+				00C22F6A1DC19CAC0048A58E /* 气球0042.png */,
+				00C22F6B1DC19CAC0048A58E /* 气球0043.png */,
+				00C22F6C1DC19CAC0048A58E /* 气球0044.png */,
+				00C22F6D1DC19CAC0048A58E /* 气球0045.png */,
+				00C22F6E1DC19CAC0048A58E /* 气球0046.png */,
+				00C22F6F1DC19CAC0048A58E /* 气球0047.png */,
+				00C22F701DC19CAC0048A58E /* 气球0048.png */,
+				00C22F711DC19CAC0048A58E /* 气球0049.png */,
+				00C22F721DC19CAC0048A58E /* 气球0050.png */,
+				00C22F731DC19CAC0048A58E /* 气球0051.png */,
+				00C22F741DC19CAC0048A58E /* 气球0052.png */,
+				00C22F751DC19CAC0048A58E /* 气球0053.png */,
+				00C22F761DC19CAC0048A58E /* 气球0054.png */,
+				00C22F771DC19CAC0048A58E /* 气球0055.png */,
+				00C22F781DC19CAC0048A58E /* 气球0056.png */,
+				00C22F791DC19CAC0048A58E /* 气球0057.png */,
+				00C22F7A1DC19CAC0048A58E /* 气球0058.png */,
+				00C22F7B1DC19CAC0048A58E /* 气球0059.png */,
+				00C22F7C1DC19CAC0048A58E /* 气球0060.png */,
+				00C22F7D1DC19CAC0048A58E /* 气球0061.png */,
+				00C22F7E1DC19CAC0048A58E /* 气球0062.png */,
+				00C22F7F1DC19CAC0048A58E /* 气球0063.png */,
+				00C22F801DC19CAC0048A58E /* 气球0064.png */,
+				00C22F811DC19CAC0048A58E /* 气球0065.png */,
+				00C22F821DC19CAC0048A58E /* 气球0066.png */,
+				00C22F831DC19CAC0048A58E /* 气球0067.png */,
+				00C22F841DC19CAC0048A58E /* 气球0068.png */,
+				00C22F851DC19CAC0048A58E /* 气球0069.png */,
+				00C22F861DC19CAC0048A58E /* 气球0070.png */,
+				00C22F871DC19CAC0048A58E /* 气球0071.png */,
+				00C22F881DC19CAC0048A58E /* 气球0072.png */,
+				00C22F891DC19CAC0048A58E /* 气球0073.png */,
+				00C22F8A1DC19CAC0048A58E /* 气球0074.png */,
+				00C22F8B1DC19CAC0048A58E /* 气球0075.png */,
+				00C22F8C1DC19CAC0048A58E /* 气球0076.png */,
+				00C22F8D1DC19CAC0048A58E /* 气球0077.png */,
+				00C22F8E1DC19CAC0048A58E /* 气球0078.png */,
+				00C22F8F1DC19CAC0048A58E /* 气球0079.png */,
+				00C22F901DC19CAC0048A58E /* 气球0080.png */,
+				00C22F911DC19CAC0048A58E /* 气球0081.png */,
+				00C22F921DC19CAC0048A58E /* 气球0082.png */,
+				00C22F931DC19CAC0048A58E /* 气球0083.png */,
+				00C22F941DC19CAC0048A58E /* 气球0084.png */,
+				00C22F951DC19CAC0048A58E /* 气球0085.png */,
+				00C22F961DC19CAC0048A58E /* 气球0086.png */,
+				00C22F971DC19CAC0048A58E /* 气球0087.png */,
+				00C22F981DC19CAC0048A58E /* 气球0088.png */,
+				00C22F991DC19CAC0048A58E /* 气球0089.png */,
+				00C22F9A1DC19CAC0048A58E /* 气球0090.png */,
+				00C22F9B1DC19CAC0048A58E /* 气球0091.png */,
+				00C22F9C1DC19CAC0048A58E /* 气球0092.png */,
+				00C22F9D1DC19CAC0048A58E /* 气球0093.png */,
+				00C22F9E1DC19CAC0048A58E /* 气球0094.png */,
+				00C22F9F1DC19CAC0048A58E /* 气球0095.png */,
+				00C22FA01DC19CAC0048A58E /* 气球0096.png */,
+				00C22FA11DC19CAC0048A58E /* 气球0097.png */,
+				00C22FA21DC19CAC0048A58E /* 气球0098.png */,
+				00C22FA31DC19CAC0048A58E /* 气球0099.png */,
+				00C22FA41DC19CAC0048A58E /* 气球0100.png */,
+			);
+			name = png;
+			path = "气球png";
+			sourceTree = "<group>";
+		};
+		00E52B9B1DB4B4DC004B9BED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				005A69D91DCB2F4C00EDDEA6 /* CoreBluetooth.framework */,
+				00C2306D1DC1ACA00048A58E /* ImageIO.framework */,
+				003B4C051DBF5645006ED54F /* OpenGLES.framework */,
+				00E52B9C1DB4B4DC004B9BED /* MapKit.framework */,
+				90534603AA7573242F2CA58A /* libPods-YatouTest00123.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00EA19C91DB70CF000BD0078 /* YTNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				00EA19CA1DB70D1000BD0078 /* YTNavigationController.h */,
+				00EA19CB1DB70D1000BD0078 /* YTNavigationController.m */,
+			);
+			path = YTNavigationController;
+			sourceTree = "<group>";
+		};
+		00EA19D51DB7210D00BD0078 /* HeartFlyView-master */ = {
+			isa = PBXGroup;
+			children = (
+				00EA19D61DB7210D00BD0078 /* DMHeartFlyView.h */,
+				00EA19D71DB7210D00BD0078 /* DMHeartFlyView.m */,
+			);
+			name = "HeartFlyView-master";
+			path = "../HeartFlyView-master";
+			sourceTree = "<group>";
+		};
+		00EA19D91DB7252D00BD0078 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				00EA19DA1DB7253D00BD0078 /* TestHeartView.h */,
+				00EA19DB1DB7253D00BD0078 /* TestHeartView.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		00EA19E61DB74E3900BD0078 /* 高德地图Demo */ = {
+			isa = PBXGroup;
+			children = (
+				00BEEE2E1DB5B804008A8122 /* BaseMapViewController.h */,
+				00BEEE2F1DB5B804008A8122 /* BaseMapViewController.m */,
+				00BEEE321DB5B804008A8122 /* MapViewController.h */,
+				00BEEE331DB5B804008A8122 /* MapViewController.m */,
+				00BEEE341DB5B804008A8122 /* ViewController.h */,
+				00BEEE351DB5B804008A8122 /* ViewController.m */,
+				00EA19EC1DB751E100BD0078 /* ViewController.xib */,
+			);
+			name = "高德地图Demo";
+			sourceTree = "<group>";
+		};
+		00EA19E71DB74E5D00BD0078 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				00EA19E11DB74D4D00BD0078 /* MainController.h */,
+				00EA19E21DB74D4D00BD0078 /* MainController.m */,
+				00EA19E31DB74D4D00BD0078 /* MainController.xib */,
+			);
+			name = MainController;
+			sourceTree = "<group>";
+		};
+		00EA19E81DB74E7300BD0078 /* 直播界面--强制某个界面横屏 */ = {
+			isa = PBXGroup;
+			children = (
+				00EA19C41DB709D900BD0078 /* Demo4Controller.h */,
+				00EA19C51DB709D900BD0078 /* Demo4Controller.m */,
+				00EA19C61DB709D900BD0078 /* Demo4Controller.xib */,
+				00BEEE4F1DB5FD04008A8122 /* Demo3Controller.h */,
+				00BEEE501DB5FD04008A8122 /* Demo3Controller.m */,
+			);
+			name = "直播界面--强制某个界面横屏";
+			sourceTree = "<group>";
+		};
+		00EA19E91DB74E9000BD0078 /* 日历 */ = {
+			isa = PBXGroup;
+			children = (
+				00BEEE301DB5B804008A8122 /* Demo2Controller.h */,
+				00BEEE311DB5B804008A8122 /* Demo2Controller.m */,
+				00EA19EA1DB7506A00BD0078 /* Demo2Controller.xib */,
+			);
+			name = "日历";
+			sourceTree = "<group>";
+		};
+		8539990496A32D1BAEFB7CEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7853DEB143B9830FD547C16B /* Pods-YatouTest00123.debug.xcconfig */,
+				564C5721E6CDF03BF8CFC84A /* Pods-YatouTest00123.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		009E0B9D1DADD3040066A458 /* YatouTest00123 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009E0BC31DADD3040066A458 /* Build configuration list for PBXNativeTarget "YatouTest00123" */;
+			buildPhases = (
+				888AE3381C147C2156A93F7F /* Check Pods Manifest.lock */,
+				009E0B9A1DADD3040066A458 /* Sources */,
+				009E0B9B1DADD3040066A458 /* Frameworks */,
+				009E0B9C1DADD3040066A458 /* Resources */,
+				FABD8EE6F827407F381F1227 /* Embed Pods Frameworks */,
+				D77EDCB2160E7AF9188080AB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YatouTest00123;
+			productName = YatouTest00123;
+			productReference = 009E0B9E1DADD3040066A458 /* YatouTest00123.app */;
+			productType = "com.apple.product-type.application";
+		};
+		009E0BB91DADD3040066A458 /* YatouTest00123Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009E0BC61DADD3040066A458 /* Build configuration list for PBXNativeTarget "YatouTest00123Tests" */;
+			buildPhases = (
+				009E0BB61DADD3040066A458 /* Sources */,
+				009E0BB71DADD3040066A458 /* Frameworks */,
+				009E0BB81DADD3040066A458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				009E0BBC1DADD3040066A458 /* PBXTargetDependency */,
+			);
+			name = YatouTest00123Tests;
+			productName = YatouTest00123Tests;
+			productReference = 009E0BBA1DADD3040066A458 /* YatouTest00123Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		009E0B961DADD3040066A458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = yatou;
+				TargetAttributes = {
+					009E0B9D1DADD3040066A458 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FG75MFKDAB;
+						ProvisioningStyle = Automatic;
+					};
+					009E0BB91DADD3040066A458 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FG75MFKDAB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 009E0B9D1DADD3040066A458;
+					};
+				};
+			};
+			buildConfigurationList = 009E0B991DADD3040066A458 /* Build configuration list for PBXProject "YatouTest00123" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 009E0B951DADD3040066A458;
+			productRefGroup = 009E0B9F1DADD3040066A458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				009E0B9D1DADD3040066A458 /* YatouTest00123 */,
+				009E0BB91DADD3040066A458 /* YatouTest00123Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		009E0B9C1DADD3040066A458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C22FAD1DC19CAC0048A58E /* 气球0009.gif in Resources */,
+				00C230351DC19CAC0048A58E /* 气球0045.png in Resources */,
+				00C22FEF1DC19CAC0048A58E /* 气球0075.gif in Resources */,
+				00C2301B1DC19CAC0048A58E /* 气球0019.png in Resources */,
+				00EA19ED1DB751E100BD0078 /* ViewController.xib in Resources */,
+				00C2300F1DC19CAC0048A58E /* 气球0007.png in Resources */,
+				00C230631DC19CAC0048A58E /* 气球0091.png in Resources */,
+				00C2300E1DC19CAC0048A58E /* 气球0006.png in Resources */,
+				00C22FF11DC19CAC0048A58E /* 气球0077.gif in Resources */,
+				00C2302C1DC19CAC0048A58E /* 气球0036.png in Resources */,
+				00C22FC21DC19CAC0048A58E /* 气球0030.gif in Resources */,
+				00C230201DC19CAC0048A58E /* 气球0024.png in Resources */,
+				00C230391DC19CAC0048A58E /* 气球0049.png in Resources */,
+				00C2304F1DC19CAC0048A58E /* 气球0071.png in Resources */,
+				00C2306B1DC19CAC0048A58E /* 气球0099.png in Resources */,
+				00C230621DC19CAC0048A58E /* 气球0090.png in Resources */,
+				00C230251DC19CAC0048A58E /* 气球0029.png in Resources */,
+				00C22FBB1DC19CAC0048A58E /* 气球0023.gif in Resources */,
+				00C230581DC19CAC0048A58E /* 气球0080.png in Resources */,
+				00C2301D1DC19CAC0048A58E /* 气球0021.png in Resources */,
+				00C230191DC19CAC0048A58E /* 气球0017.png in Resources */,
+				00C230541DC19CAC0048A58E /* 气球0076.png in Resources */,
+				00EA19C81DB709D900BD0078 /* Demo4Controller.xib in Resources */,
+				00C230231DC19CAC0048A58E /* 气球0027.png in Resources */,
+				00C230071DC19CAC0048A58E /* 气球0099.gif in Resources */,
+				00C22FB51DC19CAC0048A58E /* 气球0017.gif in Resources */,
+				00C2302D1DC19CAC0048A58E /* 气球0037.png in Resources */,
+				00BEEE491DB5C9AB008A8122 /* calendar_forward@2x.png in Resources */,
+				00C230281DC19CAC0048A58E /* 气球0032.png in Resources */,
+				00C22FB81DC19CAC0048A58E /* 气球0020.gif in Resources */,
+				00C2303A1DC19CAC0048A58E /* 气球0050.png in Resources */,
+				00C2302B1DC19CAC0048A58E /* 气球0035.png in Resources */,
+				00C230321DC19CAC0048A58E /* 气球0042.png in Resources */,
+				00C230521DC19CAC0048A58E /* 气球0074.png in Resources */,
+				00C22FFC1DC19CAC0048A58E /* 气球0088.gif in Resources */,
+				00C230671DC19CAC0048A58E /* 气球0095.png in Resources */,
+				00C22FD61DC19CAC0048A58E /* 气球0050.gif in Resources */,
+				00C22FED1DC19CAC0048A58E /* 气球0073.gif in Resources */,
+				00C22FC01DC19CAC0048A58E /* 气球0028.gif in Resources */,
+				00C22FE81DC19CAC0048A58E /* 气球0068.gif in Resources */,
+				00C22FE51DC19CAC0048A58E /* 气球0065.gif in Resources */,
+				00C2304B1DC19CAC0048A58E /* 气球0067.png in Resources */,
+				00C230081DC19CAC0048A58E /* 气球0100.gif in Resources */,
+				00C230401DC19CAC0048A58E /* 气球0056.png in Resources */,
+				00C230021DC19CAC0048A58E /* 气球0094.gif in Resources */,
+				009E0BCA1DADD5E70066A458 /* 1.jpg in Resources */,
+				00C230011DC19CAC0048A58E /* 气球0093.gif in Resources */,
+				00C2305F1DC19CAC0048A58E /* 气球0087.png in Resources */,
+				00C2300C1DC19CAC0048A58E /* 气球0004.png in Resources */,
+				00C230691DC19CAC0048A58E /* 气球0097.png in Resources */,
+				00C230091DC19CAC0048A58E /* 气球0001.png in Resources */,
+				00C230641DC19CAC0048A58E /* 气球0092.png in Resources */,
+				00C230421DC19CAC0048A58E /* 气球0058.png in Resources */,
+				00C22FF81DC19CAC0048A58E /* 气球0084.gif in Resources */,
+				00C22FDE1DC19CAC0048A58E /* 气球0058.gif in Resources */,
+				00C230311DC19CAC0048A58E /* 气球0041.png in Resources */,
+				00C22FD71DC19CAC0048A58E /* 气球0051.gif in Resources */,
+				00C230531DC19CAC0048A58E /* 气球0075.png in Resources */,
+				00C22FAC1DC19CAC0048A58E /* 气球0008.gif in Resources */,
+				00C2304D1DC19CAC0048A58E /* 气球0069.png in Resources */,
+				00C22FF01DC19CAC0048A58E /* 气球0076.gif in Resources */,
+				00C2302F1DC19CAC0048A58E /* 气球0039.png in Resources */,
+				00C22FA51DC19CAC0048A58E /* 气球0001.gif in Resources */,
+				00C22FFF1DC19CAC0048A58E /* 气球0091.gif in Resources */,
+				00C22FC81DC19CAC0048A58E /* 气球0036.gif in Resources */,
+				009E0BB41DADD3040066A458 /* LaunchScreen.storyboard in Resources */,
+				00C230331DC19CAC0048A58E /* 气球0043.png in Resources */,
+				00C22FE71DC19CAC0048A58E /* 气球0067.gif in Resources */,
+				00C22FC71DC19CAC0048A58E /* 气球0035.gif in Resources */,
+				00C230001DC19CAC0048A58E /* 气球0092.gif in Resources */,
+				00C230591DC19CAC0048A58E /* 气球0081.png in Resources */,
+				00C22FC41DC19CAC0048A58E /* 气球0032.gif in Resources */,
+				00C230101DC19CAC0048A58E /* 气球0008.png in Resources */,
+				00C2301A1DC19CAC0048A58E /* 气球0018.png in Resources */,
+				00C2300B1DC19CAC0048A58E /* 气球0003.png in Resources */,
+				00C22FC31DC19CAC0048A58E /* 气球0031.gif in Resources */,
+				00EA19EB1DB7506A00BD0078 /* Demo2Controller.xib in Resources */,
+				00C22EDA1DC19BC30048A58E /* AnimationController.xib in Resources */,
+				00C22FC11DC19CAC0048A58E /* 气球0029.gif in Resources */,
+				00C22FAB1DC19CAC0048A58E /* 气球0007.gif in Resources */,
+				00C2305A1DC19CAC0048A58E /* 气球0082.png in Resources */,
+				00C2301F1DC19CAC0048A58E /* 气球0023.png in Resources */,
+				00C230341DC19CAC0048A58E /* 气球0044.png in Resources */,
+				00C230371DC19CAC0048A58E /* 气球0047.png in Resources */,
+				00C230461DC19CAC0048A58E /* 气球0062.png in Resources */,
+				00C22FD81DC19CAC0048A58E /* 气球0052.gif in Resources */,
+				00C22FA71DC19CAC0048A58E /* 气球0003.gif in Resources */,
+				00EA19E51DB74D4D00BD0078 /* MainController.xib in Resources */,
+				00C230551DC19CAC0048A58E /* 气球0077.png in Resources */,
+				009E0BB11DADD3040066A458 /* Assets.xcassets in Resources */,
+				00C2303F1DC19CAC0048A58E /* 气球0055.png in Resources */,
+				00C230211DC19CAC0048A58E /* 气球0025.png in Resources */,
+				00C22FD51DC19CAC0048A58E /* 气球0049.gif in Resources */,
+				00C230151DC19CAC0048A58E /* 气球0013.png in Resources */,
+				00C2305C1DC19CAC0048A58E /* 气球0084.png in Resources */,
+				00C2302E1DC19CAC0048A58E /* 气球0038.png in Resources */,
+				00C230131DC19CAC0048A58E /* 气球0011.png in Resources */,
+				00C230221DC19CAC0048A58E /* 气球0026.png in Resources */,
+				00C2305D1DC19CAC0048A58E /* 气球0085.png in Resources */,
+				00C22FCD1DC19CAC0048A58E /* 气球0041.gif in Resources */,
+				00C230031DC19CAC0048A58E /* 气球0095.gif in Resources */,
+				00C22FE31DC19CAC0048A58E /* 气球0063.gif in Resources */,
+				00C22FD91DC19CAC0048A58E /* 气球0053.gif in Resources */,
+				00C22FB71DC19CAC0048A58E /* 气球0019.gif in Resources */,
+				00C22FAA1DC19CAC0048A58E /* 气球0006.gif in Resources */,
+				00C22FAF1DC19CAC0048A58E /* 气球0011.gif in Resources */,
+				003B4C031DBF4539006ED54F /* 2.jpg in Resources */,
+				00C22FF91DC19CAC0048A58E /* 气球0085.gif in Resources */,
+				00C22FDF1DC19CAC0048A58E /* 气球0059.gif in Resources */,
+				00C230271DC19CAC0048A58E /* 气球0031.png in Resources */,
+				00C230431DC19CAC0048A58E /* 气球0059.png in Resources */,
+				009E0BAC1DADD3040066A458 /* Main.storyboard in Resources */,
+				00C230261DC19CAC0048A58E /* 气球0030.png in Resources */,
+				00C22FD01DC19CAC0048A58E /* 气球0044.gif in Resources */,
+				00C22FB21DC19CAC0048A58E /* 气球0014.gif in Resources */,
+				00C2305E1DC19CAC0048A58E /* 气球0086.png in Resources */,
+				00C22FBE1DC19CAC0048A58E /* 气球0026.gif in Resources */,
+				00C22FB61DC19CAC0048A58E /* 气球0018.gif in Resources */,
+				00C230161DC19CAC0048A58E /* 气球0014.png in Resources */,
+				00C230611DC19CAC0048A58E /* 气球0089.png in Resources */,
+				00C22FB01DC19CAC0048A58E /* 气球0012.gif in Resources */,
+				00C230441DC19CAC0048A58E /* 气球0060.png in Resources */,
+				00C230601DC19CAC0048A58E /* 气球0088.png in Resources */,
+				00C230381DC19CAC0048A58E /* 气球0048.png in Resources */,
+				00C22FF41DC19CAC0048A58E /* 气球0080.gif in Resources */,
+				00C22FE11DC19CAC0048A58E /* 气球0061.gif in Resources */,
+				00C2300A1DC19CAC0048A58E /* 气球0002.png in Resources */,
+				00C230481DC19CAC0048A58E /* 气球0064.png in Resources */,
+				00C22FEE1DC19CAC0048A58E /* 气球0074.gif in Resources */,
+				00C22FE21DC19CAC0048A58E /* 气球0062.gif in Resources */,
+				00C22FE91DC19CAC0048A58E /* 气球0069.gif in Resources */,
+				00BEEE4B1DB5CBBE008A8122 /* calendar_backward@2x.png in Resources */,
+				00C22FD11DC19CAC0048A58E /* 气球0045.gif in Resources */,
+				00C22FCA1DC19CAC0048A58E /* 气球0038.gif in Resources */,
+				00C22FE41DC19CAC0048A58E /* 气球0064.gif in Resources */,
+				00C22FDD1DC19CAC0048A58E /* 气球0057.gif in Resources */,
+				00C22FD41DC19CAC0048A58E /* 气球0048.gif in Resources */,
+				00C22FA61DC19CAC0048A58E /* 气球0002.gif in Resources */,
+				00C230241DC19CAC0048A58E /* 气球0028.png in Resources */,
+				00C2305B1DC19CAC0048A58E /* 气球0083.png in Resources */,
+				00C22FE01DC19CAC0048A58E /* 气球0060.gif in Resources */,
+				00C230181DC19CAC0048A58E /* 气球0016.png in Resources */,
+				00C230451DC19CAC0048A58E /* 气球0061.png in Resources */,
+				003B4C041DBF4539006ED54F /* 3.jpg in Resources */,
+				00C22FEC1DC19CAC0048A58E /* 气球0072.gif in Resources */,
+				00C22FB31DC19CAC0048A58E /* 气球0015.gif in Resources */,
+				00C22FFB1DC19CAC0048A58E /* 气球0087.gif in Resources */,
+				00C230411DC19CAC0048A58E /* 气球0057.png in Resources */,
+				005A69D81DCB279500EDDEA6 /* BluetoothController.xib in Resources */,
+				00C22FF31DC19CAC0048A58E /* 气球0079.gif in Resources */,
+				00C22FC61DC19CAC0048A58E /* 气球0034.gif in Resources */,
+				00C2300D1DC19CAC0048A58E /* 气球0005.png in Resources */,
+				00C2306C1DC19CAC0048A58E /* 气球0100.png in Resources */,
+				00C230171DC19CAC0048A58E /* 气球0015.png in Resources */,
+				00C2304E1DC19CAC0048A58E /* 气球0070.png in Resources */,
+				00C22FF61DC19CAC0048A58E /* 气球0082.gif in Resources */,
+				00C22FC51DC19CAC0048A58E /* 气球0033.gif in Resources */,
+				00C2304C1DC19CAC0048A58E /* 气球0068.png in Resources */,
+				00C230681DC19CAC0048A58E /* 气球0096.png in Resources */,
+				00C2301C1DC19CAC0048A58E /* 气球0020.png in Resources */,
+				00C2304A1DC19CAC0048A58E /* 气球0066.png in Resources */,
+				00C230121DC19CAC0048A58E /* 气球0010.png in Resources */,
+				00C22FD21DC19CAC0048A58E /* 气球0046.gif in Resources */,
+				00C22FDC1DC19CAC0048A58E /* 气球0056.gif in Resources */,
+				00C22FE61DC19CAC0048A58E /* 气球0066.gif in Resources */,
+				00C22FDA1DC19CAC0048A58E /* 气球0054.gif in Resources */,
+				00C230561DC19CAC0048A58E /* 气球0078.png in Resources */,
+				00C230501DC19CAC0048A58E /* 气球0072.png in Resources */,
+				00C230051DC19CAC0048A58E /* 气球0097.gif in Resources */,
+				00C22FBA1DC19CAC0048A58E /* 气球0022.gif in Resources */,
+				00C2303B1DC19CAC0048A58E /* 气球0051.png in Resources */,
+				00C230661DC19CAC0048A58E /* 气球0094.png in Resources */,
+				00C230041DC19CAC0048A58E /* 气球0096.gif in Resources */,
+				00C22FBD1DC19CAC0048A58E /* 气球0025.gif in Resources */,
+				00C230471DC19CAC0048A58E /* 气球0063.png in Resources */,
+				00C2303C1DC19CAC0048A58E /* 气球0052.png in Resources */,
+				00C22FCE1DC19CAC0048A58E /* 气球0042.gif in Resources */,
+				00C230061DC19CAC0048A58E /* 气球0098.gif in Resources */,
+				00C22FBC1DC19CAC0048A58E /* 气球0024.gif in Resources */,
+				00C22FD31DC19CAC0048A58E /* 气球0047.gif in Resources */,
+				00C22FCC1DC19CAC0048A58E /* 气球0040.gif in Resources */,
+				00C22FF71DC19CAC0048A58E /* 气球0083.gif in Resources */,
+				00C22FB91DC19CAC0048A58E /* 气球0021.gif in Resources */,
+				00C22FC91DC19CAC0048A58E /* 气球0037.gif in Resources */,
+				00C230571DC19CAC0048A58E /* 气球0079.png in Resources */,
+				00C22FB41DC19CAC0048A58E /* 气球0016.gif in Resources */,
+				00C22FFA1DC19CAC0048A58E /* 气球0086.gif in Resources */,
+				00C230651DC19CAC0048A58E /* 气球0093.png in Resources */,
+				00C22FAE1DC19CAC0048A58E /* 气球0010.gif in Resources */,
+				00C22FB11DC19CAC0048A58E /* 气球0013.gif in Resources */,
+				00C22FA91DC19CAC0048A58E /* 气球0005.gif in Resources */,
+				00C22FDB1DC19CAC0048A58E /* 气球0055.gif in Resources */,
+				00C230291DC19CAC0048A58E /* 气球0033.png in Resources */,
+				00C22FF51DC19CAC0048A58E /* 气球0081.gif in Resources */,
+				00C2303D1DC19CAC0048A58E /* 气球0053.png in Resources */,
+				00C22FCF1DC19CAC0048A58E /* 气球0043.gif in Resources */,
+				00C230111DC19CAC0048A58E /* 气球0009.png in Resources */,
+				00C230361DC19CAC0048A58E /* 气球0046.png in Resources */,
+				00C22FEA1DC19CAC0048A58E /* 气球0070.gif in Resources */,
+				00C22FCB1DC19CAC0048A58E /* 气球0039.gif in Resources */,
+				00C230141DC19CAC0048A58E /* 气球0012.png in Resources */,
+				00C22FEB1DC19CAC0048A58E /* 气球0071.gif in Resources */,
+				00C22FFD1DC19CAC0048A58E /* 气球0089.gif in Resources */,
+				00C230491DC19CAC0048A58E /* 气球0065.png in Resources */,
+				00C2306A1DC19CAC0048A58E /* 气球0098.png in Resources */,
+				00C2303E1DC19CAC0048A58E /* 气球0054.png in Resources */,
+				00C230301DC19CAC0048A58E /* 气球0040.png in Resources */,
+				00C22FF21DC19CAC0048A58E /* 气球0078.gif in Resources */,
+				00C22FBF1DC19CAC0048A58E /* 气球0027.gif in Resources */,
+				00C22FFE1DC19CAC0048A58E /* 气球0090.gif in Resources */,
+				00C230511DC19CAC0048A58E /* 气球0073.png in Resources */,
+				00C2302A1DC19CAC0048A58E /* 气球0034.png in Resources */,
+				00C2301E1DC19CAC0048A58E /* 气球0022.png in Resources */,
+				00C22FA81DC19CAC0048A58E /* 气球0004.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009E0BB81DADD3040066A458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		888AE3381C147C2156A93F7F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D77EDCB2160E7AF9188080AB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YatouTest00123/Pods-YatouTest00123-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FABD8EE6F827407F381F1227 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YatouTest00123/Pods-YatouTest00123-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		009E0B9A1DADD3040066A458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EA19C71DB709D900BD0078 /* Demo4Controller.m in Sources */,
+				00BEEE3A1DB5B804008A8122 /* ViewController.m in Sources */,
+				009E0BA61DADD3040066A458 /* AppDelegate.m in Sources */,
+				009E0BA31DADD3040066A458 /* main.m in Sources */,
+				00EA19CC1DB70D1000BD0078 /* YTNavigationController.m in Sources */,
+				00BEEE4E1DB5F5F8008A8122 /* YTCalendarDay.m in Sources */,
+				00BEEE371DB5B804008A8122 /* BaseMapViewController.m in Sources */,
+				00BEEE391DB5B804008A8122 /* MapViewController.m in Sources */,
+				00BEEE3E1DB5B879008A8122 /* YTCalendarView.m in Sources */,
+				00BEEE5E1DB5FD13008A8122 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				00BEEE5C1DB5FD13008A8122 /* ALView+PureLayout.m in Sources */,
+				005A69D71DCB279500EDDEA6 /* BluetoothController.m in Sources */,
+				00BEEE411DB5BA77008A8122 /* NSDate+YTDateCategory.m in Sources */,
+				00BEEE381DB5B804008A8122 /* Demo2Controller.m in Sources */,
+				00EA19D81DB7210D00BD0078 /* DMHeartFlyView.m in Sources */,
+				009E0BAF1DADD3040066A458 /* YatouTest00123.xcdatamodeld in Sources */,
+				00BEEE5D1DB5FD13008A8122 /* NSArray+PureLayout.m in Sources */,
+				00C22ED91DC19BC30048A58E /* AnimationController.m in Sources */,
+				00EA19DC1DB7253D00BD0078 /* TestHeartView.m in Sources */,
+				00EA19E41DB74D4D00BD0078 /* MainController.m in Sources */,
+				00BEEE511DB5FD04008A8122 /* Demo3Controller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009E0BB61DADD3040066A458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009E0BBF1DADD3040066A458 /* YatouTest00123Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		009E0BBC1DADD3040066A458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 009E0B9D1DADD3040066A458 /* YatouTest00123 */;
+			targetProxy = 009E0BBB1DADD3040066A458 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		009E0BAA1DADD3040066A458 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009E0BAB1DADD3040066A458 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		009E0BB21DADD3040066A458 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009E0BB31DADD3040066A458 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		009E0BC11DADD3040066A458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		009E0BC21DADD3040066A458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		009E0BC41DADD3040066A458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7853DEB143B9830FD547C16B /* Pods-YatouTest00123.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FG75MFKDAB;
+				INFOPLIST_FILE = YatouTest00123/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yatouTest.YatouTest00123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		009E0BC51DADD3040066A458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564C5721E6CDF03BF8CFC84A /* Pods-YatouTest00123.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FG75MFKDAB;
+				INFOPLIST_FILE = YatouTest00123/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yatouTest.YatouTest00123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		009E0BC71DADD3040066A458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FG75MFKDAB;
+				INFOPLIST_FILE = YatouTest00123Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yatouTest.YatouTest00123Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YatouTest00123.app/YatouTest00123";
+			};
+			name = Debug;
+		};
+		009E0BC81DADD3040066A458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FG75MFKDAB;
+				INFOPLIST_FILE = YatouTest00123Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yatouTest.YatouTest00123Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YatouTest00123.app/YatouTest00123";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009E0B991DADD3040066A458 /* Build configuration list for PBXProject "YatouTest00123" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009E0BC11DADD3040066A458 /* Debug */,
+				009E0BC21DADD3040066A458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009E0BC31DADD3040066A458 /* Build configuration list for PBXNativeTarget "YatouTest00123" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009E0BC41DADD3040066A458 /* Debug */,
+				009E0BC51DADD3040066A458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009E0BC61DADD3040066A458 /* Build configuration list for PBXNativeTarget "YatouTest00123Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009E0BC71DADD3040066A458 /* Debug */,
+				009E0BC81DADD3040066A458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		009E0BAD1DADD3040066A458 /* YatouTest00123.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				009E0BAE1DADD3040066A458 /* YatouTest00123.xcdatamodel */,
+			);
+			currentVersion = 009E0BAE1DADD3040066A458 /* YatouTest00123.xcdatamodel */;
+			path = YatouTest00123.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 009E0B961DADD3040066A458 /* Project object */;
+}
