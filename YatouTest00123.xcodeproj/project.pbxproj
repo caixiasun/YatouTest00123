@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001ACD0A1DCC36170095AE80 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 001ACD091DCC36170095AE80 /* images.bundle */; };
+		001ACDD91DCC6F7A0095AE80 /* MoreThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001ACDD81DCC6F7A0095AE80 /* MoreThreadController.m */; };
 		003B4C031DBF4539006ED54F /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 003B4C011DBF4539006ED54F /* 2.jpg */; };
 		003B4C041DBF4539006ED54F /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 003B4C021DBF4539006ED54F /* 3.jpg */; };
 		003B4C061DBF5645006ED54F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003B4C051DBF5645006ED54F /* OpenGLES.framework */; };
@@ -36,206 +38,6 @@
 		00BEEE5E1DB5FD13008A8122 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BEEE581DB5FD13008A8122 /* NSLayoutConstraint+PureLayout.m */; };
 		00C22ED91DC19BC30048A58E /* AnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C22ED71DC19BC30048A58E /* AnimationController.m */; };
 		00C22EDA1DC19BC30048A58E /* AnimationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C22ED81DC19BC30048A58E /* AnimationController.xib */; };
-		00C22FA51DC19CAC0048A58E /* 气球0001.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EDC1DC19CAC0048A58E /* 气球0001.gif */; };
-		00C22FA61DC19CAC0048A58E /* 气球0002.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EDD1DC19CAC0048A58E /* 气球0002.gif */; };
-		00C22FA71DC19CAC0048A58E /* 气球0003.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EDE1DC19CAC0048A58E /* 气球0003.gif */; };
-		00C22FA81DC19CAC0048A58E /* 气球0004.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EDF1DC19CAC0048A58E /* 气球0004.gif */; };
-		00C22FA91DC19CAC0048A58E /* 气球0005.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE01DC19CAC0048A58E /* 气球0005.gif */; };
-		00C22FAA1DC19CAC0048A58E /* 气球0006.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE11DC19CAC0048A58E /* 气球0006.gif */; };
-		00C22FAB1DC19CAC0048A58E /* 气球0007.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE21DC19CAC0048A58E /* 气球0007.gif */; };
-		00C22FAC1DC19CAC0048A58E /* 气球0008.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE31DC19CAC0048A58E /* 气球0008.gif */; };
-		00C22FAD1DC19CAC0048A58E /* 气球0009.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE41DC19CAC0048A58E /* 气球0009.gif */; };
-		00C22FAE1DC19CAC0048A58E /* 气球0010.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE51DC19CAC0048A58E /* 气球0010.gif */; };
-		00C22FAF1DC19CAC0048A58E /* 气球0011.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE61DC19CAC0048A58E /* 气球0011.gif */; };
-		00C22FB01DC19CAC0048A58E /* 气球0012.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE71DC19CAC0048A58E /* 气球0012.gif */; };
-		00C22FB11DC19CAC0048A58E /* 气球0013.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE81DC19CAC0048A58E /* 气球0013.gif */; };
-		00C22FB21DC19CAC0048A58E /* 气球0014.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EE91DC19CAC0048A58E /* 气球0014.gif */; };
-		00C22FB31DC19CAC0048A58E /* 气球0015.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EEA1DC19CAC0048A58E /* 气球0015.gif */; };
-		00C22FB41DC19CAC0048A58E /* 气球0016.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EEB1DC19CAC0048A58E /* 气球0016.gif */; };
-		00C22FB51DC19CAC0048A58E /* 气球0017.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EEC1DC19CAC0048A58E /* 气球0017.gif */; };
-		00C22FB61DC19CAC0048A58E /* 气球0018.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EED1DC19CAC0048A58E /* 气球0018.gif */; };
-		00C22FB71DC19CAC0048A58E /* 气球0019.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EEE1DC19CAC0048A58E /* 气球0019.gif */; };
-		00C22FB81DC19CAC0048A58E /* 气球0020.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EEF1DC19CAC0048A58E /* 气球0020.gif */; };
-		00C22FB91DC19CAC0048A58E /* 气球0021.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF01DC19CAC0048A58E /* 气球0021.gif */; };
-		00C22FBA1DC19CAC0048A58E /* 气球0022.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF11DC19CAC0048A58E /* 气球0022.gif */; };
-		00C22FBB1DC19CAC0048A58E /* 气球0023.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF21DC19CAC0048A58E /* 气球0023.gif */; };
-		00C22FBC1DC19CAC0048A58E /* 气球0024.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF31DC19CAC0048A58E /* 气球0024.gif */; };
-		00C22FBD1DC19CAC0048A58E /* 气球0025.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF41DC19CAC0048A58E /* 气球0025.gif */; };
-		00C22FBE1DC19CAC0048A58E /* 气球0026.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF51DC19CAC0048A58E /* 气球0026.gif */; };
-		00C22FBF1DC19CAC0048A58E /* 气球0027.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF61DC19CAC0048A58E /* 气球0027.gif */; };
-		00C22FC01DC19CAC0048A58E /* 气球0028.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF71DC19CAC0048A58E /* 气球0028.gif */; };
-		00C22FC11DC19CAC0048A58E /* 气球0029.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF81DC19CAC0048A58E /* 气球0029.gif */; };
-		00C22FC21DC19CAC0048A58E /* 气球0030.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EF91DC19CAC0048A58E /* 气球0030.gif */; };
-		00C22FC31DC19CAC0048A58E /* 气球0031.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EFA1DC19CAC0048A58E /* 气球0031.gif */; };
-		00C22FC41DC19CAC0048A58E /* 气球0032.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EFB1DC19CAC0048A58E /* 气球0032.gif */; };
-		00C22FC51DC19CAC0048A58E /* 气球0033.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EFC1DC19CAC0048A58E /* 气球0033.gif */; };
-		00C22FC61DC19CAC0048A58E /* 气球0034.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EFD1DC19CAC0048A58E /* 气球0034.gif */; };
-		00C22FC71DC19CAC0048A58E /* 气球0035.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EFE1DC19CAC0048A58E /* 气球0035.gif */; };
-		00C22FC81DC19CAC0048A58E /* 气球0036.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22EFF1DC19CAC0048A58E /* 气球0036.gif */; };
-		00C22FC91DC19CAC0048A58E /* 气球0037.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F001DC19CAC0048A58E /* 气球0037.gif */; };
-		00C22FCA1DC19CAC0048A58E /* 气球0038.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F011DC19CAC0048A58E /* 气球0038.gif */; };
-		00C22FCB1DC19CAC0048A58E /* 气球0039.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F021DC19CAC0048A58E /* 气球0039.gif */; };
-		00C22FCC1DC19CAC0048A58E /* 气球0040.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F031DC19CAC0048A58E /* 气球0040.gif */; };
-		00C22FCD1DC19CAC0048A58E /* 气球0041.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F041DC19CAC0048A58E /* 气球0041.gif */; };
-		00C22FCE1DC19CAC0048A58E /* 气球0042.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F051DC19CAC0048A58E /* 气球0042.gif */; };
-		00C22FCF1DC19CAC0048A58E /* 气球0043.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F061DC19CAC0048A58E /* 气球0043.gif */; };
-		00C22FD01DC19CAC0048A58E /* 气球0044.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F071DC19CAC0048A58E /* 气球0044.gif */; };
-		00C22FD11DC19CAC0048A58E /* 气球0045.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F081DC19CAC0048A58E /* 气球0045.gif */; };
-		00C22FD21DC19CAC0048A58E /* 气球0046.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F091DC19CAC0048A58E /* 气球0046.gif */; };
-		00C22FD31DC19CAC0048A58E /* 气球0047.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F0A1DC19CAC0048A58E /* 气球0047.gif */; };
-		00C22FD41DC19CAC0048A58E /* 气球0048.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F0B1DC19CAC0048A58E /* 气球0048.gif */; };
-		00C22FD51DC19CAC0048A58E /* 气球0049.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F0C1DC19CAC0048A58E /* 气球0049.gif */; };
-		00C22FD61DC19CAC0048A58E /* 气球0050.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F0D1DC19CAC0048A58E /* 气球0050.gif */; };
-		00C22FD71DC19CAC0048A58E /* 气球0051.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F0E1DC19CAC0048A58E /* 气球0051.gif */; };
-		00C22FD81DC19CAC0048A58E /* 气球0052.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F0F1DC19CAC0048A58E /* 气球0052.gif */; };
-		00C22FD91DC19CAC0048A58E /* 气球0053.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F101DC19CAC0048A58E /* 气球0053.gif */; };
-		00C22FDA1DC19CAC0048A58E /* 气球0054.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F111DC19CAC0048A58E /* 气球0054.gif */; };
-		00C22FDB1DC19CAC0048A58E /* 气球0055.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F121DC19CAC0048A58E /* 气球0055.gif */; };
-		00C22FDC1DC19CAC0048A58E /* 气球0056.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F131DC19CAC0048A58E /* 气球0056.gif */; };
-		00C22FDD1DC19CAC0048A58E /* 气球0057.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F141DC19CAC0048A58E /* 气球0057.gif */; };
-		00C22FDE1DC19CAC0048A58E /* 气球0058.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F151DC19CAC0048A58E /* 气球0058.gif */; };
-		00C22FDF1DC19CAC0048A58E /* 气球0059.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F161DC19CAC0048A58E /* 气球0059.gif */; };
-		00C22FE01DC19CAC0048A58E /* 气球0060.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F171DC19CAC0048A58E /* 气球0060.gif */; };
-		00C22FE11DC19CAC0048A58E /* 气球0061.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F181DC19CAC0048A58E /* 气球0061.gif */; };
-		00C22FE21DC19CAC0048A58E /* 气球0062.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F191DC19CAC0048A58E /* 气球0062.gif */; };
-		00C22FE31DC19CAC0048A58E /* 气球0063.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F1A1DC19CAC0048A58E /* 气球0063.gif */; };
-		00C22FE41DC19CAC0048A58E /* 气球0064.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F1B1DC19CAC0048A58E /* 气球0064.gif */; };
-		00C22FE51DC19CAC0048A58E /* 气球0065.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F1C1DC19CAC0048A58E /* 气球0065.gif */; };
-		00C22FE61DC19CAC0048A58E /* 气球0066.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F1D1DC19CAC0048A58E /* 气球0066.gif */; };
-		00C22FE71DC19CAC0048A58E /* 气球0067.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F1E1DC19CAC0048A58E /* 气球0067.gif */; };
-		00C22FE81DC19CAC0048A58E /* 气球0068.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F1F1DC19CAC0048A58E /* 气球0068.gif */; };
-		00C22FE91DC19CAC0048A58E /* 气球0069.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F201DC19CAC0048A58E /* 气球0069.gif */; };
-		00C22FEA1DC19CAC0048A58E /* 气球0070.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F211DC19CAC0048A58E /* 气球0070.gif */; };
-		00C22FEB1DC19CAC0048A58E /* 气球0071.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F221DC19CAC0048A58E /* 气球0071.gif */; };
-		00C22FEC1DC19CAC0048A58E /* 气球0072.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F231DC19CAC0048A58E /* 气球0072.gif */; };
-		00C22FED1DC19CAC0048A58E /* 气球0073.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F241DC19CAC0048A58E /* 气球0073.gif */; };
-		00C22FEE1DC19CAC0048A58E /* 气球0074.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F251DC19CAC0048A58E /* 气球0074.gif */; };
-		00C22FEF1DC19CAC0048A58E /* 气球0075.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F261DC19CAC0048A58E /* 气球0075.gif */; };
-		00C22FF01DC19CAC0048A58E /* 气球0076.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F271DC19CAC0048A58E /* 气球0076.gif */; };
-		00C22FF11DC19CAC0048A58E /* 气球0077.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F281DC19CAC0048A58E /* 气球0077.gif */; };
-		00C22FF21DC19CAC0048A58E /* 气球0078.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F291DC19CAC0048A58E /* 气球0078.gif */; };
-		00C22FF31DC19CAC0048A58E /* 气球0079.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F2A1DC19CAC0048A58E /* 气球0079.gif */; };
-		00C22FF41DC19CAC0048A58E /* 气球0080.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F2B1DC19CAC0048A58E /* 气球0080.gif */; };
-		00C22FF51DC19CAC0048A58E /* 气球0081.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F2C1DC19CAC0048A58E /* 气球0081.gif */; };
-		00C22FF61DC19CAC0048A58E /* 气球0082.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F2D1DC19CAC0048A58E /* 气球0082.gif */; };
-		00C22FF71DC19CAC0048A58E /* 气球0083.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F2E1DC19CAC0048A58E /* 气球0083.gif */; };
-		00C22FF81DC19CAC0048A58E /* 气球0084.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F2F1DC19CAC0048A58E /* 气球0084.gif */; };
-		00C22FF91DC19CAC0048A58E /* 气球0085.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F301DC19CAC0048A58E /* 气球0085.gif */; };
-		00C22FFA1DC19CAC0048A58E /* 气球0086.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F311DC19CAC0048A58E /* 气球0086.gif */; };
-		00C22FFB1DC19CAC0048A58E /* 气球0087.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F321DC19CAC0048A58E /* 气球0087.gif */; };
-		00C22FFC1DC19CAC0048A58E /* 气球0088.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F331DC19CAC0048A58E /* 气球0088.gif */; };
-		00C22FFD1DC19CAC0048A58E /* 气球0089.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F341DC19CAC0048A58E /* 气球0089.gif */; };
-		00C22FFE1DC19CAC0048A58E /* 气球0090.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F351DC19CAC0048A58E /* 气球0090.gif */; };
-		00C22FFF1DC19CAC0048A58E /* 气球0091.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F361DC19CAC0048A58E /* 气球0091.gif */; };
-		00C230001DC19CAC0048A58E /* 气球0092.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F371DC19CAC0048A58E /* 气球0092.gif */; };
-		00C230011DC19CAC0048A58E /* 气球0093.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F381DC19CAC0048A58E /* 气球0093.gif */; };
-		00C230021DC19CAC0048A58E /* 气球0094.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F391DC19CAC0048A58E /* 气球0094.gif */; };
-		00C230031DC19CAC0048A58E /* 气球0095.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F3A1DC19CAC0048A58E /* 气球0095.gif */; };
-		00C230041DC19CAC0048A58E /* 气球0096.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F3B1DC19CAC0048A58E /* 气球0096.gif */; };
-		00C230051DC19CAC0048A58E /* 气球0097.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F3C1DC19CAC0048A58E /* 气球0097.gif */; };
-		00C230061DC19CAC0048A58E /* 气球0098.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F3D1DC19CAC0048A58E /* 气球0098.gif */; };
-		00C230071DC19CAC0048A58E /* 气球0099.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F3E1DC19CAC0048A58E /* 气球0099.gif */; };
-		00C230081DC19CAC0048A58E /* 气球0100.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F3F1DC19CAC0048A58E /* 气球0100.gif */; };
-		00C230091DC19CAC0048A58E /* 气球0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F411DC19CAC0048A58E /* 气球0001.png */; };
-		00C2300A1DC19CAC0048A58E /* 气球0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F421DC19CAC0048A58E /* 气球0002.png */; };
-		00C2300B1DC19CAC0048A58E /* 气球0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F431DC19CAC0048A58E /* 气球0003.png */; };
-		00C2300C1DC19CAC0048A58E /* 气球0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F441DC19CAC0048A58E /* 气球0004.png */; };
-		00C2300D1DC19CAC0048A58E /* 气球0005.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F451DC19CAC0048A58E /* 气球0005.png */; };
-		00C2300E1DC19CAC0048A58E /* 气球0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F461DC19CAC0048A58E /* 气球0006.png */; };
-		00C2300F1DC19CAC0048A58E /* 气球0007.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F471DC19CAC0048A58E /* 气球0007.png */; };
-		00C230101DC19CAC0048A58E /* 气球0008.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F481DC19CAC0048A58E /* 气球0008.png */; };
-		00C230111DC19CAC0048A58E /* 气球0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F491DC19CAC0048A58E /* 气球0009.png */; };
-		00C230121DC19CAC0048A58E /* 气球0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F4A1DC19CAC0048A58E /* 气球0010.png */; };
-		00C230131DC19CAC0048A58E /* 气球0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F4B1DC19CAC0048A58E /* 气球0011.png */; };
-		00C230141DC19CAC0048A58E /* 气球0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F4C1DC19CAC0048A58E /* 气球0012.png */; };
-		00C230151DC19CAC0048A58E /* 气球0013.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F4D1DC19CAC0048A58E /* 气球0013.png */; };
-		00C230161DC19CAC0048A58E /* 气球0014.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F4E1DC19CAC0048A58E /* 气球0014.png */; };
-		00C230171DC19CAC0048A58E /* 气球0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F4F1DC19CAC0048A58E /* 气球0015.png */; };
-		00C230181DC19CAC0048A58E /* 气球0016.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F501DC19CAC0048A58E /* 气球0016.png */; };
-		00C230191DC19CAC0048A58E /* 气球0017.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F511DC19CAC0048A58E /* 气球0017.png */; };
-		00C2301A1DC19CAC0048A58E /* 气球0018.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F521DC19CAC0048A58E /* 气球0018.png */; };
-		00C2301B1DC19CAC0048A58E /* 气球0019.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F531DC19CAC0048A58E /* 气球0019.png */; };
-		00C2301C1DC19CAC0048A58E /* 气球0020.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F541DC19CAC0048A58E /* 气球0020.png */; };
-		00C2301D1DC19CAC0048A58E /* 气球0021.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F551DC19CAC0048A58E /* 气球0021.png */; };
-		00C2301E1DC19CAC0048A58E /* 气球0022.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F561DC19CAC0048A58E /* 气球0022.png */; };
-		00C2301F1DC19CAC0048A58E /* 气球0023.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F571DC19CAC0048A58E /* 气球0023.png */; };
-		00C230201DC19CAC0048A58E /* 气球0024.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F581DC19CAC0048A58E /* 气球0024.png */; };
-		00C230211DC19CAC0048A58E /* 气球0025.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F591DC19CAC0048A58E /* 气球0025.png */; };
-		00C230221DC19CAC0048A58E /* 气球0026.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F5A1DC19CAC0048A58E /* 气球0026.png */; };
-		00C230231DC19CAC0048A58E /* 气球0027.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F5B1DC19CAC0048A58E /* 气球0027.png */; };
-		00C230241DC19CAC0048A58E /* 气球0028.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F5C1DC19CAC0048A58E /* 气球0028.png */; };
-		00C230251DC19CAC0048A58E /* 气球0029.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F5D1DC19CAC0048A58E /* 气球0029.png */; };
-		00C230261DC19CAC0048A58E /* 气球0030.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F5E1DC19CAC0048A58E /* 气球0030.png */; };
-		00C230271DC19CAC0048A58E /* 气球0031.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F5F1DC19CAC0048A58E /* 气球0031.png */; };
-		00C230281DC19CAC0048A58E /* 气球0032.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F601DC19CAC0048A58E /* 气球0032.png */; };
-		00C230291DC19CAC0048A58E /* 气球0033.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F611DC19CAC0048A58E /* 气球0033.png */; };
-		00C2302A1DC19CAC0048A58E /* 气球0034.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F621DC19CAC0048A58E /* 气球0034.png */; };
-		00C2302B1DC19CAC0048A58E /* 气球0035.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F631DC19CAC0048A58E /* 气球0035.png */; };
-		00C2302C1DC19CAC0048A58E /* 气球0036.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F641DC19CAC0048A58E /* 气球0036.png */; };
-		00C2302D1DC19CAC0048A58E /* 气球0037.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F651DC19CAC0048A58E /* 气球0037.png */; };
-		00C2302E1DC19CAC0048A58E /* 气球0038.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F661DC19CAC0048A58E /* 气球0038.png */; };
-		00C2302F1DC19CAC0048A58E /* 气球0039.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F671DC19CAC0048A58E /* 气球0039.png */; };
-		00C230301DC19CAC0048A58E /* 气球0040.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F681DC19CAC0048A58E /* 气球0040.png */; };
-		00C230311DC19CAC0048A58E /* 气球0041.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F691DC19CAC0048A58E /* 气球0041.png */; };
-		00C230321DC19CAC0048A58E /* 气球0042.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F6A1DC19CAC0048A58E /* 气球0042.png */; };
-		00C230331DC19CAC0048A58E /* 气球0043.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F6B1DC19CAC0048A58E /* 气球0043.png */; };
-		00C230341DC19CAC0048A58E /* 气球0044.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F6C1DC19CAC0048A58E /* 气球0044.png */; };
-		00C230351DC19CAC0048A58E /* 气球0045.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F6D1DC19CAC0048A58E /* 气球0045.png */; };
-		00C230361DC19CAC0048A58E /* 气球0046.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F6E1DC19CAC0048A58E /* 气球0046.png */; };
-		00C230371DC19CAC0048A58E /* 气球0047.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F6F1DC19CAC0048A58E /* 气球0047.png */; };
-		00C230381DC19CAC0048A58E /* 气球0048.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F701DC19CAC0048A58E /* 气球0048.png */; };
-		00C230391DC19CAC0048A58E /* 气球0049.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F711DC19CAC0048A58E /* 气球0049.png */; };
-		00C2303A1DC19CAC0048A58E /* 气球0050.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F721DC19CAC0048A58E /* 气球0050.png */; };
-		00C2303B1DC19CAC0048A58E /* 气球0051.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F731DC19CAC0048A58E /* 气球0051.png */; };
-		00C2303C1DC19CAC0048A58E /* 气球0052.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F741DC19CAC0048A58E /* 气球0052.png */; };
-		00C2303D1DC19CAC0048A58E /* 气球0053.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F751DC19CAC0048A58E /* 气球0053.png */; };
-		00C2303E1DC19CAC0048A58E /* 气球0054.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F761DC19CAC0048A58E /* 气球0054.png */; };
-		00C2303F1DC19CAC0048A58E /* 气球0055.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F771DC19CAC0048A58E /* 气球0055.png */; };
-		00C230401DC19CAC0048A58E /* 气球0056.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F781DC19CAC0048A58E /* 气球0056.png */; };
-		00C230411DC19CAC0048A58E /* 气球0057.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F791DC19CAC0048A58E /* 气球0057.png */; };
-		00C230421DC19CAC0048A58E /* 气球0058.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F7A1DC19CAC0048A58E /* 气球0058.png */; };
-		00C230431DC19CAC0048A58E /* 气球0059.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F7B1DC19CAC0048A58E /* 气球0059.png */; };
-		00C230441DC19CAC0048A58E /* 气球0060.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F7C1DC19CAC0048A58E /* 气球0060.png */; };
-		00C230451DC19CAC0048A58E /* 气球0061.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F7D1DC19CAC0048A58E /* 气球0061.png */; };
-		00C230461DC19CAC0048A58E /* 气球0062.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F7E1DC19CAC0048A58E /* 气球0062.png */; };
-		00C230471DC19CAC0048A58E /* 气球0063.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F7F1DC19CAC0048A58E /* 气球0063.png */; };
-		00C230481DC19CAC0048A58E /* 气球0064.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F801DC19CAC0048A58E /* 气球0064.png */; };
-		00C230491DC19CAC0048A58E /* 气球0065.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F811DC19CAC0048A58E /* 气球0065.png */; };
-		00C2304A1DC19CAC0048A58E /* 气球0066.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F821DC19CAC0048A58E /* 气球0066.png */; };
-		00C2304B1DC19CAC0048A58E /* 气球0067.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F831DC19CAC0048A58E /* 气球0067.png */; };
-		00C2304C1DC19CAC0048A58E /* 气球0068.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F841DC19CAC0048A58E /* 气球0068.png */; };
-		00C2304D1DC19CAC0048A58E /* 气球0069.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F851DC19CAC0048A58E /* 气球0069.png */; };
-		00C2304E1DC19CAC0048A58E /* 气球0070.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F861DC19CAC0048A58E /* 气球0070.png */; };
-		00C2304F1DC19CAC0048A58E /* 气球0071.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F871DC19CAC0048A58E /* 气球0071.png */; };
-		00C230501DC19CAC0048A58E /* 气球0072.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F881DC19CAC0048A58E /* 气球0072.png */; };
-		00C230511DC19CAC0048A58E /* 气球0073.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F891DC19CAC0048A58E /* 气球0073.png */; };
-		00C230521DC19CAC0048A58E /* 气球0074.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F8A1DC19CAC0048A58E /* 气球0074.png */; };
-		00C230531DC19CAC0048A58E /* 气球0075.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F8B1DC19CAC0048A58E /* 气球0075.png */; };
-		00C230541DC19CAC0048A58E /* 气球0076.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F8C1DC19CAC0048A58E /* 气球0076.png */; };
-		00C230551DC19CAC0048A58E /* 气球0077.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F8D1DC19CAC0048A58E /* 气球0077.png */; };
-		00C230561DC19CAC0048A58E /* 气球0078.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F8E1DC19CAC0048A58E /* 气球0078.png */; };
-		00C230571DC19CAC0048A58E /* 气球0079.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F8F1DC19CAC0048A58E /* 气球0079.png */; };
-		00C230581DC19CAC0048A58E /* 气球0080.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F901DC19CAC0048A58E /* 气球0080.png */; };
-		00C230591DC19CAC0048A58E /* 气球0081.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F911DC19CAC0048A58E /* 气球0081.png */; };
-		00C2305A1DC19CAC0048A58E /* 气球0082.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F921DC19CAC0048A58E /* 气球0082.png */; };
-		00C2305B1DC19CAC0048A58E /* 气球0083.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F931DC19CAC0048A58E /* 气球0083.png */; };
-		00C2305C1DC19CAC0048A58E /* 气球0084.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F941DC19CAC0048A58E /* 气球0084.png */; };
-		00C2305D1DC19CAC0048A58E /* 气球0085.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F951DC19CAC0048A58E /* 气球0085.png */; };
-		00C2305E1DC19CAC0048A58E /* 气球0086.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F961DC19CAC0048A58E /* 气球0086.png */; };
-		00C2305F1DC19CAC0048A58E /* 气球0087.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F971DC19CAC0048A58E /* 气球0087.png */; };
-		00C230601DC19CAC0048A58E /* 气球0088.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F981DC19CAC0048A58E /* 气球0088.png */; };
-		00C230611DC19CAC0048A58E /* 气球0089.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F991DC19CAC0048A58E /* 气球0089.png */; };
-		00C230621DC19CAC0048A58E /* 气球0090.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F9A1DC19CAC0048A58E /* 气球0090.png */; };
-		00C230631DC19CAC0048A58E /* 气球0091.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F9B1DC19CAC0048A58E /* 气球0091.png */; };
-		00C230641DC19CAC0048A58E /* 气球0092.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F9C1DC19CAC0048A58E /* 气球0092.png */; };
-		00C230651DC19CAC0048A58E /* 气球0093.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F9D1DC19CAC0048A58E /* 气球0093.png */; };
-		00C230661DC19CAC0048A58E /* 气球0094.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F9E1DC19CAC0048A58E /* 气球0094.png */; };
-		00C230671DC19CAC0048A58E /* 气球0095.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22F9F1DC19CAC0048A58E /* 气球0095.png */; };
-		00C230681DC19CAC0048A58E /* 气球0096.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22FA01DC19CAC0048A58E /* 气球0096.png */; };
-		00C230691DC19CAC0048A58E /* 气球0097.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22FA11DC19CAC0048A58E /* 气球0097.png */; };
-		00C2306A1DC19CAC0048A58E /* 气球0098.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22FA21DC19CAC0048A58E /* 气球0098.png */; };
-		00C2306B1DC19CAC0048A58E /* 气球0099.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22FA31DC19CAC0048A58E /* 气球0099.png */; };
-		00C2306C1DC19CAC0048A58E /* 气球0100.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C22FA41DC19CAC0048A58E /* 气球0100.png */; };
 		00C2306E1DC1ACA00048A58E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C2306D1DC1ACA00048A58E /* ImageIO.framework */; };
 		00E52B9D1DB4B4DC004B9BED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E52B9C1DB4B4DC004B9BED /* MapKit.framework */; };
 		00EA19C71DB709D900BD0078 /* Demo4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EA19C51DB709D900BD0078 /* Demo4Controller.m */; };
@@ -261,6 +63,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001ACD091DCC36170095AE80 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
+		001ACDD71DCC6F7A0095AE80 /* MoreThreadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreThreadController.h; sourceTree = "<group>"; };
+		001ACDD81DCC6F7A0095AE80 /* MoreThreadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreThreadController.m; sourceTree = "<group>"; };
 		003B4C011DBF4539006ED54F /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		003B4C021DBF4539006ED54F /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		003B4C051DBF5645006ED54F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -311,206 +116,6 @@
 		00C22ED61DC19BC30048A58E /* AnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationController.h; sourceTree = "<group>"; };
 		00C22ED71DC19BC30048A58E /* AnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationController.m; sourceTree = "<group>"; };
 		00C22ED81DC19BC30048A58E /* AnimationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationController.xib; sourceTree = "<group>"; };
-		00C22EDC1DC19CAC0048A58E /* 气球0001.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0001.gif"; sourceTree = "<group>"; };
-		00C22EDD1DC19CAC0048A58E /* 气球0002.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0002.gif"; sourceTree = "<group>"; };
-		00C22EDE1DC19CAC0048A58E /* 气球0003.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0003.gif"; sourceTree = "<group>"; };
-		00C22EDF1DC19CAC0048A58E /* 气球0004.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0004.gif"; sourceTree = "<group>"; };
-		00C22EE01DC19CAC0048A58E /* 气球0005.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0005.gif"; sourceTree = "<group>"; };
-		00C22EE11DC19CAC0048A58E /* 气球0006.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0006.gif"; sourceTree = "<group>"; };
-		00C22EE21DC19CAC0048A58E /* 气球0007.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0007.gif"; sourceTree = "<group>"; };
-		00C22EE31DC19CAC0048A58E /* 气球0008.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0008.gif"; sourceTree = "<group>"; };
-		00C22EE41DC19CAC0048A58E /* 气球0009.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0009.gif"; sourceTree = "<group>"; };
-		00C22EE51DC19CAC0048A58E /* 气球0010.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0010.gif"; sourceTree = "<group>"; };
-		00C22EE61DC19CAC0048A58E /* 气球0011.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0011.gif"; sourceTree = "<group>"; };
-		00C22EE71DC19CAC0048A58E /* 气球0012.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0012.gif"; sourceTree = "<group>"; };
-		00C22EE81DC19CAC0048A58E /* 气球0013.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0013.gif"; sourceTree = "<group>"; };
-		00C22EE91DC19CAC0048A58E /* 气球0014.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0014.gif"; sourceTree = "<group>"; };
-		00C22EEA1DC19CAC0048A58E /* 气球0015.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0015.gif"; sourceTree = "<group>"; };
-		00C22EEB1DC19CAC0048A58E /* 气球0016.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0016.gif"; sourceTree = "<group>"; };
-		00C22EEC1DC19CAC0048A58E /* 气球0017.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0017.gif"; sourceTree = "<group>"; };
-		00C22EED1DC19CAC0048A58E /* 气球0018.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0018.gif"; sourceTree = "<group>"; };
-		00C22EEE1DC19CAC0048A58E /* 气球0019.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0019.gif"; sourceTree = "<group>"; };
-		00C22EEF1DC19CAC0048A58E /* 气球0020.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0020.gif"; sourceTree = "<group>"; };
-		00C22EF01DC19CAC0048A58E /* 气球0021.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0021.gif"; sourceTree = "<group>"; };
-		00C22EF11DC19CAC0048A58E /* 气球0022.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0022.gif"; sourceTree = "<group>"; };
-		00C22EF21DC19CAC0048A58E /* 气球0023.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0023.gif"; sourceTree = "<group>"; };
-		00C22EF31DC19CAC0048A58E /* 气球0024.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0024.gif"; sourceTree = "<group>"; };
-		00C22EF41DC19CAC0048A58E /* 气球0025.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0025.gif"; sourceTree = "<group>"; };
-		00C22EF51DC19CAC0048A58E /* 气球0026.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0026.gif"; sourceTree = "<group>"; };
-		00C22EF61DC19CAC0048A58E /* 气球0027.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0027.gif"; sourceTree = "<group>"; };
-		00C22EF71DC19CAC0048A58E /* 气球0028.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0028.gif"; sourceTree = "<group>"; };
-		00C22EF81DC19CAC0048A58E /* 气球0029.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0029.gif"; sourceTree = "<group>"; };
-		00C22EF91DC19CAC0048A58E /* 气球0030.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0030.gif"; sourceTree = "<group>"; };
-		00C22EFA1DC19CAC0048A58E /* 气球0031.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0031.gif"; sourceTree = "<group>"; };
-		00C22EFB1DC19CAC0048A58E /* 气球0032.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0032.gif"; sourceTree = "<group>"; };
-		00C22EFC1DC19CAC0048A58E /* 气球0033.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0033.gif"; sourceTree = "<group>"; };
-		00C22EFD1DC19CAC0048A58E /* 气球0034.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0034.gif"; sourceTree = "<group>"; };
-		00C22EFE1DC19CAC0048A58E /* 气球0035.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0035.gif"; sourceTree = "<group>"; };
-		00C22EFF1DC19CAC0048A58E /* 气球0036.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0036.gif"; sourceTree = "<group>"; };
-		00C22F001DC19CAC0048A58E /* 气球0037.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0037.gif"; sourceTree = "<group>"; };
-		00C22F011DC19CAC0048A58E /* 气球0038.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0038.gif"; sourceTree = "<group>"; };
-		00C22F021DC19CAC0048A58E /* 气球0039.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0039.gif"; sourceTree = "<group>"; };
-		00C22F031DC19CAC0048A58E /* 气球0040.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0040.gif"; sourceTree = "<group>"; };
-		00C22F041DC19CAC0048A58E /* 气球0041.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0041.gif"; sourceTree = "<group>"; };
-		00C22F051DC19CAC0048A58E /* 气球0042.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0042.gif"; sourceTree = "<group>"; };
-		00C22F061DC19CAC0048A58E /* 气球0043.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0043.gif"; sourceTree = "<group>"; };
-		00C22F071DC19CAC0048A58E /* 气球0044.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0044.gif"; sourceTree = "<group>"; };
-		00C22F081DC19CAC0048A58E /* 气球0045.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0045.gif"; sourceTree = "<group>"; };
-		00C22F091DC19CAC0048A58E /* 气球0046.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0046.gif"; sourceTree = "<group>"; };
-		00C22F0A1DC19CAC0048A58E /* 气球0047.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0047.gif"; sourceTree = "<group>"; };
-		00C22F0B1DC19CAC0048A58E /* 气球0048.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0048.gif"; sourceTree = "<group>"; };
-		00C22F0C1DC19CAC0048A58E /* 气球0049.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0049.gif"; sourceTree = "<group>"; };
-		00C22F0D1DC19CAC0048A58E /* 气球0050.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0050.gif"; sourceTree = "<group>"; };
-		00C22F0E1DC19CAC0048A58E /* 气球0051.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0051.gif"; sourceTree = "<group>"; };
-		00C22F0F1DC19CAC0048A58E /* 气球0052.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0052.gif"; sourceTree = "<group>"; };
-		00C22F101DC19CAC0048A58E /* 气球0053.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0053.gif"; sourceTree = "<group>"; };
-		00C22F111DC19CAC0048A58E /* 气球0054.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0054.gif"; sourceTree = "<group>"; };
-		00C22F121DC19CAC0048A58E /* 气球0055.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0055.gif"; sourceTree = "<group>"; };
-		00C22F131DC19CAC0048A58E /* 气球0056.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0056.gif"; sourceTree = "<group>"; };
-		00C22F141DC19CAC0048A58E /* 气球0057.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0057.gif"; sourceTree = "<group>"; };
-		00C22F151DC19CAC0048A58E /* 气球0058.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0058.gif"; sourceTree = "<group>"; };
-		00C22F161DC19CAC0048A58E /* 气球0059.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0059.gif"; sourceTree = "<group>"; };
-		00C22F171DC19CAC0048A58E /* 气球0060.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0060.gif"; sourceTree = "<group>"; };
-		00C22F181DC19CAC0048A58E /* 气球0061.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0061.gif"; sourceTree = "<group>"; };
-		00C22F191DC19CAC0048A58E /* 气球0062.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0062.gif"; sourceTree = "<group>"; };
-		00C22F1A1DC19CAC0048A58E /* 气球0063.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0063.gif"; sourceTree = "<group>"; };
-		00C22F1B1DC19CAC0048A58E /* 气球0064.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0064.gif"; sourceTree = "<group>"; };
-		00C22F1C1DC19CAC0048A58E /* 气球0065.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0065.gif"; sourceTree = "<group>"; };
-		00C22F1D1DC19CAC0048A58E /* 气球0066.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0066.gif"; sourceTree = "<group>"; };
-		00C22F1E1DC19CAC0048A58E /* 气球0067.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0067.gif"; sourceTree = "<group>"; };
-		00C22F1F1DC19CAC0048A58E /* 气球0068.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0068.gif"; sourceTree = "<group>"; };
-		00C22F201DC19CAC0048A58E /* 气球0069.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0069.gif"; sourceTree = "<group>"; };
-		00C22F211DC19CAC0048A58E /* 气球0070.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0070.gif"; sourceTree = "<group>"; };
-		00C22F221DC19CAC0048A58E /* 气球0071.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0071.gif"; sourceTree = "<group>"; };
-		00C22F231DC19CAC0048A58E /* 气球0072.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0072.gif"; sourceTree = "<group>"; };
-		00C22F241DC19CAC0048A58E /* 气球0073.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0073.gif"; sourceTree = "<group>"; };
-		00C22F251DC19CAC0048A58E /* 气球0074.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0074.gif"; sourceTree = "<group>"; };
-		00C22F261DC19CAC0048A58E /* 气球0075.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0075.gif"; sourceTree = "<group>"; };
-		00C22F271DC19CAC0048A58E /* 气球0076.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0076.gif"; sourceTree = "<group>"; };
-		00C22F281DC19CAC0048A58E /* 气球0077.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0077.gif"; sourceTree = "<group>"; };
-		00C22F291DC19CAC0048A58E /* 气球0078.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0078.gif"; sourceTree = "<group>"; };
-		00C22F2A1DC19CAC0048A58E /* 气球0079.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0079.gif"; sourceTree = "<group>"; };
-		00C22F2B1DC19CAC0048A58E /* 气球0080.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0080.gif"; sourceTree = "<group>"; };
-		00C22F2C1DC19CAC0048A58E /* 气球0081.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0081.gif"; sourceTree = "<group>"; };
-		00C22F2D1DC19CAC0048A58E /* 气球0082.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0082.gif"; sourceTree = "<group>"; };
-		00C22F2E1DC19CAC0048A58E /* 气球0083.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0083.gif"; sourceTree = "<group>"; };
-		00C22F2F1DC19CAC0048A58E /* 气球0084.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0084.gif"; sourceTree = "<group>"; };
-		00C22F301DC19CAC0048A58E /* 气球0085.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0085.gif"; sourceTree = "<group>"; };
-		00C22F311DC19CAC0048A58E /* 气球0086.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0086.gif"; sourceTree = "<group>"; };
-		00C22F321DC19CAC0048A58E /* 气球0087.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0087.gif"; sourceTree = "<group>"; };
-		00C22F331DC19CAC0048A58E /* 气球0088.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0088.gif"; sourceTree = "<group>"; };
-		00C22F341DC19CAC0048A58E /* 气球0089.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0089.gif"; sourceTree = "<group>"; };
-		00C22F351DC19CAC0048A58E /* 气球0090.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0090.gif"; sourceTree = "<group>"; };
-		00C22F361DC19CAC0048A58E /* 气球0091.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0091.gif"; sourceTree = "<group>"; };
-		00C22F371DC19CAC0048A58E /* 气球0092.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0092.gif"; sourceTree = "<group>"; };
-		00C22F381DC19CAC0048A58E /* 气球0093.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0093.gif"; sourceTree = "<group>"; };
-		00C22F391DC19CAC0048A58E /* 气球0094.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0094.gif"; sourceTree = "<group>"; };
-		00C22F3A1DC19CAC0048A58E /* 气球0095.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0095.gif"; sourceTree = "<group>"; };
-		00C22F3B1DC19CAC0048A58E /* 气球0096.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0096.gif"; sourceTree = "<group>"; };
-		00C22F3C1DC19CAC0048A58E /* 气球0097.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0097.gif"; sourceTree = "<group>"; };
-		00C22F3D1DC19CAC0048A58E /* 气球0098.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0098.gif"; sourceTree = "<group>"; };
-		00C22F3E1DC19CAC0048A58E /* 气球0099.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0099.gif"; sourceTree = "<group>"; };
-		00C22F3F1DC19CAC0048A58E /* 气球0100.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "气球0100.gif"; sourceTree = "<group>"; };
-		00C22F411DC19CAC0048A58E /* 气球0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0001.png"; sourceTree = "<group>"; };
-		00C22F421DC19CAC0048A58E /* 气球0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0002.png"; sourceTree = "<group>"; };
-		00C22F431DC19CAC0048A58E /* 气球0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0003.png"; sourceTree = "<group>"; };
-		00C22F441DC19CAC0048A58E /* 气球0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0004.png"; sourceTree = "<group>"; };
-		00C22F451DC19CAC0048A58E /* 气球0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0005.png"; sourceTree = "<group>"; };
-		00C22F461DC19CAC0048A58E /* 气球0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0006.png"; sourceTree = "<group>"; };
-		00C22F471DC19CAC0048A58E /* 气球0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0007.png"; sourceTree = "<group>"; };
-		00C22F481DC19CAC0048A58E /* 气球0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0008.png"; sourceTree = "<group>"; };
-		00C22F491DC19CAC0048A58E /* 气球0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0009.png"; sourceTree = "<group>"; };
-		00C22F4A1DC19CAC0048A58E /* 气球0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0010.png"; sourceTree = "<group>"; };
-		00C22F4B1DC19CAC0048A58E /* 气球0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0011.png"; sourceTree = "<group>"; };
-		00C22F4C1DC19CAC0048A58E /* 气球0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0012.png"; sourceTree = "<group>"; };
-		00C22F4D1DC19CAC0048A58E /* 气球0013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0013.png"; sourceTree = "<group>"; };
-		00C22F4E1DC19CAC0048A58E /* 气球0014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0014.png"; sourceTree = "<group>"; };
-		00C22F4F1DC19CAC0048A58E /* 气球0015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0015.png"; sourceTree = "<group>"; };
-		00C22F501DC19CAC0048A58E /* 气球0016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0016.png"; sourceTree = "<group>"; };
-		00C22F511DC19CAC0048A58E /* 气球0017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0017.png"; sourceTree = "<group>"; };
-		00C22F521DC19CAC0048A58E /* 气球0018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0018.png"; sourceTree = "<group>"; };
-		00C22F531DC19CAC0048A58E /* 气球0019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0019.png"; sourceTree = "<group>"; };
-		00C22F541DC19CAC0048A58E /* 气球0020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0020.png"; sourceTree = "<group>"; };
-		00C22F551DC19CAC0048A58E /* 气球0021.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0021.png"; sourceTree = "<group>"; };
-		00C22F561DC19CAC0048A58E /* 气球0022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0022.png"; sourceTree = "<group>"; };
-		00C22F571DC19CAC0048A58E /* 气球0023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0023.png"; sourceTree = "<group>"; };
-		00C22F581DC19CAC0048A58E /* 气球0024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0024.png"; sourceTree = "<group>"; };
-		00C22F591DC19CAC0048A58E /* 气球0025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0025.png"; sourceTree = "<group>"; };
-		00C22F5A1DC19CAC0048A58E /* 气球0026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0026.png"; sourceTree = "<group>"; };
-		00C22F5B1DC19CAC0048A58E /* 气球0027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0027.png"; sourceTree = "<group>"; };
-		00C22F5C1DC19CAC0048A58E /* 气球0028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0028.png"; sourceTree = "<group>"; };
-		00C22F5D1DC19CAC0048A58E /* 气球0029.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0029.png"; sourceTree = "<group>"; };
-		00C22F5E1DC19CAC0048A58E /* 气球0030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0030.png"; sourceTree = "<group>"; };
-		00C22F5F1DC19CAC0048A58E /* 气球0031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0031.png"; sourceTree = "<group>"; };
-		00C22F601DC19CAC0048A58E /* 气球0032.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0032.png"; sourceTree = "<group>"; };
-		00C22F611DC19CAC0048A58E /* 气球0033.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0033.png"; sourceTree = "<group>"; };
-		00C22F621DC19CAC0048A58E /* 气球0034.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0034.png"; sourceTree = "<group>"; };
-		00C22F631DC19CAC0048A58E /* 气球0035.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0035.png"; sourceTree = "<group>"; };
-		00C22F641DC19CAC0048A58E /* 气球0036.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0036.png"; sourceTree = "<group>"; };
-		00C22F651DC19CAC0048A58E /* 气球0037.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0037.png"; sourceTree = "<group>"; };
-		00C22F661DC19CAC0048A58E /* 气球0038.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0038.png"; sourceTree = "<group>"; };
-		00C22F671DC19CAC0048A58E /* 气球0039.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0039.png"; sourceTree = "<group>"; };
-		00C22F681DC19CAC0048A58E /* 气球0040.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0040.png"; sourceTree = "<group>"; };
-		00C22F691DC19CAC0048A58E /* 气球0041.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0041.png"; sourceTree = "<group>"; };
-		00C22F6A1DC19CAC0048A58E /* 气球0042.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0042.png"; sourceTree = "<group>"; };
-		00C22F6B1DC19CAC0048A58E /* 气球0043.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0043.png"; sourceTree = "<group>"; };
-		00C22F6C1DC19CAC0048A58E /* 气球0044.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0044.png"; sourceTree = "<group>"; };
-		00C22F6D1DC19CAC0048A58E /* 气球0045.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0045.png"; sourceTree = "<group>"; };
-		00C22F6E1DC19CAC0048A58E /* 气球0046.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0046.png"; sourceTree = "<group>"; };
-		00C22F6F1DC19CAC0048A58E /* 气球0047.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0047.png"; sourceTree = "<group>"; };
-		00C22F701DC19CAC0048A58E /* 气球0048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0048.png"; sourceTree = "<group>"; };
-		00C22F711DC19CAC0048A58E /* 气球0049.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0049.png"; sourceTree = "<group>"; };
-		00C22F721DC19CAC0048A58E /* 气球0050.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0050.png"; sourceTree = "<group>"; };
-		00C22F731DC19CAC0048A58E /* 气球0051.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0051.png"; sourceTree = "<group>"; };
-		00C22F741DC19CAC0048A58E /* 气球0052.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0052.png"; sourceTree = "<group>"; };
-		00C22F751DC19CAC0048A58E /* 气球0053.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0053.png"; sourceTree = "<group>"; };
-		00C22F761DC19CAC0048A58E /* 气球0054.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0054.png"; sourceTree = "<group>"; };
-		00C22F771DC19CAC0048A58E /* 气球0055.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0055.png"; sourceTree = "<group>"; };
-		00C22F781DC19CAC0048A58E /* 气球0056.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0056.png"; sourceTree = "<group>"; };
-		00C22F791DC19CAC0048A58E /* 气球0057.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0057.png"; sourceTree = "<group>"; };
-		00C22F7A1DC19CAC0048A58E /* 气球0058.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0058.png"; sourceTree = "<group>"; };
-		00C22F7B1DC19CAC0048A58E /* 气球0059.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0059.png"; sourceTree = "<group>"; };
-		00C22F7C1DC19CAC0048A58E /* 气球0060.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0060.png"; sourceTree = "<group>"; };
-		00C22F7D1DC19CAC0048A58E /* 气球0061.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0061.png"; sourceTree = "<group>"; };
-		00C22F7E1DC19CAC0048A58E /* 气球0062.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0062.png"; sourceTree = "<group>"; };
-		00C22F7F1DC19CAC0048A58E /* 气球0063.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0063.png"; sourceTree = "<group>"; };
-		00C22F801DC19CAC0048A58E /* 气球0064.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0064.png"; sourceTree = "<group>"; };
-		00C22F811DC19CAC0048A58E /* 气球0065.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0065.png"; sourceTree = "<group>"; };
-		00C22F821DC19CAC0048A58E /* 气球0066.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0066.png"; sourceTree = "<group>"; };
-		00C22F831DC19CAC0048A58E /* 气球0067.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0067.png"; sourceTree = "<group>"; };
-		00C22F841DC19CAC0048A58E /* 气球0068.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0068.png"; sourceTree = "<group>"; };
-		00C22F851DC19CAC0048A58E /* 气球0069.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0069.png"; sourceTree = "<group>"; };
-		00C22F861DC19CAC0048A58E /* 气球0070.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0070.png"; sourceTree = "<group>"; };
-		00C22F871DC19CAC0048A58E /* 气球0071.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0071.png"; sourceTree = "<group>"; };
-		00C22F881DC19CAC0048A58E /* 气球0072.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0072.png"; sourceTree = "<group>"; };
-		00C22F891DC19CAC0048A58E /* 气球0073.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0073.png"; sourceTree = "<group>"; };
-		00C22F8A1DC19CAC0048A58E /* 气球0074.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0074.png"; sourceTree = "<group>"; };
-		00C22F8B1DC19CAC0048A58E /* 气球0075.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0075.png"; sourceTree = "<group>"; };
-		00C22F8C1DC19CAC0048A58E /* 气球0076.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0076.png"; sourceTree = "<group>"; };
-		00C22F8D1DC19CAC0048A58E /* 气球0077.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0077.png"; sourceTree = "<group>"; };
-		00C22F8E1DC19CAC0048A58E /* 气球0078.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0078.png"; sourceTree = "<group>"; };
-		00C22F8F1DC19CAC0048A58E /* 气球0079.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0079.png"; sourceTree = "<group>"; };
-		00C22F901DC19CAC0048A58E /* 气球0080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0080.png"; sourceTree = "<group>"; };
-		00C22F911DC19CAC0048A58E /* 气球0081.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0081.png"; sourceTree = "<group>"; };
-		00C22F921DC19CAC0048A58E /* 气球0082.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0082.png"; sourceTree = "<group>"; };
-		00C22F931DC19CAC0048A58E /* 气球0083.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0083.png"; sourceTree = "<group>"; };
-		00C22F941DC19CAC0048A58E /* 气球0084.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0084.png"; sourceTree = "<group>"; };
-		00C22F951DC19CAC0048A58E /* 气球0085.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0085.png"; sourceTree = "<group>"; };
-		00C22F961DC19CAC0048A58E /* 气球0086.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0086.png"; sourceTree = "<group>"; };
-		00C22F971DC19CAC0048A58E /* 气球0087.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0087.png"; sourceTree = "<group>"; };
-		00C22F981DC19CAC0048A58E /* 气球0088.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0088.png"; sourceTree = "<group>"; };
-		00C22F991DC19CAC0048A58E /* 气球0089.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0089.png"; sourceTree = "<group>"; };
-		00C22F9A1DC19CAC0048A58E /* 气球0090.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0090.png"; sourceTree = "<group>"; };
-		00C22F9B1DC19CAC0048A58E /* 气球0091.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0091.png"; sourceTree = "<group>"; };
-		00C22F9C1DC19CAC0048A58E /* 气球0092.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0092.png"; sourceTree = "<group>"; };
-		00C22F9D1DC19CAC0048A58E /* 气球0093.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0093.png"; sourceTree = "<group>"; };
-		00C22F9E1DC19CAC0048A58E /* 气球0094.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0094.png"; sourceTree = "<group>"; };
-		00C22F9F1DC19CAC0048A58E /* 气球0095.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0095.png"; sourceTree = "<group>"; };
-		00C22FA01DC19CAC0048A58E /* 气球0096.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0096.png"; sourceTree = "<group>"; };
-		00C22FA11DC19CAC0048A58E /* 气球0097.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0097.png"; sourceTree = "<group>"; };
-		00C22FA21DC19CAC0048A58E /* 气球0098.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0098.png"; sourceTree = "<group>"; };
-		00C22FA31DC19CAC0048A58E /* 气球0099.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0099.png"; sourceTree = "<group>"; };
-		00C22FA41DC19CAC0048A58E /* 气球0100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气球0100.png"; sourceTree = "<group>"; };
 		00C2306D1DC1ACA00048A58E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		00E52B9C1DB4B4DC004B9BED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		00EA19C41DB709D900BD0078 /* Demo4Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo4Controller.h; sourceTree = "<group>"; };
@@ -555,6 +160,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		001ACDD61DCC6F610095AE80 /* 多线程 */ = {
+			isa = PBXGroup;
+			children = (
+				001ACDD71DCC6F7A0095AE80 /* MoreThreadController.h */,
+				001ACDD81DCC6F7A0095AE80 /* MoreThreadController.m */,
+			);
+			name = "多线程";
+			sourceTree = "<group>";
+		};
 		005A69D31DCB277300EDDEA6 /* 蓝牙连接 */ = {
 			isa = PBXGroup;
 			children = (
@@ -602,8 +216,7 @@
 		009E0BA11DADD3040066A458 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00C22EDB1DC19CAC0048A58E /* gif */,
-				00C22F401DC19CAC0048A58E /* png */,
+				001ACD091DCC36170095AE80 /* images.bundle */,
 				003B4C011DBF4539006ED54F /* 2.jpg */,
 				003B4C021DBF4539006ED54F /* 3.jpg */,
 				009E0BC91DADD5E70066A458 /* 1.jpg */,
@@ -629,9 +242,10 @@
 		00BEEE2D1DB5B804008A8122 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				001ACDD61DCC6F610095AE80 /* 多线程 */,
+				00EA19E71DB74E5D00BD0078 /* 主界面 */,
 				005A69D31DCB277300EDDEA6 /* 蓝牙连接 */,
 				00C22ED51DC19B940048A58E /* 帧动画 */,
-				00EA19E71DB74E5D00BD0078 /* MainController */,
 				00EA19E91DB74E9000BD0078 /* 日历 */,
 				00EA19E81DB74E7300BD0078 /* 直播界面--强制某个界面横屏 */,
 				00EA19E61DB74E3900BD0078 /* 高德地图Demo */,
@@ -698,222 +312,6 @@
 			name = "帧动画";
 			sourceTree = "<group>";
 		};
-		00C22EDB1DC19CAC0048A58E /* gif */ = {
-			isa = PBXGroup;
-			children = (
-				00C22EDC1DC19CAC0048A58E /* 气球0001.gif */,
-				00C22EDD1DC19CAC0048A58E /* 气球0002.gif */,
-				00C22EDE1DC19CAC0048A58E /* 气球0003.gif */,
-				00C22EDF1DC19CAC0048A58E /* 气球0004.gif */,
-				00C22EE01DC19CAC0048A58E /* 气球0005.gif */,
-				00C22EE11DC19CAC0048A58E /* 气球0006.gif */,
-				00C22EE21DC19CAC0048A58E /* 气球0007.gif */,
-				00C22EE31DC19CAC0048A58E /* 气球0008.gif */,
-				00C22EE41DC19CAC0048A58E /* 气球0009.gif */,
-				00C22EE51DC19CAC0048A58E /* 气球0010.gif */,
-				00C22EE61DC19CAC0048A58E /* 气球0011.gif */,
-				00C22EE71DC19CAC0048A58E /* 气球0012.gif */,
-				00C22EE81DC19CAC0048A58E /* 气球0013.gif */,
-				00C22EE91DC19CAC0048A58E /* 气球0014.gif */,
-				00C22EEA1DC19CAC0048A58E /* 气球0015.gif */,
-				00C22EEB1DC19CAC0048A58E /* 气球0016.gif */,
-				00C22EEC1DC19CAC0048A58E /* 气球0017.gif */,
-				00C22EED1DC19CAC0048A58E /* 气球0018.gif */,
-				00C22EEE1DC19CAC0048A58E /* 气球0019.gif */,
-				00C22EEF1DC19CAC0048A58E /* 气球0020.gif */,
-				00C22EF01DC19CAC0048A58E /* 气球0021.gif */,
-				00C22EF11DC19CAC0048A58E /* 气球0022.gif */,
-				00C22EF21DC19CAC0048A58E /* 气球0023.gif */,
-				00C22EF31DC19CAC0048A58E /* 气球0024.gif */,
-				00C22EF41DC19CAC0048A58E /* 气球0025.gif */,
-				00C22EF51DC19CAC0048A58E /* 气球0026.gif */,
-				00C22EF61DC19CAC0048A58E /* 气球0027.gif */,
-				00C22EF71DC19CAC0048A58E /* 气球0028.gif */,
-				00C22EF81DC19CAC0048A58E /* 气球0029.gif */,
-				00C22EF91DC19CAC0048A58E /* 气球0030.gif */,
-				00C22EFA1DC19CAC0048A58E /* 气球0031.gif */,
-				00C22EFB1DC19CAC0048A58E /* 气球0032.gif */,
-				00C22EFC1DC19CAC0048A58E /* 气球0033.gif */,
-				00C22EFD1DC19CAC0048A58E /* 气球0034.gif */,
-				00C22EFE1DC19CAC0048A58E /* 气球0035.gif */,
-				00C22EFF1DC19CAC0048A58E /* 气球0036.gif */,
-				00C22F001DC19CAC0048A58E /* 气球0037.gif */,
-				00C22F011DC19CAC0048A58E /* 气球0038.gif */,
-				00C22F021DC19CAC0048A58E /* 气球0039.gif */,
-				00C22F031DC19CAC0048A58E /* 气球0040.gif */,
-				00C22F041DC19CAC0048A58E /* 气球0041.gif */,
-				00C22F051DC19CAC0048A58E /* 气球0042.gif */,
-				00C22F061DC19CAC0048A58E /* 气球0043.gif */,
-				00C22F071DC19CAC0048A58E /* 气球0044.gif */,
-				00C22F081DC19CAC0048A58E /* 气球0045.gif */,
-				00C22F091DC19CAC0048A58E /* 气球0046.gif */,
-				00C22F0A1DC19CAC0048A58E /* 气球0047.gif */,
-				00C22F0B1DC19CAC0048A58E /* 气球0048.gif */,
-				00C22F0C1DC19CAC0048A58E /* 气球0049.gif */,
-				00C22F0D1DC19CAC0048A58E /* 气球0050.gif */,
-				00C22F0E1DC19CAC0048A58E /* 气球0051.gif */,
-				00C22F0F1DC19CAC0048A58E /* 气球0052.gif */,
-				00C22F101DC19CAC0048A58E /* 气球0053.gif */,
-				00C22F111DC19CAC0048A58E /* 气球0054.gif */,
-				00C22F121DC19CAC0048A58E /* 气球0055.gif */,
-				00C22F131DC19CAC0048A58E /* 气球0056.gif */,
-				00C22F141DC19CAC0048A58E /* 气球0057.gif */,
-				00C22F151DC19CAC0048A58E /* 气球0058.gif */,
-				00C22F161DC19CAC0048A58E /* 气球0059.gif */,
-				00C22F171DC19CAC0048A58E /* 气球0060.gif */,
-				00C22F181DC19CAC0048A58E /* 气球0061.gif */,
-				00C22F191DC19CAC0048A58E /* 气球0062.gif */,
-				00C22F1A1DC19CAC0048A58E /* 气球0063.gif */,
-				00C22F1B1DC19CAC0048A58E /* 气球0064.gif */,
-				00C22F1C1DC19CAC0048A58E /* 气球0065.gif */,
-				00C22F1D1DC19CAC0048A58E /* 气球0066.gif */,
-				00C22F1E1DC19CAC0048A58E /* 气球0067.gif */,
-				00C22F1F1DC19CAC0048A58E /* 气球0068.gif */,
-				00C22F201DC19CAC0048A58E /* 气球0069.gif */,
-				00C22F211DC19CAC0048A58E /* 气球0070.gif */,
-				00C22F221DC19CAC0048A58E /* 气球0071.gif */,
-				00C22F231DC19CAC0048A58E /* 气球0072.gif */,
-				00C22F241DC19CAC0048A58E /* 气球0073.gif */,
-				00C22F251DC19CAC0048A58E /* 气球0074.gif */,
-				00C22F261DC19CAC0048A58E /* 气球0075.gif */,
-				00C22F271DC19CAC0048A58E /* 气球0076.gif */,
-				00C22F281DC19CAC0048A58E /* 气球0077.gif */,
-				00C22F291DC19CAC0048A58E /* 气球0078.gif */,
-				00C22F2A1DC19CAC0048A58E /* 气球0079.gif */,
-				00C22F2B1DC19CAC0048A58E /* 气球0080.gif */,
-				00C22F2C1DC19CAC0048A58E /* 气球0081.gif */,
-				00C22F2D1DC19CAC0048A58E /* 气球0082.gif */,
-				00C22F2E1DC19CAC0048A58E /* 气球0083.gif */,
-				00C22F2F1DC19CAC0048A58E /* 气球0084.gif */,
-				00C22F301DC19CAC0048A58E /* 气球0085.gif */,
-				00C22F311DC19CAC0048A58E /* 气球0086.gif */,
-				00C22F321DC19CAC0048A58E /* 气球0087.gif */,
-				00C22F331DC19CAC0048A58E /* 气球0088.gif */,
-				00C22F341DC19CAC0048A58E /* 气球0089.gif */,
-				00C22F351DC19CAC0048A58E /* 气球0090.gif */,
-				00C22F361DC19CAC0048A58E /* 气球0091.gif */,
-				00C22F371DC19CAC0048A58E /* 气球0092.gif */,
-				00C22F381DC19CAC0048A58E /* 气球0093.gif */,
-				00C22F391DC19CAC0048A58E /* 气球0094.gif */,
-				00C22F3A1DC19CAC0048A58E /* 气球0095.gif */,
-				00C22F3B1DC19CAC0048A58E /* 气球0096.gif */,
-				00C22F3C1DC19CAC0048A58E /* 气球0097.gif */,
-				00C22F3D1DC19CAC0048A58E /* 气球0098.gif */,
-				00C22F3E1DC19CAC0048A58E /* 气球0099.gif */,
-				00C22F3F1DC19CAC0048A58E /* 气球0100.gif */,
-			);
-			name = gif;
-			path = "气球gif";
-			sourceTree = "<group>";
-		};
-		00C22F401DC19CAC0048A58E /* png */ = {
-			isa = PBXGroup;
-			children = (
-				00C22F411DC19CAC0048A58E /* 气球0001.png */,
-				00C22F421DC19CAC0048A58E /* 气球0002.png */,
-				00C22F431DC19CAC0048A58E /* 气球0003.png */,
-				00C22F441DC19CAC0048A58E /* 气球0004.png */,
-				00C22F451DC19CAC0048A58E /* 气球0005.png */,
-				00C22F461DC19CAC0048A58E /* 气球0006.png */,
-				00C22F471DC19CAC0048A58E /* 气球0007.png */,
-				00C22F481DC19CAC0048A58E /* 气球0008.png */,
-				00C22F491DC19CAC0048A58E /* 气球0009.png */,
-				00C22F4A1DC19CAC0048A58E /* 气球0010.png */,
-				00C22F4B1DC19CAC0048A58E /* 气球0011.png */,
-				00C22F4C1DC19CAC0048A58E /* 气球0012.png */,
-				00C22F4D1DC19CAC0048A58E /* 气球0013.png */,
-				00C22F4E1DC19CAC0048A58E /* 气球0014.png */,
-				00C22F4F1DC19CAC0048A58E /* 气球0015.png */,
-				00C22F501DC19CAC0048A58E /* 气球0016.png */,
-				00C22F511DC19CAC0048A58E /* 气球0017.png */,
-				00C22F521DC19CAC0048A58E /* 气球0018.png */,
-				00C22F531DC19CAC0048A58E /* 气球0019.png */,
-				00C22F541DC19CAC0048A58E /* 气球0020.png */,
-				00C22F551DC19CAC0048A58E /* 气球0021.png */,
-				00C22F561DC19CAC0048A58E /* 气球0022.png */,
-				00C22F571DC19CAC0048A58E /* 气球0023.png */,
-				00C22F581DC19CAC0048A58E /* 气球0024.png */,
-				00C22F591DC19CAC0048A58E /* 气球0025.png */,
-				00C22F5A1DC19CAC0048A58E /* 气球0026.png */,
-				00C22F5B1DC19CAC0048A58E /* 气球0027.png */,
-				00C22F5C1DC19CAC0048A58E /* 气球0028.png */,
-				00C22F5D1DC19CAC0048A58E /* 气球0029.png */,
-				00C22F5E1DC19CAC0048A58E /* 气球0030.png */,
-				00C22F5F1DC19CAC0048A58E /* 气球0031.png */,
-				00C22F601DC19CAC0048A58E /* 气球0032.png */,
-				00C22F611DC19CAC0048A58E /* 气球0033.png */,
-				00C22F621DC19CAC0048A58E /* 气球0034.png */,
-				00C22F631DC19CAC0048A58E /* 气球0035.png */,
-				00C22F641DC19CAC0048A58E /* 气球0036.png */,
-				00C22F651DC19CAC0048A58E /* 气球0037.png */,
-				00C22F661DC19CAC0048A58E /* 气球0038.png */,
-				00C22F671DC19CAC0048A58E /* 气球0039.png */,
-				00C22F681DC19CAC0048A58E /* 气球0040.png */,
-				00C22F691DC19CAC0048A58E /* 气球0041.png */,
-				00C22F6A1DC19CAC0048A58E /* 气球0042.png */,
-				00C22F6B1DC19CAC0048A58E /* 气球0043.png */,
-				00C22F6C1DC19CAC0048A58E /* 气球0044.png */,
-				00C22F6D1DC19CAC0048A58E /* 气球0045.png */,
-				00C22F6E1DC19CAC0048A58E /* 气球0046.png */,
-				00C22F6F1DC19CAC0048A58E /* 气球0047.png */,
-				00C22F701DC19CAC0048A58E /* 气球0048.png */,
-				00C22F711DC19CAC0048A58E /* 气球0049.png */,
-				00C22F721DC19CAC0048A58E /* 气球0050.png */,
-				00C22F731DC19CAC0048A58E /* 气球0051.png */,
-				00C22F741DC19CAC0048A58E /* 气球0052.png */,
-				00C22F751DC19CAC0048A58E /* 气球0053.png */,
-				00C22F761DC19CAC0048A58E /* 气球0054.png */,
-				00C22F771DC19CAC0048A58E /* 气球0055.png */,
-				00C22F781DC19CAC0048A58E /* 气球0056.png */,
-				00C22F791DC19CAC0048A58E /* 气球0057.png */,
-				00C22F7A1DC19CAC0048A58E /* 气球0058.png */,
-				00C22F7B1DC19CAC0048A58E /* 气球0059.png */,
-				00C22F7C1DC19CAC0048A58E /* 气球0060.png */,
-				00C22F7D1DC19CAC0048A58E /* 气球0061.png */,
-				00C22F7E1DC19CAC0048A58E /* 气球0062.png */,
-				00C22F7F1DC19CAC0048A58E /* 气球0063.png */,
-				00C22F801DC19CAC0048A58E /* 气球0064.png */,
-				00C22F811DC19CAC0048A58E /* 气球0065.png */,
-				00C22F821DC19CAC0048A58E /* 气球0066.png */,
-				00C22F831DC19CAC0048A58E /* 气球0067.png */,
-				00C22F841DC19CAC0048A58E /* 气球0068.png */,
-				00C22F851DC19CAC0048A58E /* 气球0069.png */,
-				00C22F861DC19CAC0048A58E /* 气球0070.png */,
-				00C22F871DC19CAC0048A58E /* 气球0071.png */,
-				00C22F881DC19CAC0048A58E /* 气球0072.png */,
-				00C22F891DC19CAC0048A58E /* 气球0073.png */,
-				00C22F8A1DC19CAC0048A58E /* 气球0074.png */,
-				00C22F8B1DC19CAC0048A58E /* 气球0075.png */,
-				00C22F8C1DC19CAC0048A58E /* 气球0076.png */,
-				00C22F8D1DC19CAC0048A58E /* 气球0077.png */,
-				00C22F8E1DC19CAC0048A58E /* 气球0078.png */,
-				00C22F8F1DC19CAC0048A58E /* 气球0079.png */,
-				00C22F901DC19CAC0048A58E /* 气球0080.png */,
-				00C22F911DC19CAC0048A58E /* 气球0081.png */,
-				00C22F921DC19CAC0048A58E /* 气球0082.png */,
-				00C22F931DC19CAC0048A58E /* 气球0083.png */,
-				00C22F941DC19CAC0048A58E /* 气球0084.png */,
-				00C22F951DC19CAC0048A58E /* 气球0085.png */,
-				00C22F961DC19CAC0048A58E /* 气球0086.png */,
-				00C22F971DC19CAC0048A58E /* 气球0087.png */,
-				00C22F981DC19CAC0048A58E /* 气球0088.png */,
-				00C22F991DC19CAC0048A58E /* 气球0089.png */,
-				00C22F9A1DC19CAC0048A58E /* 气球0090.png */,
-				00C22F9B1DC19CAC0048A58E /* 气球0091.png */,
-				00C22F9C1DC19CAC0048A58E /* 气球0092.png */,
-				00C22F9D1DC19CAC0048A58E /* 气球0093.png */,
-				00C22F9E1DC19CAC0048A58E /* 气球0094.png */,
-				00C22F9F1DC19CAC0048A58E /* 气球0095.png */,
-				00C22FA01DC19CAC0048A58E /* 气球0096.png */,
-				00C22FA11DC19CAC0048A58E /* 气球0097.png */,
-				00C22FA21DC19CAC0048A58E /* 气球0098.png */,
-				00C22FA31DC19CAC0048A58E /* 气球0099.png */,
-				00C22FA41DC19CAC0048A58E /* 气球0100.png */,
-			);
-			name = png;
-			path = "气球png";
-			sourceTree = "<group>";
-		};
 		00E52B9B1DB4B4DC004B9BED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -968,14 +366,14 @@
 			name = "高德地图Demo";
 			sourceTree = "<group>";
 		};
-		00EA19E71DB74E5D00BD0078 /* MainController */ = {
+		00EA19E71DB74E5D00BD0078 /* 主界面 */ = {
 			isa = PBXGroup;
 			children = (
 				00EA19E11DB74D4D00BD0078 /* MainController.h */,
 				00EA19E21DB74D4D00BD0078 /* MainController.m */,
 				00EA19E31DB74D4D00BD0078 /* MainController.xib */,
 			);
-			name = MainController;
+			name = "主界面";
 			sourceTree = "<group>";
 		};
 		00EA19E81DB74E7300BD0078 /* 直播界面--强制某个界面横屏 */ = {
@@ -1096,220 +494,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C22FAD1DC19CAC0048A58E /* 气球0009.gif in Resources */,
-				00C230351DC19CAC0048A58E /* 气球0045.png in Resources */,
-				00C22FEF1DC19CAC0048A58E /* 气球0075.gif in Resources */,
-				00C2301B1DC19CAC0048A58E /* 气球0019.png in Resources */,
 				00EA19ED1DB751E100BD0078 /* ViewController.xib in Resources */,
-				00C2300F1DC19CAC0048A58E /* 气球0007.png in Resources */,
-				00C230631DC19CAC0048A58E /* 气球0091.png in Resources */,
-				00C2300E1DC19CAC0048A58E /* 气球0006.png in Resources */,
-				00C22FF11DC19CAC0048A58E /* 气球0077.gif in Resources */,
-				00C2302C1DC19CAC0048A58E /* 气球0036.png in Resources */,
-				00C22FC21DC19CAC0048A58E /* 气球0030.gif in Resources */,
-				00C230201DC19CAC0048A58E /* 气球0024.png in Resources */,
-				00C230391DC19CAC0048A58E /* 气球0049.png in Resources */,
-				00C2304F1DC19CAC0048A58E /* 气球0071.png in Resources */,
-				00C2306B1DC19CAC0048A58E /* 气球0099.png in Resources */,
-				00C230621DC19CAC0048A58E /* 气球0090.png in Resources */,
-				00C230251DC19CAC0048A58E /* 气球0029.png in Resources */,
-				00C22FBB1DC19CAC0048A58E /* 气球0023.gif in Resources */,
-				00C230581DC19CAC0048A58E /* 气球0080.png in Resources */,
-				00C2301D1DC19CAC0048A58E /* 气球0021.png in Resources */,
-				00C230191DC19CAC0048A58E /* 气球0017.png in Resources */,
-				00C230541DC19CAC0048A58E /* 气球0076.png in Resources */,
 				00EA19C81DB709D900BD0078 /* Demo4Controller.xib in Resources */,
-				00C230231DC19CAC0048A58E /* 气球0027.png in Resources */,
-				00C230071DC19CAC0048A58E /* 气球0099.gif in Resources */,
-				00C22FB51DC19CAC0048A58E /* 气球0017.gif in Resources */,
-				00C2302D1DC19CAC0048A58E /* 气球0037.png in Resources */,
 				00BEEE491DB5C9AB008A8122 /* calendar_forward@2x.png in Resources */,
-				00C230281DC19CAC0048A58E /* 气球0032.png in Resources */,
-				00C22FB81DC19CAC0048A58E /* 气球0020.gif in Resources */,
-				00C2303A1DC19CAC0048A58E /* 气球0050.png in Resources */,
-				00C2302B1DC19CAC0048A58E /* 气球0035.png in Resources */,
-				00C230321DC19CAC0048A58E /* 气球0042.png in Resources */,
-				00C230521DC19CAC0048A58E /* 气球0074.png in Resources */,
-				00C22FFC1DC19CAC0048A58E /* 气球0088.gif in Resources */,
-				00C230671DC19CAC0048A58E /* 气球0095.png in Resources */,
-				00C22FD61DC19CAC0048A58E /* 气球0050.gif in Resources */,
-				00C22FED1DC19CAC0048A58E /* 气球0073.gif in Resources */,
-				00C22FC01DC19CAC0048A58E /* 气球0028.gif in Resources */,
-				00C22FE81DC19CAC0048A58E /* 气球0068.gif in Resources */,
-				00C22FE51DC19CAC0048A58E /* 气球0065.gif in Resources */,
-				00C2304B1DC19CAC0048A58E /* 气球0067.png in Resources */,
-				00C230081DC19CAC0048A58E /* 气球0100.gif in Resources */,
-				00C230401DC19CAC0048A58E /* 气球0056.png in Resources */,
-				00C230021DC19CAC0048A58E /* 气球0094.gif in Resources */,
+				001ACD0A1DCC36170095AE80 /* images.bundle in Resources */,
 				009E0BCA1DADD5E70066A458 /* 1.jpg in Resources */,
-				00C230011DC19CAC0048A58E /* 气球0093.gif in Resources */,
-				00C2305F1DC19CAC0048A58E /* 气球0087.png in Resources */,
-				00C2300C1DC19CAC0048A58E /* 气球0004.png in Resources */,
-				00C230691DC19CAC0048A58E /* 气球0097.png in Resources */,
-				00C230091DC19CAC0048A58E /* 气球0001.png in Resources */,
-				00C230641DC19CAC0048A58E /* 气球0092.png in Resources */,
-				00C230421DC19CAC0048A58E /* 气球0058.png in Resources */,
-				00C22FF81DC19CAC0048A58E /* 气球0084.gif in Resources */,
-				00C22FDE1DC19CAC0048A58E /* 气球0058.gif in Resources */,
-				00C230311DC19CAC0048A58E /* 气球0041.png in Resources */,
-				00C22FD71DC19CAC0048A58E /* 气球0051.gif in Resources */,
-				00C230531DC19CAC0048A58E /* 气球0075.png in Resources */,
-				00C22FAC1DC19CAC0048A58E /* 气球0008.gif in Resources */,
-				00C2304D1DC19CAC0048A58E /* 气球0069.png in Resources */,
-				00C22FF01DC19CAC0048A58E /* 气球0076.gif in Resources */,
-				00C2302F1DC19CAC0048A58E /* 气球0039.png in Resources */,
-				00C22FA51DC19CAC0048A58E /* 气球0001.gif in Resources */,
-				00C22FFF1DC19CAC0048A58E /* 气球0091.gif in Resources */,
-				00C22FC81DC19CAC0048A58E /* 气球0036.gif in Resources */,
 				009E0BB41DADD3040066A458 /* LaunchScreen.storyboard in Resources */,
-				00C230331DC19CAC0048A58E /* 气球0043.png in Resources */,
-				00C22FE71DC19CAC0048A58E /* 气球0067.gif in Resources */,
-				00C22FC71DC19CAC0048A58E /* 气球0035.gif in Resources */,
-				00C230001DC19CAC0048A58E /* 气球0092.gif in Resources */,
-				00C230591DC19CAC0048A58E /* 气球0081.png in Resources */,
-				00C22FC41DC19CAC0048A58E /* 气球0032.gif in Resources */,
-				00C230101DC19CAC0048A58E /* 气球0008.png in Resources */,
-				00C2301A1DC19CAC0048A58E /* 气球0018.png in Resources */,
-				00C2300B1DC19CAC0048A58E /* 气球0003.png in Resources */,
-				00C22FC31DC19CAC0048A58E /* 气球0031.gif in Resources */,
 				00EA19EB1DB7506A00BD0078 /* Demo2Controller.xib in Resources */,
 				00C22EDA1DC19BC30048A58E /* AnimationController.xib in Resources */,
-				00C22FC11DC19CAC0048A58E /* 气球0029.gif in Resources */,
-				00C22FAB1DC19CAC0048A58E /* 气球0007.gif in Resources */,
-				00C2305A1DC19CAC0048A58E /* 气球0082.png in Resources */,
-				00C2301F1DC19CAC0048A58E /* 气球0023.png in Resources */,
-				00C230341DC19CAC0048A58E /* 气球0044.png in Resources */,
-				00C230371DC19CAC0048A58E /* 气球0047.png in Resources */,
-				00C230461DC19CAC0048A58E /* 气球0062.png in Resources */,
-				00C22FD81DC19CAC0048A58E /* 气球0052.gif in Resources */,
-				00C22FA71DC19CAC0048A58E /* 气球0003.gif in Resources */,
 				00EA19E51DB74D4D00BD0078 /* MainController.xib in Resources */,
-				00C230551DC19CAC0048A58E /* 气球0077.png in Resources */,
 				009E0BB11DADD3040066A458 /* Assets.xcassets in Resources */,
-				00C2303F1DC19CAC0048A58E /* 气球0055.png in Resources */,
-				00C230211DC19CAC0048A58E /* 气球0025.png in Resources */,
-				00C22FD51DC19CAC0048A58E /* 气球0049.gif in Resources */,
-				00C230151DC19CAC0048A58E /* 气球0013.png in Resources */,
-				00C2305C1DC19CAC0048A58E /* 气球0084.png in Resources */,
-				00C2302E1DC19CAC0048A58E /* 气球0038.png in Resources */,
-				00C230131DC19CAC0048A58E /* 气球0011.png in Resources */,
-				00C230221DC19CAC0048A58E /* 气球0026.png in Resources */,
-				00C2305D1DC19CAC0048A58E /* 气球0085.png in Resources */,
-				00C22FCD1DC19CAC0048A58E /* 气球0041.gif in Resources */,
-				00C230031DC19CAC0048A58E /* 气球0095.gif in Resources */,
-				00C22FE31DC19CAC0048A58E /* 气球0063.gif in Resources */,
-				00C22FD91DC19CAC0048A58E /* 气球0053.gif in Resources */,
-				00C22FB71DC19CAC0048A58E /* 气球0019.gif in Resources */,
-				00C22FAA1DC19CAC0048A58E /* 气球0006.gif in Resources */,
-				00C22FAF1DC19CAC0048A58E /* 气球0011.gif in Resources */,
 				003B4C031DBF4539006ED54F /* 2.jpg in Resources */,
-				00C22FF91DC19CAC0048A58E /* 气球0085.gif in Resources */,
-				00C22FDF1DC19CAC0048A58E /* 气球0059.gif in Resources */,
-				00C230271DC19CAC0048A58E /* 气球0031.png in Resources */,
-				00C230431DC19CAC0048A58E /* 气球0059.png in Resources */,
 				009E0BAC1DADD3040066A458 /* Main.storyboard in Resources */,
-				00C230261DC19CAC0048A58E /* 气球0030.png in Resources */,
-				00C22FD01DC19CAC0048A58E /* 气球0044.gif in Resources */,
-				00C22FB21DC19CAC0048A58E /* 气球0014.gif in Resources */,
-				00C2305E1DC19CAC0048A58E /* 气球0086.png in Resources */,
-				00C22FBE1DC19CAC0048A58E /* 气球0026.gif in Resources */,
-				00C22FB61DC19CAC0048A58E /* 气球0018.gif in Resources */,
-				00C230161DC19CAC0048A58E /* 气球0014.png in Resources */,
-				00C230611DC19CAC0048A58E /* 气球0089.png in Resources */,
-				00C22FB01DC19CAC0048A58E /* 气球0012.gif in Resources */,
-				00C230441DC19CAC0048A58E /* 气球0060.png in Resources */,
-				00C230601DC19CAC0048A58E /* 气球0088.png in Resources */,
-				00C230381DC19CAC0048A58E /* 气球0048.png in Resources */,
-				00C22FF41DC19CAC0048A58E /* 气球0080.gif in Resources */,
-				00C22FE11DC19CAC0048A58E /* 气球0061.gif in Resources */,
-				00C2300A1DC19CAC0048A58E /* 气球0002.png in Resources */,
-				00C230481DC19CAC0048A58E /* 气球0064.png in Resources */,
-				00C22FEE1DC19CAC0048A58E /* 气球0074.gif in Resources */,
-				00C22FE21DC19CAC0048A58E /* 气球0062.gif in Resources */,
-				00C22FE91DC19CAC0048A58E /* 气球0069.gif in Resources */,
 				00BEEE4B1DB5CBBE008A8122 /* calendar_backward@2x.png in Resources */,
-				00C22FD11DC19CAC0048A58E /* 气球0045.gif in Resources */,
-				00C22FCA1DC19CAC0048A58E /* 气球0038.gif in Resources */,
-				00C22FE41DC19CAC0048A58E /* 气球0064.gif in Resources */,
-				00C22FDD1DC19CAC0048A58E /* 气球0057.gif in Resources */,
-				00C22FD41DC19CAC0048A58E /* 气球0048.gif in Resources */,
-				00C22FA61DC19CAC0048A58E /* 气球0002.gif in Resources */,
-				00C230241DC19CAC0048A58E /* 气球0028.png in Resources */,
-				00C2305B1DC19CAC0048A58E /* 气球0083.png in Resources */,
-				00C22FE01DC19CAC0048A58E /* 气球0060.gif in Resources */,
-				00C230181DC19CAC0048A58E /* 气球0016.png in Resources */,
-				00C230451DC19CAC0048A58E /* 气球0061.png in Resources */,
 				003B4C041DBF4539006ED54F /* 3.jpg in Resources */,
-				00C22FEC1DC19CAC0048A58E /* 气球0072.gif in Resources */,
-				00C22FB31DC19CAC0048A58E /* 气球0015.gif in Resources */,
-				00C22FFB1DC19CAC0048A58E /* 气球0087.gif in Resources */,
-				00C230411DC19CAC0048A58E /* 气球0057.png in Resources */,
 				005A69D81DCB279500EDDEA6 /* BluetoothController.xib in Resources */,
-				00C22FF31DC19CAC0048A58E /* 气球0079.gif in Resources */,
-				00C22FC61DC19CAC0048A58E /* 气球0034.gif in Resources */,
-				00C2300D1DC19CAC0048A58E /* 气球0005.png in Resources */,
-				00C2306C1DC19CAC0048A58E /* 气球0100.png in Resources */,
-				00C230171DC19CAC0048A58E /* 气球0015.png in Resources */,
-				00C2304E1DC19CAC0048A58E /* 气球0070.png in Resources */,
-				00C22FF61DC19CAC0048A58E /* 气球0082.gif in Resources */,
-				00C22FC51DC19CAC0048A58E /* 气球0033.gif in Resources */,
-				00C2304C1DC19CAC0048A58E /* 气球0068.png in Resources */,
-				00C230681DC19CAC0048A58E /* 气球0096.png in Resources */,
-				00C2301C1DC19CAC0048A58E /* 气球0020.png in Resources */,
-				00C2304A1DC19CAC0048A58E /* 气球0066.png in Resources */,
-				00C230121DC19CAC0048A58E /* 气球0010.png in Resources */,
-				00C22FD21DC19CAC0048A58E /* 气球0046.gif in Resources */,
-				00C22FDC1DC19CAC0048A58E /* 气球0056.gif in Resources */,
-				00C22FE61DC19CAC0048A58E /* 气球0066.gif in Resources */,
-				00C22FDA1DC19CAC0048A58E /* 气球0054.gif in Resources */,
-				00C230561DC19CAC0048A58E /* 气球0078.png in Resources */,
-				00C230501DC19CAC0048A58E /* 气球0072.png in Resources */,
-				00C230051DC19CAC0048A58E /* 气球0097.gif in Resources */,
-				00C22FBA1DC19CAC0048A58E /* 气球0022.gif in Resources */,
-				00C2303B1DC19CAC0048A58E /* 气球0051.png in Resources */,
-				00C230661DC19CAC0048A58E /* 气球0094.png in Resources */,
-				00C230041DC19CAC0048A58E /* 气球0096.gif in Resources */,
-				00C22FBD1DC19CAC0048A58E /* 气球0025.gif in Resources */,
-				00C230471DC19CAC0048A58E /* 气球0063.png in Resources */,
-				00C2303C1DC19CAC0048A58E /* 气球0052.png in Resources */,
-				00C22FCE1DC19CAC0048A58E /* 气球0042.gif in Resources */,
-				00C230061DC19CAC0048A58E /* 气球0098.gif in Resources */,
-				00C22FBC1DC19CAC0048A58E /* 气球0024.gif in Resources */,
-				00C22FD31DC19CAC0048A58E /* 气球0047.gif in Resources */,
-				00C22FCC1DC19CAC0048A58E /* 气球0040.gif in Resources */,
-				00C22FF71DC19CAC0048A58E /* 气球0083.gif in Resources */,
-				00C22FB91DC19CAC0048A58E /* 气球0021.gif in Resources */,
-				00C22FC91DC19CAC0048A58E /* 气球0037.gif in Resources */,
-				00C230571DC19CAC0048A58E /* 气球0079.png in Resources */,
-				00C22FB41DC19CAC0048A58E /* 气球0016.gif in Resources */,
-				00C22FFA1DC19CAC0048A58E /* 气球0086.gif in Resources */,
-				00C230651DC19CAC0048A58E /* 气球0093.png in Resources */,
-				00C22FAE1DC19CAC0048A58E /* 气球0010.gif in Resources */,
-				00C22FB11DC19CAC0048A58E /* 气球0013.gif in Resources */,
-				00C22FA91DC19CAC0048A58E /* 气球0005.gif in Resources */,
-				00C22FDB1DC19CAC0048A58E /* 气球0055.gif in Resources */,
-				00C230291DC19CAC0048A58E /* 气球0033.png in Resources */,
-				00C22FF51DC19CAC0048A58E /* 气球0081.gif in Resources */,
-				00C2303D1DC19CAC0048A58E /* 气球0053.png in Resources */,
-				00C22FCF1DC19CAC0048A58E /* 气球0043.gif in Resources */,
-				00C230111DC19CAC0048A58E /* 气球0009.png in Resources */,
-				00C230361DC19CAC0048A58E /* 气球0046.png in Resources */,
-				00C22FEA1DC19CAC0048A58E /* 气球0070.gif in Resources */,
-				00C22FCB1DC19CAC0048A58E /* 气球0039.gif in Resources */,
-				00C230141DC19CAC0048A58E /* 气球0012.png in Resources */,
-				00C22FEB1DC19CAC0048A58E /* 气球0071.gif in Resources */,
-				00C22FFD1DC19CAC0048A58E /* 气球0089.gif in Resources */,
-				00C230491DC19CAC0048A58E /* 气球0065.png in Resources */,
-				00C2306A1DC19CAC0048A58E /* 气球0098.png in Resources */,
-				00C2303E1DC19CAC0048A58E /* 气球0054.png in Resources */,
-				00C230301DC19CAC0048A58E /* 气球0040.png in Resources */,
-				00C22FF21DC19CAC0048A58E /* 气球0078.gif in Resources */,
-				00C22FBF1DC19CAC0048A58E /* 气球0027.gif in Resources */,
-				00C22FFE1DC19CAC0048A58E /* 气球0090.gif in Resources */,
-				00C230511DC19CAC0048A58E /* 气球0073.png in Resources */,
-				00C2302A1DC19CAC0048A58E /* 气球0034.png in Resources */,
-				00C2301E1DC19CAC0048A58E /* 气球0022.png in Resources */,
-				00C22FA81DC19CAC0048A58E /* 气球0004.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1391,6 +590,7 @@
 				00BEEE381DB5B804008A8122 /* Demo2Controller.m in Sources */,
 				00EA19D81DB7210D00BD0078 /* DMHeartFlyView.m in Sources */,
 				009E0BAF1DADD3040066A458 /* YatouTest00123.xcdatamodeld in Sources */,
+				001ACDD91DCC6F7A0095AE80 /* MoreThreadController.m in Sources */,
 				00BEEE5D1DB5FD13008A8122 /* NSArray+PureLayout.m in Sources */,
 				00C22ED91DC19BC30048A58E /* AnimationController.m in Sources */,
 				00EA19DC1DB7253D00BD0078 /* TestHeartView.m in Sources */,

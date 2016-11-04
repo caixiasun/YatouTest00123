@@ -28,43 +28,32 @@
     self.pngImageView.layer.borderWidth = 0.5;
     self.pngImageView.layer.borderColor = [UIColor redColor].CGColor;
     
+    
+    
     NSMutableArray *pngArray = [NSMutableArray new];
     NSString *zero = @"000";
-    for (int i=1; i<101; i++) {
+    NSInteger count = 55;
+    for (int i=1; i<count+1; i++) {
         if (i > 9) {
-            if (i < 100) {
-                zero = @"00";
-            }else {
-                zero = @"0";
-            }
+            
+            zero = @"00";
         }
-        UIImage *img = [UIImage imageNamed:[NSString stringWithFormat:@"气球%@%d.png",zero,i]];
+        UIImage *img = [self getImageFromBundle:[NSString stringWithFormat:@"web气球%@%d",zero,i]];
         [pngArray addObject:img];
     }
-    self.pngImageView.image = [UIImage imageNamed:@"气球0001.png"];
+    self.pngImageView.image = [self getImageFromBundle:@"web气球0001"];
     self.pngImageView.animationDuration = pngArray.count * 0.16;
     self.pngImageView.animationImages = pngArray;
-    
-    
-    NSMutableArray *gifArray = [NSMutableArray new];
-    NSString *zero2 = @"000";
-    for (int i=1; i<101; i++) {
-        if (i > 9) {
-            if (i < 100) {
-                zero2 = @"00";
-            }else {
-                zero2 = @"0";
-            }
-        }
-        UIImage *img = [UIImage imageNamed:[NSString stringWithFormat:@"气球%@%d.gif",zero2,i]];
-        [pngArray addObject:img];
-    }
-    self.gifImageView.image = [UIImage imageNamed:@"气球0001.gif"];
-    self.gifImageView.animationDuration = gifArray.count * 0.16;
-    self.gifImageView.animationImages = gifArray;
-    
-    
 }
+
+//从Bundle中读取图片
+- (UIImage *)getImageFromBundle:(NSString *)imageName {
+    NSString *bundlePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"images.bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+    NSString *imgPath = [bundle pathForResource:[NSString stringWithFormat:@"web_png/%@",imageName] ofType:@"png"];
+    return [UIImage imageWithContentsOfFile:imgPath];
+}
+
 - (IBAction)gifAction:(id)sender {
     self.gifImageView.hidden = NO;
     self.pngImageView.hidden = YES;

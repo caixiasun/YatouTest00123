@@ -13,6 +13,7 @@
 #import "YTNavigationController.h"
 #import "AnimationController.h"
 #import "BluetoothController.h"
+#import "MoreThreadController.h"
 
 @interface MainController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -26,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.dataSource = [NSMutableArray arrayWithObjects:@"日历",@"直播界面--强制某个界面横屏",@"高德地图demo",@"屏幕截图",@"帧动画",@"蓝牙连接测试", nil];
+    self.dataSource = [NSMutableArray arrayWithObjects:@"日历",@"直播界面--强制某个界面横屏",@"高德地图demo",@"屏幕截图",@"帧动画",@"蓝牙连接测试",@"多线程", nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -80,6 +81,11 @@
         case 5://蓝牙连接测试
         {
             [self.navigationController pushViewController:[BluetoothController new] animated:YES];
+            break;
+        }
+        case 6://多线程
+        {
+            [self.navigationController pushViewController:[MoreThreadController new] animated:YES];
             break;
         }
         default:
