@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-            
+    
 }
 
 //支持旋转
@@ -40,7 +40,7 @@
 - (IBAction)buttonAction:(UIButton *)sender {
     switch (sender.tag) {
         case 1://返回
-        {
+        {  
             [self dismissViewControllerAnimated:YES completion:nil];
             break;
         }
