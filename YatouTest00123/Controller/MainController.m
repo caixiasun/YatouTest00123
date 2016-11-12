@@ -14,6 +14,7 @@
 #import "AnimationController.h"
 #import "BluetoothController.h"
 #import "MoreThreadController.h"
+#import "CheckLargeImageController.h"
 
 @interface MainController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -27,7 +28,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.dataSource = [NSMutableArray arrayWithObjects:@"日历",@"直播界面--强制某个界面横屏",@"高德地图demo",@"屏幕截图",@"帧动画",@"蓝牙连接测试",@"多线程", nil];
+    self.dataSource = [NSMutableArray arrayWithObjects:@"日历",@"直播界面--强制某个界面横屏",@"高德地图demo",@"屏幕截图",@"帧动画",@"蓝牙连接测试",@"多线程",@"点击图像查看大图", nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -86,6 +87,11 @@
         case 6://多线程
         {
             [self.navigationController pushViewController:[MoreThreadController new] animated:YES];
+            break;
+        }
+        case 7://查看大图
+        {
+            [self.navigationController pushViewController:[CheckLargeImageController new] animated:YES];
             break;
         }
         default:

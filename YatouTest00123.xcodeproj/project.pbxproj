@@ -12,6 +12,19 @@
 		003B4C031DBF4539006ED54F /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 003B4C011DBF4539006ED54F /* 2.jpg */; };
 		003B4C041DBF4539006ED54F /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 003B4C021DBF4539006ED54F /* 3.jpg */; };
 		003B4C061DBF5645006ED54F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003B4C051DBF5645006ED54F /* OpenGLES.framework */; };
+		0040804D1DD3102100102DF6 /* YTCheckLargeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0040804C1DD3102100102DF6 /* YTCheckLargeImageView.m */; };
+		004080511DD3103F00102DF6 /* CheckLargeImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0040804F1DD3103F00102DF6 /* CheckLargeImageController.m */; };
+		004080521DD3103F00102DF6 /* CheckLargeImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 004080501DD3103F00102DF6 /* CheckLargeImageController.xib */; };
+		0040805B1DD353F200102DF6 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 004080591DD353F200102DF6 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		0040805C1DD353F200102DF6 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0040805A1DD353F200102DF6 /* TencentOpenAPI.framework */; };
+		0040805E1DD3541F00102DF6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0040805D1DD3541F00102DF6 /* Security.framework */; };
+		004080601DD3542900102DF6 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0040805F1DD3542900102DF6 /* libiconv.tbd */; };
+		004080621DD3543200102DF6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004080611DD3543200102DF6 /* SystemConfiguration.framework */; };
+		004080641DD3543A00102DF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004080631DD3543A00102DF6 /* CoreGraphics.framework */; };
+		004080661DD3544300102DF6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 004080651DD3544300102DF6 /* libsqlite3.tbd */; };
+		004080681DD3544C00102DF6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004080671DD3544C00102DF6 /* CoreTelephony.framework */; };
+		0040806A1DD3545500102DF6 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 004080691DD3545500102DF6 /* libstdc++.tbd */; };
+		0040806C1DD3545B00102DF6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0040806B1DD3545B00102DF6 /* libz.tbd */; };
 		005A69D71DCB279500EDDEA6 /* BluetoothController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005A69D51DCB279500EDDEA6 /* BluetoothController.m */; };
 		005A69D81DCB279500EDDEA6 /* BluetoothController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005A69D61DCB279500EDDEA6 /* BluetoothController.xib */; };
 		005A69DA1DCB2F4C00EDDEA6 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005A69D91DCB2F4C00EDDEA6 /* CoreBluetooth.framework */; };
@@ -49,7 +62,7 @@
 		00EA19E51DB74D4D00BD0078 /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EA19E31DB74D4D00BD0078 /* MainController.xib */; };
 		00EA19EB1DB7506A00BD0078 /* Demo2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EA19EA1DB7506A00BD0078 /* Demo2Controller.xib */; };
 		00EA19ED1DB751E100BD0078 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EA19EC1DB751E100BD0078 /* ViewController.xib */; };
-		CE0EA0CACB3D9FAE3259991B /* libPods-YatouTest00123.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90534603AA7573242F2CA58A /* libPods-YatouTest00123.a */; };
+		166D17DD8A301FCC34BB91B6 /* libPods-YatouTest00123.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 853794390E4B2E6569D09DC2 /* libPods-YatouTest00123.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +82,21 @@
 		003B4C011DBF4539006ED54F /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		003B4C021DBF4539006ED54F /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		003B4C051DBF5645006ED54F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0040804B1DD3102100102DF6 /* YTCheckLargeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTCheckLargeImageView.h; sourceTree = "<group>"; };
+		0040804C1DD3102100102DF6 /* YTCheckLargeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTCheckLargeImageView.m; sourceTree = "<group>"; };
+		0040804E1DD3103F00102DF6 /* CheckLargeImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckLargeImageController.h; sourceTree = "<group>"; };
+		0040804F1DD3103F00102DF6 /* CheckLargeImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckLargeImageController.m; sourceTree = "<group>"; };
+		004080501DD3103F00102DF6 /* CheckLargeImageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckLargeImageController.xib; sourceTree = "<group>"; };
+		004080591DD353F200102DF6 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		0040805A1DD353F200102DF6 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		0040805D1DD3541F00102DF6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0040805F1DD3542900102DF6 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		004080611DD3543200102DF6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		004080631DD3543A00102DF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		004080651DD3544300102DF6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		004080671DD3544C00102DF6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		004080691DD3545500102DF6 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		0040806B1DD3545B00102DF6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		005A69D41DCB279500EDDEA6 /* BluetoothController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothController.h; sourceTree = "<group>"; };
 		005A69D51DCB279500EDDEA6 /* BluetoothController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothController.m; sourceTree = "<group>"; };
 		005A69D61DCB279500EDDEA6 /* BluetoothController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BluetoothController.xib; sourceTree = "<group>"; };
@@ -132,9 +160,9 @@
 		00EA19E31DB74D4D00BD0078 /* MainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainController.xib; sourceTree = "<group>"; };
 		00EA19EA1DB7506A00BD0078 /* Demo2Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Demo2Controller.xib; sourceTree = "<group>"; };
 		00EA19EC1DB751E100BD0078 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		564C5721E6CDF03BF8CFC84A /* Pods-YatouTest00123.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatouTest00123.release.xcconfig"; path = "Pods/Target Support Files/Pods-YatouTest00123/Pods-YatouTest00123.release.xcconfig"; sourceTree = "<group>"; };
-		7853DEB143B9830FD547C16B /* Pods-YatouTest00123.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatouTest00123.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YatouTest00123/Pods-YatouTest00123.debug.xcconfig"; sourceTree = "<group>"; };
-		90534603AA7573242F2CA58A /* libPods-YatouTest00123.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YatouTest00123.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5060BD617E82E5F85E85B306 /* Pods-YatouTest00123.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatouTest00123.release.xcconfig"; path = "Pods/Target Support Files/Pods-YatouTest00123/Pods-YatouTest00123.release.xcconfig"; sourceTree = "<group>"; };
+		853794390E4B2E6569D09DC2 /* libPods-YatouTest00123.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YatouTest00123.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA0B9E8C94C8941CB9A58DE /* Pods-YatouTest00123.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatouTest00123.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YatouTest00123/Pods-YatouTest00123.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,11 +170,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0040806C1DD3545B00102DF6 /* libz.tbd in Frameworks */,
+				0040806A1DD3545500102DF6 /* libstdc++.tbd in Frameworks */,
+				004080681DD3544C00102DF6 /* CoreTelephony.framework in Frameworks */,
+				004080661DD3544300102DF6 /* libsqlite3.tbd in Frameworks */,
+				004080641DD3543A00102DF6 /* CoreGraphics.framework in Frameworks */,
+				004080621DD3543200102DF6 /* SystemConfiguration.framework in Frameworks */,
+				004080601DD3542900102DF6 /* libiconv.tbd in Frameworks */,
+				0040805E1DD3541F00102DF6 /* Security.framework in Frameworks */,
 				005A69DA1DCB2F4C00EDDEA6 /* CoreBluetooth.framework in Frameworks */,
+				0040805C1DD353F200102DF6 /* TencentOpenAPI.framework in Frameworks */,
 				00C2306E1DC1ACA00048A58E /* ImageIO.framework in Frameworks */,
 				003B4C061DBF5645006ED54F /* OpenGLES.framework in Frameworks */,
 				00E52B9D1DB4B4DC004B9BED /* MapKit.framework in Frameworks */,
-				CE0EA0CACB3D9FAE3259991B /* libPods-YatouTest00123.a in Frameworks */,
+				166D17DD8A301FCC34BB91B6 /* libPods-YatouTest00123.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +206,42 @@
 			name = "多线程";
 			sourceTree = "<group>";
 		};
+		004080491DD30FDA00102DF6 /* 查看大图 */ = {
+			isa = PBXGroup;
+			children = (
+				0040804E1DD3103F00102DF6 /* CheckLargeImageController.h */,
+				0040804F1DD3103F00102DF6 /* CheckLargeImageController.m */,
+				004080501DD3103F00102DF6 /* CheckLargeImageController.xib */,
+			);
+			name = "查看大图";
+			sourceTree = "<group>";
+		};
+		0040804A1DD3100100102DF6 /* 查看大图 */ = {
+			isa = PBXGroup;
+			children = (
+				0040804B1DD3102100102DF6 /* YTCheckLargeImageView.h */,
+				0040804C1DD3102100102DF6 /* YTCheckLargeImageView.m */,
+			);
+			name = "查看大图";
+			sourceTree = "<group>";
+		};
+		004080571DD353C500102DF6 /* OtherLib */ = {
+			isa = PBXGroup;
+			children = (
+				004080581DD353D800102DF6 /* TencentQQ */,
+			);
+			name = OtherLib;
+			sourceTree = "<group>";
+		};
+		004080581DD353D800102DF6 /* TencentQQ */ = {
+			isa = PBXGroup;
+			children = (
+				004080591DD353F200102DF6 /* TencentOpenApi_IOS_Bundle.bundle */,
+				0040805A1DD353F200102DF6 /* TencentOpenAPI.framework */,
+			);
+			name = TencentQQ;
+			sourceTree = "<group>";
+		};
 		005A69D31DCB277300EDDEA6 /* 蓝牙连接 */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,7 +259,7 @@
 				009E0BBD1DADD3040066A458 /* YatouTest00123Tests */,
 				009E0B9F1DADD3040066A458 /* Products */,
 				00E52B9B1DB4B4DC004B9BED /* Frameworks */,
-				8539990496A32D1BAEFB7CEA /* Pods */,
+				216884AD41A6437B3F97C240 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,6 +275,7 @@
 		009E0BA01DADD3040066A458 /* YatouTest00123 */ = {
 			isa = PBXGroup;
 			children = (
+				004080571DD353C500102DF6 /* OtherLib */,
 				009E0BA41DADD3040066A458 /* AppDelegate.h */,
 				009E0BA51DADD3040066A458 /* AppDelegate.m */,
 				00BEEE2D1DB5B804008A8122 /* Controller */,
@@ -249,6 +323,7 @@
 				00EA19E91DB74E9000BD0078 /* 日历 */,
 				00EA19E81DB74E7300BD0078 /* 直播界面--强制某个界面横屏 */,
 				00EA19E61DB74E3900BD0078 /* 高德地图Demo */,
+				004080491DD30FDA00102DF6 /* 查看大图 */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -256,6 +331,7 @@
 		00BEEE361DB5B804008A8122 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0040804A1DD3100100102DF6 /* 查看大图 */,
 				00EA19D91DB7252D00BD0078 /* Test */,
 				00EA19C91DB70CF000BD0078 /* YTNavigationController */,
 				00BEEE3B1DB5B831008A8122 /* YTCalendarView */,
@@ -315,11 +391,19 @@
 		00E52B9B1DB4B4DC004B9BED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0040806B1DD3545B00102DF6 /* libz.tbd */,
+				004080691DD3545500102DF6 /* libstdc++.tbd */,
+				004080671DD3544C00102DF6 /* CoreTelephony.framework */,
+				004080651DD3544300102DF6 /* libsqlite3.tbd */,
+				004080631DD3543A00102DF6 /* CoreGraphics.framework */,
+				004080611DD3543200102DF6 /* SystemConfiguration.framework */,
+				0040805F1DD3542900102DF6 /* libiconv.tbd */,
+				0040805D1DD3541F00102DF6 /* Security.framework */,
 				005A69D91DCB2F4C00EDDEA6 /* CoreBluetooth.framework */,
 				00C2306D1DC1ACA00048A58E /* ImageIO.framework */,
 				003B4C051DBF5645006ED54F /* OpenGLES.framework */,
 				00E52B9C1DB4B4DC004B9BED /* MapKit.framework */,
-				90534603AA7573242F2CA58A /* libPods-YatouTest00123.a */,
+				853794390E4B2E6569D09DC2 /* libPods-YatouTest00123.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -398,11 +482,11 @@
 			name = "日历";
 			sourceTree = "<group>";
 		};
-		8539990496A32D1BAEFB7CEA /* Pods */ = {
+		216884AD41A6437B3F97C240 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7853DEB143B9830FD547C16B /* Pods-YatouTest00123.debug.xcconfig */,
-				564C5721E6CDF03BF8CFC84A /* Pods-YatouTest00123.release.xcconfig */,
+				DBA0B9E8C94C8941CB9A58DE /* Pods-YatouTest00123.debug.xcconfig */,
+				5060BD617E82E5F85E85B306 /* Pods-YatouTest00123.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -414,12 +498,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 009E0BC31DADD3040066A458 /* Build configuration list for PBXNativeTarget "YatouTest00123" */;
 			buildPhases = (
-				888AE3381C147C2156A93F7F /* Check Pods Manifest.lock */,
+				B7DA892B1D950F0306B2B1D5 /* [CP] Check Pods Manifest.lock */,
 				009E0B9A1DADD3040066A458 /* Sources */,
 				009E0B9B1DADD3040066A458 /* Frameworks */,
 				009E0B9C1DADD3040066A458 /* Resources */,
-				FABD8EE6F827407F381F1227 /* Embed Pods Frameworks */,
-				D77EDCB2160E7AF9188080AB /* Copy Pods Resources */,
+				0D5C4138B3D435AB4AB61D66 /* [CP] Embed Pods Frameworks */,
+				8FA3EEF1DD415DB0771B956F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -494,6 +578,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0040805B1DD353F200102DF6 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				00EA19ED1DB751E100BD0078 /* ViewController.xib in Resources */,
 				00EA19C81DB709D900BD0078 /* Demo4Controller.xib in Resources */,
 				00BEEE491DB5C9AB008A8122 /* calendar_forward@2x.png in Resources */,
@@ -508,6 +593,7 @@
 				009E0BAC1DADD3040066A458 /* Main.storyboard in Resources */,
 				00BEEE4B1DB5CBBE008A8122 /* calendar_backward@2x.png in Resources */,
 				003B4C041DBF4539006ED54F /* 3.jpg in Resources */,
+				004080521DD3103F00102DF6 /* CheckLargeImageController.xib in Resources */,
 				005A69D81DCB279500EDDEA6 /* BluetoothController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,29 +608,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		888AE3381C147C2156A93F7F /* Check Pods Manifest.lock */ = {
+		0D5C4138B3D435AB4AB61D66 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YatouTest00123/Pods-YatouTest00123-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D77EDCB2160E7AF9188080AB /* Copy Pods Resources */ = {
+		8FA3EEF1DD415DB0771B956F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -552,19 +638,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YatouTest00123/Pods-YatouTest00123-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FABD8EE6F827407F381F1227 /* Embed Pods Frameworks */ = {
+		B7DA892B1D950F0306B2B1D5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YatouTest00123/Pods-YatouTest00123-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -595,6 +681,8 @@
 				00C22ED91DC19BC30048A58E /* AnimationController.m in Sources */,
 				00EA19DC1DB7253D00BD0078 /* TestHeartView.m in Sources */,
 				00EA19E41DB74D4D00BD0078 /* MainController.m in Sources */,
+				0040804D1DD3102100102DF6 /* YTCheckLargeImageView.m in Sources */,
+				004080511DD3103F00102DF6 /* CheckLargeImageController.m in Sources */,
 				00BEEE511DB5FD04008A8122 /* Demo3Controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -727,13 +815,47 @@
 		};
 		009E0BC41DADD3040066A458 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7853DEB143B9830FD547C16B /* Pods-YatouTest00123.debug.xcconfig */;
+			baseConfigurationReference = DBA0B9E8C94C8941CB9A58DE /* Pods-YatouTest00123.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FG75MFKDAB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YatouTest00123",
+				);
 				INFOPLIST_FILE = YatouTest00123/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"stdc++.6.0.9\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AMapFoundationKit\"",
+					"-framework",
+					"\"AMapSearchKit\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"MAMapKit\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-fobjc-arc",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yatouTest.YatouTest00123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -741,13 +863,47 @@
 		};
 		009E0BC51DADD3040066A458 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 564C5721E6CDF03BF8CFC84A /* Pods-YatouTest00123.release.xcconfig */;
+			baseConfigurationReference = 5060BD617E82E5F85E85B306 /* Pods-YatouTest00123.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FG75MFKDAB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YatouTest00123",
+				);
 				INFOPLIST_FILE = YatouTest00123/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"stdc++.6.0.9\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AMapFoundationKit\"",
+					"-framework",
+					"\"AMapSearchKit\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"MAMapKit\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-fobjc-arc",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yatouTest.YatouTest00123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

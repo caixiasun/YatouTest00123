@@ -1,0 +1,43 @@
+//
+//  CheckLargeImageController.m
+//  YatouTest00123
+//
+//  Created by caixiasun on 2016/11/9.
+//  Copyright © 2016年 yatou. All rights reserved.
+//
+
+#import "CheckLargeImageController.h"
+#import "YTCheckLargeImageView.h"
+
+@interface CheckLargeImageController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
+@end
+
+@implementation CheckLargeImageController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
+}
+- (IBAction)tapGesture:(UITapGestureRecognizer *)tap {
+    [YTCheckLargeImageView createWithImage:self.imageView.image Origin:CGPointMake(self.imageView.frame.origin.x, self.imageView.frame.origin.y)];
+    
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end
