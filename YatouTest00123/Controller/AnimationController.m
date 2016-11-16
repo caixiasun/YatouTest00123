@@ -41,9 +41,11 @@
         UIImage *img = [self getImageFromBundle:[NSString stringWithFormat:@"web气球%@%d",zero,i]];
         [pngArray addObject:img];
     }
-    self.pngImageView.image = [self getImageFromBundle:@"web气球0001"];
-    self.pngImageView.animationDuration = pngArray.count * 0.16;
+//    self.pngImageView.image = [self getImageFromBundle:@"web气球0001"];
+    self.pngImageView.animationDuration = 5;
+    self.pngImageView.animationRepeatCount = 1;
     self.pngImageView.animationImages = pngArray;
+    
 }
 
 //从Bundle中读取图片
@@ -71,6 +73,13 @@
     
     [self.pngImageView startAnimating];
     [self.gifImageView stopAnimating];
+    
+    [self performSelector:@selector(clearAinimationImageMemory) withObject:nil afterDelay:5];
+}
+
+- (void)clearAinimationImageMemory {
+    [self.pngImageView stopAnimating];
+    self.pngImageView.animationImages = nil;
 }
 
 - (void)giftInit {

@@ -15,6 +15,9 @@
 #import "BluetoothController.h"
 #import "MoreThreadController.h"
 #import "CheckLargeImageController.h"
+#import "ViewGradientController.h"
+#import "GetPicFromPlistController.h"
+#import "OtherController.h"
 
 @interface MainController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -28,7 +31,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.dataSource = [NSMutableArray arrayWithObjects:@"日历",@"直播界面--强制某个界面横屏",@"高德地图demo",@"屏幕截图",@"帧动画",@"蓝牙连接测试",@"多线程",@"点击图像查看大图", nil];
+    self.dataSource = [NSMutableArray arrayWithObjects:@"日历",@"直播界面--强制某个界面横屏",@"高德地图demo",@"屏幕截图",@"帧动画",@"蓝牙连接测试",@"多线程",@"点击图像查看大图",@"View渐变色",@"从Plist中读取图片信息",@"其他小知识", nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -92,6 +95,21 @@
         case 7://查看大图
         {
             [self.navigationController pushViewController:[CheckLargeImageController new] animated:YES];
+            break;
+        }
+        case 8://view渐变色
+        {
+            [self.navigationController pushViewController:[ViewGradientController new] animated:YES];
+            break;
+        }
+        case 9://从Plist中读取图片信息
+        {
+            [self.navigationController pushViewController:[GetPicFromPlistController new] animated:YES];
+            break;
+        }
+        case 10://其他小知识
+        {
+            [self.navigationController pushViewController:[OtherController new] animated:YES];
             break;
         }
         default:
