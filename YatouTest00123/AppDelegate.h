@@ -14,10 +14,11 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
+@property (nonatomic, assign) BOOL isLandspace;
 
 - (void)saveContext;
++ (AppDelegate *)shareInstance;
 
 
 @end

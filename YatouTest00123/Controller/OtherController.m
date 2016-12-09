@@ -7,6 +7,8 @@
 //
 
 #import "OtherController.h"
+#import <Masonry.h>
+#import "OtherTestView.h"
 
 @interface OtherController ()
 
@@ -25,7 +27,43 @@
     
 //    [self alphaMethod];
     
-    [self cadisplaylinkTest];
+//    [self cadisplaylinkTest];
+    
+//    [self loadWebpImage];
+    //文件路径测试
+//    NSString *path = [[NSBundle mainBundle] pathForResource:@"balloon0" ofType:@"png"];
+    
+    //Masonry 修改圆角
+//    [self cornerRadiusWithMasonry];
+    
+    //NSInvocation的使用
+    //其实NSInvocation就是将一个方法变成一个对象
+    SEL selector = @selector(invocationTestMethod:);
+    NSMethodSignature *signature = [OtherController instanceMethodSignatureForSelector:selector];
+    NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:signature];
+    invocation.target = self;
+    invocation.selector = selector;
+    NSString *test = @"yatouTest";
+    //这里的Index要从2开始，以为0跟1已经被占据了，分别是self（target）,selector(_cmd)
+    [invocation setArgument:&test atIndex:2];
+    //调用NSInvocation指定的方法
+    [invocation invoke];
+}
+
+- (void)invocationTestMethod:(NSString *)method {
+    NSLog(@"_________%@",method);
+}
+
+- (void)cornerRadiusWithMasonry {
+    [[OtherTestView alloc] createOtherTestViewInView:self.view];
+}
+
+- (void)loadWebpImage {
+    UIImageView *imageView = [UIImageView new];
+    imageView.frame = self.view.bounds;
+    imageView.center = self.view.center;
+    [self.view addSubview:imageView];
+    
     
 }
 

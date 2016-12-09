@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="PlayChatSingleLevelCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="computer.png" translatesAutoresizingMaskIntoConstraints="NO" id="rnf-JF-GpO">
+                        <rect key="frame" x="6" y="14" width="17" height="16"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="忧郁的西兰花" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Saz-zr-u0e">
+                        <rect key="frame" x="26" y="14" width="80" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wealth_level.png" translatesAutoresizingMaskIntoConstraints="NO" id="CGy-1C-58a">
+                        <rect key="frame" x="109" y="9.5" width="49.5" height="25.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="CGy-1C-58a" secondAttribute="height" multiplier="100:51" id="JtO-0y-7AS"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YkR-u2-sjh">
+                        <rect key="frame" x="158.5" y="14" width="13.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="现在几点啦？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbo-fS-JS6">
+                        <rect key="frame" x="172" y="14" width="80" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Saz-zr-u0e" firstAttribute="centerY" secondItem="CGy-1C-58a" secondAttribute="centerY" id="Hkj-OM-bap"/>
+                    <constraint firstItem="YkR-u2-sjh" firstAttribute="leading" secondItem="CGy-1C-58a" secondAttribute="trailing" id="J8y-bw-cVe"/>
+                    <constraint firstItem="Saz-zr-u0e" firstAttribute="centerY" secondItem="rnf-JF-GpO" secondAttribute="centerY" id="XDI-N9-J52"/>
+                    <constraint firstItem="CGy-1C-58a" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.58" id="Zgn-Mj-vEh"/>
+                    <constraint firstItem="cbo-fS-JS6" firstAttribute="leading" secondItem="YkR-u2-sjh" secondAttribute="trailing" id="cVt-Yw-mZt"/>
+                    <constraint firstItem="rnf-JF-GpO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="eiC-ae-64G"/>
+                    <constraint firstItem="cbo-fS-JS6" firstAttribute="centerY" secondItem="YkR-u2-sjh" secondAttribute="centerY" id="fZu-bt-yQh"/>
+                    <constraint firstItem="YkR-u2-sjh" firstAttribute="centerY" secondItem="CGy-1C-58a" secondAttribute="centerY" id="l1U-X5-g47"/>
+                    <constraint firstItem="Saz-zr-u0e" firstAttribute="leading" secondItem="rnf-JF-GpO" secondAttribute="trailing" constant="3" id="nQq-kO-baE"/>
+                    <constraint firstItem="CGy-1C-58a" firstAttribute="leading" secondItem="Saz-zr-u0e" secondAttribute="trailing" constant="3" id="rpK-PE-03d"/>
+                    <constraint firstItem="rnf-JF-GpO" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="zzl-2U-sZh"/>
+                </constraints>
+            </tableViewCellContentView>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="computer.png" width="17" height="16"/>
+        <image name="wealth_level.png" width="100" height="51"/>
+    </resources>
+</document>

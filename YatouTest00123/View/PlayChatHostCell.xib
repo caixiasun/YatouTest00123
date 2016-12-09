@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="PlayChatHostCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mac.png" translatesAutoresizingMaskIntoConstraints="NO" id="SaY-vB-FaJ">
+                        <rect key="frame" x="6" y="13.5" width="15" height="17"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="樱桃小丸子" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ssw-cM-kSY">
+                        <rect key="frame" x="194" y="22" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="1" green="1" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="host_level.png" translatesAutoresizingMaskIntoConstraints="NO" id="RtI-Hw-e0A">
+                        <rect key="frame" x="70" y="-14" width="240" height="128"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="RtI-Hw-e0A" secondAttribute="height" multiplier="134:60" id="XTU-3c-SYA"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="wealth_level.png" translatesAutoresizingMaskIntoConstraints="NO" id="9GF-G6-Cgt">
+                        <rect key="frame" x="80" y="-4" width="240" height="128"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="9GF-G6-Cgt" secondAttribute="height" multiplier="100:51" id="9UU-nx-3ob"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cb5-Qc-FMT">
+                        <rect key="frame" x="139" y="11" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="1" green="1" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="不会啊，我觉得有点累" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHO-4s-sz2">
+                        <rect key="frame" x="139" y="11" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="1" green="1" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ssw-cM-kSY" firstAttribute="trailing" secondItem="RtI-Hw-e0A" secondAttribute="leading" id="0gx-KO-ncN"/>
+                    <constraint firstItem="Cb5-Qc-FMT" firstAttribute="centerY" secondItem="9GF-G6-Cgt" secondAttribute="centerY" id="4Gb-7J-g50"/>
+                    <constraint firstItem="9GF-G6-Cgt" firstAttribute="height" secondItem="RtI-Hw-e0A" secondAttribute="height" multiplier="0.9" id="4Gs-GI-Mcw"/>
+                    <constraint firstItem="ssw-cM-kSY" firstAttribute="centerY" secondItem="RtI-Hw-e0A" secondAttribute="centerY" id="7Ns-up-tFq"/>
+                    <constraint firstItem="Cb5-Qc-FMT" firstAttribute="leading" secondItem="9GF-G6-Cgt" secondAttribute="trailing" id="F8z-yE-cd0"/>
+                    <constraint firstItem="SaY-vB-FaJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="Far-5s-T2t"/>
+                    <constraint firstItem="SaY-vB-FaJ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="FiJ-yp-PUJ"/>
+                    <constraint firstItem="WHO-4s-sz2" firstAttribute="leading" secondItem="Cb5-Qc-FMT" secondAttribute="trailing" id="LSg-Te-OY1"/>
+                    <constraint firstItem="9GF-G6-Cgt" firstAttribute="centerY" secondItem="RtI-Hw-e0A" secondAttribute="centerY" id="akd-JV-LiM"/>
+                    <constraint firstItem="ssw-cM-kSY" firstAttribute="leading" secondItem="SaY-vB-FaJ" secondAttribute="trailing" constant="3" id="cRK-Ng-0V2"/>
+                    <constraint firstItem="RtI-Hw-e0A" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.6" id="fTE-oI-cKd"/>
+                    <constraint firstItem="ssw-cM-kSY" firstAttribute="centerY" secondItem="SaY-vB-FaJ" secondAttribute="centerY" id="rdY-bD-0s4"/>
+                    <constraint firstItem="WHO-4s-sz2" firstAttribute="centerY" secondItem="Cb5-Qc-FMT" secondAttribute="centerY" id="rx6-kU-hEI"/>
+                    <constraint firstItem="9GF-G6-Cgt" firstAttribute="leading" secondItem="RtI-Hw-e0A" secondAttribute="trailing" constant="3" id="tlP-00-ind"/>
+                </constraints>
+            </tableViewCellContentView>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="host_level.png" width="134" height="60"/>
+        <image name="mac.png" width="15" height="17"/>
+        <image name="wealth_level.png" width="100" height="51"/>
+    </resources>
+</document>

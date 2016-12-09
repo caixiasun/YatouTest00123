@@ -4,6 +4,7 @@ PODS:
   - AMapFoundation (1.3.2)
   - AMapSearch (4.4.0):
     - AMapFoundation (~> 1.2)
+  - Masonry (1.0.2)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -11,14 +12,16 @@ PODS:
 DEPENDENCIES:
   - AMap3DMap
   - AMapSearch
+  - Masonry
   - YYKit
 
 SPEC CHECKSUMS:
   AMap3DMap: a46189dbf185d498e452294d7f600c20af0486af
   AMapFoundation: 843dc27b2c02bc0bc2ef3346bb3dd0456cf64dbb
   AMapSearch: a6c7c83905dbe12aa059c7ff83cb0726cb4fc32f
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 7a5b110b8bbb2641f94a213cd7dc08aa3e3c8b17
+PODFILE CHECKSUM: f962d092d20cef57c3e9e464e8143a5e628c6d4b
 
 COCOAPODS: 1.1.1

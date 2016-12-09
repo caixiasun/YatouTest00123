@@ -30,6 +30,18 @@
     return YES;
 }
 
++ (AppDelegate *)shareInstance {
+    return (AppDelegate *)[UIApplication sharedApplication].delegate;
+}
+/*
+//ios6 加入该方法。 该方法默认值为Info.plist 中配置的 Supported interface orientations 项的值。所以通过这个方法，也可以达到全局控制。
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    if (self.isLandspace) {
+        return UIInterfaceOrientationMaskLandscape ;
+    }
+    return UIInterfaceOrientationMaskPortrait;
+}
+*/
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

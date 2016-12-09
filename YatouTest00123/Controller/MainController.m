@@ -18,6 +18,12 @@
 #import "ViewGradientController.h"
 #import "GetPicFromPlistController.h"
 #import "OtherController.h"
+#import "PlaySendGiftController.h"
+#import "PlayChatController.h"
+#import "MyTableViewDemoController.h"
+#import "MasonryDemoController.h"
+#import "UIDemoController.h"
+#import "AFileDemoController.h"
 
 @interface MainController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -31,7 +37,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.dataSource = [NSMutableArray arrayWithObjects:@"日历",@"直播界面--强制某个界面横屏",@"高德地图demo",@"屏幕截图",@"帧动画",@"蓝牙连接测试",@"多线程",@"点击图像查看大图",@"View渐变色",@"从Plist中读取图片信息",@"其他小知识", nil];
+    self.dataSource = [NSMutableArray arrayWithObjects:@"日历",@"直播界面--强制某个界面横屏",@"高德地图demo",@"屏幕截图",@"帧动画",@"蓝牙连接测试",@"多线程",@"点击图像查看大图",@"View渐变色",@"从Plist中读取图片信息",@"其他小知识",@"直播送礼物动画",@"直播聊天cell设计",@"UITableView相关属性",@"Masonry相关",@"UI控件相关效果",@".a文件的使用", nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -110,6 +116,35 @@
         case 10://其他小知识
         {
             [self.navigationController pushViewController:[OtherController new] animated:YES];
+            break;
+        }
+        case 11://直播送礼物动画
+        {
+            [self.navigationController pushViewController:[PlaySendGiftController new] animated:YES];
+            break;
+        }
+        case 12://直播聊天cell设计
+        {
+            [self.navigationController pushViewController:[PlayChatController new] animated:YES];
+            break;
+        }
+        case 13://UITableView相关属性
+        {
+            [self.navigationController pushViewController:[MyTableViewDemoController new] animated:YES];
+            break;
+        }
+        case 14://Masonry相关
+        {
+            [self.navigationController pushViewController:[MasonryDemoController new] animated:YES];
+            break;
+        }
+        case 15://UI控件相关效果
+        {
+            [self.navigationController pushViewController:[UIDemoController new] animated:YES];
+        }
+        case 16://.a文件的使用
+        {
+            [self.navigationController pushViewController:[AFileDemoController new] animated:YES];
             break;
         }
         default:
