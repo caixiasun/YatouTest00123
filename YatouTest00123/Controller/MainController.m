@@ -24,11 +24,16 @@
 #import "MasonryDemoController.h"
 #import "UIDemoController.h"
 #import "AFileDemoController.h"
+#import "YYKitDemoController.h"
+#import "AnimationDemo.h"
 
 @interface MainController ()<UITableViewDelegate,UITableViewDataSource>
+{
+    NSMutableArray *_cellTitles;
+    NSMutableArray *_classNames;
+}
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (nonatomic, strong) NSMutableArray *dataSource;
 
 @end
 
@@ -37,18 +42,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.dataSource = [NSMutableArray arrayWithObjects:@"日历",@"直播界面--强制某个界面横屏",@"高德地图demo",@"屏幕截图",@"帧动画",@"蓝牙连接测试",@"多线程",@"点击图像查看大图",@"View渐变色",@"从Plist中读取图片信息",@"其他小知识",@"直播送礼物动画",@"直播聊天cell设计",@"UITableView相关属性",@"Masonry相关",@"UI控件相关效果",@".a文件的使用", nil];
-}
-
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    
     self.navigationItem.title = @"主视图";
+
+    _cellTitles = @[].mutableCopy;
+    _classNames = @[].mutableCopy;
+    
+    NSDictionary *classDic = [NSDictionary dictionaryWithObjectsAndKeys:@"日历",@"Demo2Controller",@"直播界面--强制某个界面横屏",@"Demo3Controller",@"高德地图demo",@"ViewController",@"屏幕截图",@"",@"帧动画",@"AnimationController",@"蓝牙连接测试",@"BluetoothController",@"多线程",@"MoreThreadController",@"点击图像查看大图",@"CheckLargeImageController",@"View渐变色",@"ViewGradientController",@"从Plist中读取图片信息",@"GetPicFromPlistController",@"其他小知识",@"OtherController",@"直播送礼物动画",@"PlaySendGiftController",@"直播聊天cell设计",@"PlayChatController",@"UITableView相关属性",@"MyTableViewDemoController",@"Masonry相关",@"MasonryDemoController",@"UI控件相关效果",@"UIDemoController",@".a文件的使用",@"AFileDemoController",@"YYKit的基本使用",@"YYKitDemoController",@"动画相关",@"AnimationDemo", nil];
+    
+    for (NSString *key in classDic.allKeys) {
+        [_cellTitles addObject:[classDic objectForKey:key]];
+        [_classNames addObject:key];
+    }
+
 }
 
 #pragma mark - UITableViewDelegate,UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.dataSource.count;
+    return _cellTitles.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -57,98 +67,18 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CellIdentifier"];
         cell.textLabel.textColor = [UIColor blueColor];
     }
-    cell.textLabel.text = [self.dataSource objectAtIndex:indexPath.row];
+    cell.textLabel.text = [_cellTitles objectAtIndex:indexPath.row];
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    switch (indexPath.row) {
-        case 0://日历
-        {
-            Demo2Controller *vc = [Demo2Controller new];
-            [self.navigationController pushViewController:vc animated:YES];
-            break;
-        }
-        case 1://强制某个界面横屏
-        {
-            [self.navigationController pushViewController:[Demo3Controller new] animated:YES];
-            break;
-        }
-        case 2://高德地图测试
-        {
-            [self.navigationController pushViewController:[ViewController new] animated:YES];
-            break;
-        }
-        case 3://屏幕截图测试
-        {
-            break;
-        }
-        case 4://帧动画
-        {
-            [self.navigationController pushViewController:[AnimationController new] animated:YES];
-            break;
-        }
-        case 5://蓝牙连接测试
-        {
-            [self.navigationController pushViewController:[BluetoothController new] animated:YES];
-            break;
-        }
-        case 6://多线程
-        {
-            [self.navigationController pushViewController:[MoreThreadController new] animated:YES];
-            break;
-        }
-        case 7://查看大图
-        {
-            [self.navigationController pushViewController:[CheckLargeImageController new] animated:YES];
-            break;
-        }
-        case 8://view渐变色
-        {
-            [self.navigationController pushViewController:[ViewGradientController new] animated:YES];
-            break;
-        }
-        case 9://从Plist中读取图片信息
-        {
-            [self.navigationController pushViewController:[GetPicFromPlistController new] animated:YES];
-            break;
-        }
-        case 10://其他小知识
-        {
-            [self.navigationController pushViewController:[OtherController new] animated:YES];
-            break;
-        }
-        case 11://直播送礼物动画
-        {
-            [self.navigationController pushViewController:[PlaySendGiftController new] animated:YES];
-            break;
-        }
-        case 12://直播聊天cell设计
-        {
-            [self.navigationController pushViewController:[PlayChatController new] animated:YES];
-            break;
-        }
-        case 13://UITableView相关属性
-        {
-            [self.navigationController pushViewController:[MyTableViewDemoController new] animated:YES];
-            break;
-        }
-        case 14://Masonry相关
-        {
-            [self.navigationController pushViewController:[MasonryDemoController new] animated:YES];
-            break;
-        }
-        case 15://UI控件相关效果
-        {
-            [self.navigationController pushViewController:[UIDemoController new] animated:YES];
-        }
-        case 16://.a文件的使用
-        {
-            [self.navigationController pushViewController:[AFileDemoController new] animated:YES];
-            break;
-        }
-        default:
-            break;
+    
+    NSString *className = _classNames[indexPath.row];
+    Class class = NSClassFromString(className);
+    if (class) {
+        UIViewController *vc = class.new;
+        vc.title = _cellTitles[indexPath.row];
+        [self.navigationController pushViewController:vc animated:YES];
     }
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];

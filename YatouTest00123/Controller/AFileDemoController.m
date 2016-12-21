@@ -7,7 +7,7 @@
 //
 
 #import "AFileDemoController.h"
-#import "TestAFile.h"
+//#import "TestAFile.h"
 
 @interface AFileDemoController ()
 
@@ -17,9 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    TestAFile *testA = [TestAFile new];
-    NSInteger testNum = [testA sumWithFirstNum:1 SecondNum:2];
-    NSLog(@"___%ld",testNum);
+//    TestAFile *testA = [TestAFile new];
+//    NSInteger testNum = [testA sumWithFirstNum:1 SecondNum:2];
+//    NSLog(@"___%ld",testNum);
 }
 
 @end

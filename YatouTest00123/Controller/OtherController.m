@@ -51,7 +51,8 @@
 }
 
 - (void)invocationTestMethod:(NSString *)method {
-    NSLog(@"_________%@",method);
+    
+    DLog(@"_________%@",method);
 }
 
 - (void)cornerRadiusWithMasonry {
