@@ -9,6 +9,7 @@
 #import "OtherController.h"
 #import <Masonry.h>
 #import "OtherTestView.h"
+#import "TestFlowerView.h"
 
 @interface OtherController ()
 
@@ -36,6 +37,7 @@
     //Masonry 修改圆角
 //    [self cornerRadiusWithMasonry];
     
+    /*
     //NSInvocation的使用
     //其实NSInvocation就是将一个方法变成一个对象
     SEL selector = @selector(invocationTestMethod:);
@@ -48,6 +50,11 @@
     [invocation setArgument:&test atIndex:2];
     //调用NSInvocation指定的方法
     [invocation invoke];
+     */
+    
+    TestFlowerView *flower = [[TestFlowerView alloc] initWithFrame:CGRectMake(10, 200, 300, 300)];
+    [self.view addSubview:flower];
+    
 }
 
 - (void)invocationTestMethod:(NSString *)method {

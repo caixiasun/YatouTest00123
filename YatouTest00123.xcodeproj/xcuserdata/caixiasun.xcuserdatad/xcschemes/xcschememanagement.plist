@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>YatouTest00123 Release.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>YatouTest00123.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>00632F151E1A2FC800FE92EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>009E0B9D1DADD3040066A458</key>
 		<dict>
 			<key>primary</key>

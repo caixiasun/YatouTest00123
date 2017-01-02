@@ -39,6 +39,19 @@
     objc_setAssociatedObject(self.view, @"imageView", imgV, OBJC_ASSOCIATION_ASSIGN);
      */
     
+    {
+        UIView *view = [UIView new];
+        view.frame = CGRectMake(10, 70, 200, 50);
+        [self.view addSubview:view];
+        CAGradientLayer *gradientLayer = [CAGradientLayer new];
+        gradientLayer.colors = @[(__bridge id)[UIColor redColor].CGColor,(__bridge id)[UIColor greenColor].CGColor,(__bridge id)[UIColor blueColor].CGColor];
+        gradientLayer.startPoint = CGPointMake(0.5, 0.5);
+        gradientLayer.endPoint = CGPointMake(1, 1);
+        gradientLayer.bounds = view.bounds;
+        gradientLayer.center = view.center;
+        [view.layer addSublayer:gradientLayer];
+    }
+    
 }
 
 
