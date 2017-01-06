@@ -28,6 +28,7 @@
     _cellTitles = @[].mutableCopy;
     _classNames = @[].mutableCopy;
     
+    [self addCell:@"汉字排序" Class:@"ChineseCharactersSortedController"];
     [self addCell:@"段落ParagraphStyle" Class:@"ParagraphStyleController"];
     [self addCell:@"正则表达式" Class:@"RegexController"];
     [self addCell:@"屏幕截屏" Class:@"ScreenShotController"];

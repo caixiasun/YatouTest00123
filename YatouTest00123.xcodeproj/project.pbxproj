@@ -551,6 +551,8 @@
 		006AFFAD1E0CCF660065373A /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 006AFFA51E0CCF660065373A /* ALView+PureLayout.m */; };
 		006AFFAE1E0CCF660065373A /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 006AFFA71E0CCF660065373A /* NSArray+PureLayout.m */; };
 		006AFFAF1E0CCF660065373A /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 006AFFA91E0CCF660065373A /* NSLayoutConstraint+PureLayout.m */; };
+		007A7E411E1F365900D6B12D /* ChineseCharactersSortedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007A7E401E1F365900D6B12D /* ChineseCharactersSortedController.m */; };
+		007A7E441E1F372900D6B12D /* YTCharacterConvertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 007A7E431E1F372900D6B12D /* YTCharacterConvertTool.m */; };
 		009E0BA61DADD3040066A458 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 009E0BA51DADD3040066A458 /* AppDelegate.m */; };
 		009E0BAC1DADD3040066A458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009E0BAA1DADD3040066A458 /* Main.storyboard */; };
 		009E0BAF1DADD3040066A458 /* YatouTest00123.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 009E0BAD1DADD3040066A458 /* YatouTest00123.xcdatamodeld */; };
@@ -989,6 +991,10 @@
 		006AFFAA1E0CCF660065373A /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
 		006AFFAB1E0CCF660065373A /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
 		006AFFAC1E0CCF660065373A /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		007A7E3F1E1F365900D6B12D /* ChineseCharactersSortedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseCharactersSortedController.h; sourceTree = "<group>"; };
+		007A7E401E1F365900D6B12D /* ChineseCharactersSortedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseCharactersSortedController.m; sourceTree = "<group>"; };
+		007A7E421E1F372900D6B12D /* YTCharacterConvertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTCharacterConvertTool.h; sourceTree = "<group>"; };
+		007A7E431E1F372900D6B12D /* YTCharacterConvertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTCharacterConvertTool.m; sourceTree = "<group>"; };
 		009E0B9E1DADD3040066A458 /* YatouTest00123.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YatouTest00123.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009E0BA41DADD3040066A458 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		009E0BA51DADD3040066A458 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1785,6 +1791,17 @@
 			path = PureLayout;
 			sourceTree = "<group>";
 		};
+		007A7E3E1E1F360B00D6B12D /* 汉字排序 */ = {
+			isa = PBXGroup;
+			children = (
+				007A7E3F1E1F365900D6B12D /* ChineseCharactersSortedController.h */,
+				007A7E401E1F365900D6B12D /* ChineseCharactersSortedController.m */,
+				007A7E421E1F372900D6B12D /* YTCharacterConvertTool.h */,
+				007A7E431E1F372900D6B12D /* YTCharacterConvertTool.m */,
+			);
+			path = "汉字排序";
+			sourceTree = "<group>";
+		};
 		009E0B951DADD3040066A458 = {
 			isa = PBXGroup;
 			children = (
@@ -1866,6 +1883,7 @@
 			isa = PBXGroup;
 			children = (
 				006AFD071E0CCB1A0065373A /* 主界面 */,
+				007A7E3E1E1F360B00D6B12D /* 汉字排序 */,
 				006330941E1A51F000FE92EE /* NSMutableParagraphStyle */,
 				006330801E1A426C00FE92EE /* 正则表达式 */,
 				0063307A1E1A425000FE92EE /* 屏幕截图 */,
@@ -3005,6 +3023,7 @@
 				0063307E1E1A425000FE92EE /* ScreenShotController.m in Sources */,
 				006AFDB61E0CCE270065373A /* GiftAnimationObj.m in Sources */,
 				006AFD5A1E0CCB1A0065373A /* Demo2Controller.m in Sources */,
+				007A7E411E1F365900D6B12D /* ChineseCharactersSortedController.m in Sources */,
 				00EA19CC1DB70D1000BD0078 /* YTNavigationController.m in Sources */,
 				006AFD8A1E0CCB1A0065373A /* YYTextUndoRedoDemo.m in Sources */,
 				006AFDAF1E0CCE270065373A /* PlayChatData.m in Sources */,
@@ -3014,6 +3033,7 @@
 				00BEEE4E1DB5F5F8008A8122 /* YTCalendarDay.m in Sources */,
 				006AFFAF1E0CCF660065373A /* NSLayoutConstraint+PureLayout.m in Sources */,
 				006AFD741E0CCB1A0065373A /* MyTableViewDemoController.m in Sources */,
+				007A7E441E1F372900D6B12D /* YTCharacterConvertTool.m in Sources */,
 				006AFDAC1E0CCE270065373A /* YTCheckLargeImageView.m in Sources */,
 				006AFD4F1E0CCB1A0065373A /* CheckLargeImageController.m in Sources */,
 				006AFD891E0CCB1A0065373A /* YYTextTagDemo.m in Sources */,
