@@ -12,6 +12,9 @@
 #import "TestFlowerView.h"
 
 @interface OtherController ()
+{
+    int _linkNumber;
+}
 
 @property (nonatomic, strong) CADisplayLink *link;
 @property (nonatomic, strong) NSMutableArray *linkDataSource;
@@ -28,7 +31,7 @@
     
 //    [self alphaMethod];
     
-//    [self cadisplaylinkTest];
+    [self cadisplaylinkTest];
     
 //    [self loadWebpImage];
     //文件路径测试
@@ -52,8 +55,8 @@
     [invocation invoke];
      */
     
-    TestFlowerView *flower = [[TestFlowerView alloc] initWithFrame:CGRectMake(10, 200, 300, 300)];
-    [self.view addSubview:flower];
+//    TestFlowerView *flower = [[TestFlowerView alloc] initWithFrame:CGRectMake(10, 200, 300, 300)];
+//    [self.view addSubview:flower];
     
 }
 
@@ -84,10 +87,7 @@
     [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(linkAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
-    CADisplayLink *link = [CADisplayLink displayLinkWithTarget:self selector:@selector(linkUpdate)];
-    link.paused = YES;
-    [link addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
-    self.link = link;
+    
     
     self.linkDataSource = [NSMutableArray new];
     for (int i=0; i<100; i++) {
@@ -102,17 +102,26 @@
     
 }
 
+- (CADisplayLink *)link {
+    if (!_link) {
+        _link = [CADisplayLink displayLinkWithTarget:self selector:@selector(linkUpdate)];
+        _link.paused = YES;
+        [_link addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
+        _linkNumber = 0;
+    }
+    return _link;
+}
+
 - (void)linkAction {
     self.link.paused = NO;
 }
 
 - (void)linkUpdate {
-    static int num = 0;
     
-    if (num < self.linkDataSource.count) {
-        UIImage *image = [UIImage imageNamed:[self.linkDataSource objectAtIndex:num]];
+    if (_linkNumber < self.linkDataSource.count) {
+        UIImage *image = [UIImage imageNamed:[self.linkDataSource objectAtIndex:_linkNumber]];
         self.linkImgView.image = image;
-        num++;
+        _linkNumber++;
     }else {
         self.link.paused = YES;
         [self.link invalidate];
@@ -132,6 +141,9 @@
     v2.frame = CGRectMake(10, 10, 50, 50);
     v2.backgroundColor = [UIColor greenColor];
     [v1 addSubview:v2];
+}
+
+- (void)dealloc {
 }
 
 @end

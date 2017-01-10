@@ -569,6 +569,9 @@
 		00BEEE4E1DB5F5F8008A8122 /* YTCalendarDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BEEE4D1DB5F5F8008A8122 /* YTCalendarDay.m */; };
 		00C2306E1DC1ACA00048A58E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C2306D1DC1ACA00048A58E /* ImageIO.framework */; };
 		00E52B9D1DB4B4DC004B9BED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E52B9C1DB4B4DC004B9BED /* MapKit.framework */; };
+		00E5BFCD1E2323B900B10AC5 /* RuntimeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E5BFCC1E2323B900B10AC5 /* RuntimeClass.m */; };
+		00E5BFD01E232B9900B10AC5 /* RuntimeDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E5BFCF1E232B9900B10AC5 /* RuntimeDemoController.m */; };
+		00E5BFD41E236A8F00B10AC5 /* TimerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E5BFD31E236A8F00B10AC5 /* TimerDemoController.m */; };
 		00E7ADED1E0CD00500019032 /* EmoticonQQ.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 00E7ADEA1E0CD00500019032 /* EmoticonQQ.bundle */; };
 		00E7ADEE1E0CD00500019032 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 00E7ADEB1E0CD00500019032 /* images.bundle */; };
 		00E7ADEF1E0CD00500019032 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E7ADEC1E0CD00500019032 /* TencentOpenAPI.framework */; };
@@ -1027,6 +1030,12 @@
 		00BEEE5B1DB5FD13008A8122 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
 		00C2306D1DC1ACA00048A58E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		00E52B9C1DB4B4DC004B9BED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		00E5BFCB1E2323B900B10AC5 /* RuntimeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeClass.h; sourceTree = "<group>"; };
+		00E5BFCC1E2323B900B10AC5 /* RuntimeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeClass.m; sourceTree = "<group>"; };
+		00E5BFCE1E232B9900B10AC5 /* RuntimeDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeDemoController.h; sourceTree = "<group>"; };
+		00E5BFCF1E232B9900B10AC5 /* RuntimeDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeDemoController.m; sourceTree = "<group>"; };
+		00E5BFD21E236A8F00B10AC5 /* TimerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerDemoController.h; sourceTree = "<group>"; };
+		00E5BFD31E236A8F00B10AC5 /* TimerDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerDemoController.m; sourceTree = "<group>"; };
 		00E7ADEA1E0CD00500019032 /* EmoticonQQ.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EmoticonQQ.bundle; sourceTree = "<group>"; };
 		00E7ADEB1E0CD00500019032 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
 		00E7ADEC1E0CD00500019032 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
@@ -1883,6 +1892,8 @@
 			isa = PBXGroup;
 			children = (
 				006AFD071E0CCB1A0065373A /* 主界面 */,
+				00E5BFD11E236A7E00B10AC5 /* NSTimer */,
+				00E5BFCA1E23238500B10AC5 /* Runtime */,
 				007A7E3E1E1F360B00D6B12D /* 汉字排序 */,
 				006330941E1A51F000FE92EE /* NSMutableParagraphStyle */,
 				006330801E1A426C00FE92EE /* 正则表达式 */,
@@ -1985,6 +1996,26 @@
 				853794390E4B2E6569D09DC2 /* libPods-YatouTest00123.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00E5BFCA1E23238500B10AC5 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				00E5BFCE1E232B9900B10AC5 /* RuntimeDemoController.h */,
+				00E5BFCF1E232B9900B10AC5 /* RuntimeDemoController.m */,
+				00E5BFCB1E2323B900B10AC5 /* RuntimeClass.h */,
+				00E5BFCC1E2323B900B10AC5 /* RuntimeClass.m */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		00E5BFD11E236A7E00B10AC5 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				00E5BFD21E236A8F00B10AC5 /* TimerDemoController.h */,
+				00E5BFD31E236A8F00B10AC5 /* TimerDemoController.m */,
+			);
+			path = NSTimer;
 			sourceTree = "<group>";
 		};
 		00E7ADF21E0CD0BB00019032 /* images */ = {
@@ -3019,6 +3050,7 @@
 				006AFD851E0CCB1A0065373A /* YYTextEditDemo.m in Sources */,
 				006AFDB71E0CCE270065373A /* GiftAnimationObjManager.m in Sources */,
 				009E0BA61DADD3040066A458 /* AppDelegate.m in Sources */,
+				00E5BFD41E236A8F00B10AC5 /* TimerDemoController.m in Sources */,
 				006AFDB81E0CCE270065373A /* GiftObj.m in Sources */,
 				0063307E1E1A425000FE92EE /* ScreenShotController.m in Sources */,
 				006AFDB61E0CCE270065373A /* GiftAnimationObj.m in Sources */,
@@ -3034,6 +3066,7 @@
 				006AFFAF1E0CCF660065373A /* NSLayoutConstraint+PureLayout.m in Sources */,
 				006AFD741E0CCB1A0065373A /* MyTableViewDemoController.m in Sources */,
 				007A7E441E1F372900D6B12D /* YTCharacterConvertTool.m in Sources */,
+				00E5BFCD1E2323B900B10AC5 /* RuntimeClass.m in Sources */,
 				006AFDAC1E0CCE270065373A /* YTCheckLargeImageView.m in Sources */,
 				006AFD4F1E0CCB1A0065373A /* CheckLargeImageController.m in Sources */,
 				006AFD891E0CCB1A0065373A /* YYTextTagDemo.m in Sources */,
@@ -3054,6 +3087,7 @@
 				006AFD511E0CCB1A0065373A /* GetPicFromPlistController.m in Sources */,
 				00632F091E19EDC600FE92EE /* CollectionViewDemoCell.m in Sources */,
 				006AFDB21E0CCE270065373A /* PlayChatHostCell.m in Sources */,
+				00E5BFD01E232B9900B10AC5 /* RuntimeDemoController.m in Sources */,
 				006AFD881E0CCB1A0065373A /* YYTextSimpleMarkdownParserDemo.m in Sources */,
 				006AFD5C1E0CCB1A0065373A /* PictureMachine_AnimationController.m in Sources */,
 				006AFD541E0CCB1A0065373A /* BaseMapViewController.m in Sources */,

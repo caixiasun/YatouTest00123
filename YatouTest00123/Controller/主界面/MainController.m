@@ -28,6 +28,8 @@
     _cellTitles = @[].mutableCopy;
     _classNames = @[].mutableCopy;
     
+    [self addCell:@"NSTimer相关" Class:@"TimerDemoController"];
+    [self addCell:@"RuntimeDemo" Class:@"RuntimeDemoController"];
     [self addCell:@"汉字排序" Class:@"ChineseCharactersSortedController"];
     [self addCell:@"段落ParagraphStyle" Class:@"ParagraphStyleController"];
     [self addCell:@"正则表达式" Class:@"RegexController"];
