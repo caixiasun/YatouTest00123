@@ -572,6 +572,10 @@
 		00E5BFCD1E2323B900B10AC5 /* RuntimeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E5BFCC1E2323B900B10AC5 /* RuntimeClass.m */; };
 		00E5BFD01E232B9900B10AC5 /* RuntimeDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E5BFCF1E232B9900B10AC5 /* RuntimeDemoController.m */; };
 		00E5BFD41E236A8F00B10AC5 /* TimerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E5BFD31E236A8F00B10AC5 /* TimerDemoController.m */; };
+		00E5C0101E25D67000B10AC5 /* BasicAnimationDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E5C00F1E25D67000B10AC5 /* BasicAnimationDemoController.m */; };
+		00E5C0141E25D72600B10AC5 /* BasicAnimationDemo_ride_indoor_ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 00E5C0111E25D72600B10AC5 /* BasicAnimationDemo_ride_indoor_ring.png */; };
+		00E5C0151E25D72600B10AC5 /* BasicAnimationDemo_ride_outdoor_ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 00E5C0121E25D72600B10AC5 /* BasicAnimationDemo_ride_outdoor_ring.png */; };
+		00E5C0161E25D72600B10AC5 /* BasicAnimationDemo_ride_video_ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 00E5C0131E25D72600B10AC5 /* BasicAnimationDemo_ride_video_ring.png */; };
 		00E7ADED1E0CD00500019032 /* EmoticonQQ.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 00E7ADEA1E0CD00500019032 /* EmoticonQQ.bundle */; };
 		00E7ADEE1E0CD00500019032 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 00E7ADEB1E0CD00500019032 /* images.bundle */; };
 		00E7ADEF1E0CD00500019032 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E7ADEC1E0CD00500019032 /* TencentOpenAPI.framework */; };
@@ -1036,6 +1040,11 @@
 		00E5BFCF1E232B9900B10AC5 /* RuntimeDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeDemoController.m; sourceTree = "<group>"; };
 		00E5BFD21E236A8F00B10AC5 /* TimerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerDemoController.h; sourceTree = "<group>"; };
 		00E5BFD31E236A8F00B10AC5 /* TimerDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerDemoController.m; sourceTree = "<group>"; };
+		00E5C00E1E25D67000B10AC5 /* BasicAnimationDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAnimationDemoController.h; sourceTree = "<group>"; };
+		00E5C00F1E25D67000B10AC5 /* BasicAnimationDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationDemoController.m; sourceTree = "<group>"; };
+		00E5C0111E25D72600B10AC5 /* BasicAnimationDemo_ride_indoor_ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BasicAnimationDemo_ride_indoor_ring.png; sourceTree = "<group>"; };
+		00E5C0121E25D72600B10AC5 /* BasicAnimationDemo_ride_outdoor_ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BasicAnimationDemo_ride_outdoor_ring.png; sourceTree = "<group>"; };
+		00E5C0131E25D72600B10AC5 /* BasicAnimationDemo_ride_video_ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BasicAnimationDemo_ride_video_ring.png; sourceTree = "<group>"; };
 		00E7ADEA1E0CD00500019032 /* EmoticonQQ.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EmoticonQQ.bundle; sourceTree = "<group>"; };
 		00E7ADEB1E0CD00500019032 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
 		00E7ADEC1E0CD00500019032 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
@@ -1319,6 +1328,11 @@
 			children = (
 				006AFCD71E0CCB1A0065373A /* AnimationDemo.h */,
 				006AFCD81E0CCB1A0065373A /* AnimationDemo.m */,
+				00E5C00E1E25D67000B10AC5 /* BasicAnimationDemoController.h */,
+				00E5C00F1E25D67000B10AC5 /* BasicAnimationDemoController.m */,
+				00E5C0111E25D72600B10AC5 /* BasicAnimationDemo_ride_indoor_ring.png */,
+				00E5C0121E25D72600B10AC5 /* BasicAnimationDemo_ride_outdoor_ring.png */,
+				00E5C0131E25D72600B10AC5 /* BasicAnimationDemo_ride_video_ring.png */,
 			);
 			path = "动画相关";
 			sourceTree = "<group>";
@@ -2708,9 +2722,11 @@
 				00E7AEA51E0CD0BB00019032 /* car34.webp in Resources */,
 				00E7AEC51E0CD0BB00019032 /* car63.webp in Resources */,
 				006AFED41E0CCE7A0065373A /* balloon32.png in Resources */,
+				00E5C0151E25D72600B10AC5 /* BasicAnimationDemo_ride_outdoor_ring.png in Resources */,
 				006AFD621E0CCB1A0065373A /* AnimationController.xib in Resources */,
 				00E7AEA41E0CD0BB00019032 /* car33.webp in Resources */,
 				006AFEE61E0CCE7A0065373A /* balloon49.png in Resources */,
+				00E5C0141E25D72600B10AC5 /* BasicAnimationDemo_ride_indoor_ring.png in Resources */,
 				006AFF011E0CCE7A0065373A /* balloon73.png in Resources */,
 				006AFEC61E0CCE7A0065373A /* balloon2.png in Resources */,
 				006AFD5B1E0CCB1A0065373A /* Demo2Controller.xib in Resources */,
@@ -2772,6 +2788,7 @@
 				006AFEE71E0CCE7A0065373A /* balloon5.png in Resources */,
 				00E7AEC91E0CD0BB00019032 /* car67.webp in Resources */,
 				00E7AEE21E0CD0BB00019032 /* car9.webp in Resources */,
+				00E5C0161E25D72600B10AC5 /* BasicAnimationDemo_ride_video_ring.png in Resources */,
 				00E7AEA91E0CD0BB00019032 /* car38.webp in Resources */,
 				00E7AE751E0CD0BB00019032 /* bg@2x.png in Resources */,
 				006AFF051E0CCE7A0065373A /* balloon77.png in Resources */,
@@ -3105,6 +3122,7 @@
 				006AFD6F1E0CCB1A0065373A /* UIDemoController.m in Sources */,
 				006AFDB91E0CCE270065373A /* GiftView.m in Sources */,
 				006AFD561E0CCB1A0065373A /* ViewController.m in Sources */,
+				00E5C0101E25D67000B10AC5 /* BasicAnimationDemoController.m in Sources */,
 				006AFD6C1E0CCB1A0065373A /* MasonryGetKeyboardHeightController.m in Sources */,
 				006330981E1A520D00FE92EE /* ParagraphStyleController.m in Sources */,
 				00B203C61DF65F7700B5B0BF /* main.m in Sources */,

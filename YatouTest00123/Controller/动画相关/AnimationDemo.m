@@ -24,6 +24,7 @@
     _cellTitles = @[].mutableCopy;
     _classNames = @[].mutableCopy;
     
+    [self addCell:@"CABasicAnimation" Class:@"BasicAnimationDemoController"];
     [self addCell:@"改变图片颜色" Class:@"PictureMachine_AnimationController"];
     
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
