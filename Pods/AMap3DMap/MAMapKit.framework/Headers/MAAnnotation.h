@@ -42,3 +42,29 @@
 - (void)setCoordinate:(CLLocationCoordinate2D)newCoordinate;
 
 @end
+
+/**
+ *  支持动画需要实现的协议. since 4.5.0
+ */
+@protocol MAAnimatableAnnotation <NSObject>
+
+@required
+/**
+ @brief 动画帧更新回调接口，实现者可在内部做更新处理，如更新coordinate. since 4.5.0
+ @param timeDelta 时间步长，单位秒
+ */
+- (void)step:(CGFloat)timeDelta;
+
+/**
+ @brief 动画是否已完成. since 4.5.0
+ */
+- (BOOL)isAnimationFinished;
+
+@optional
+/**
+ @brief 动画更新时调用此接口，获取annotationView的旋转角度，不实现默认为0. since 4.5.0
+ */
+- (CLLocationDirection)rotateDegree;
+
+
+@end

@@ -432,6 +432,7 @@ extern "C" {
      */
     extern CLLocationCoordinate2D MACoordinateConvert(CLLocationCoordinate2D coordinate, MACoordinateType type) __attribute((deprecated("已废弃，使用AMapFoundation中关于坐标转换的接口")));
     
+    extern CLLocationDirection MAGetDirectionFromCoords(CLLocationCoordinate2D fromCoord, CLLocationCoordinate2D toCoord);
     
 #ifdef __cplusplus
 }

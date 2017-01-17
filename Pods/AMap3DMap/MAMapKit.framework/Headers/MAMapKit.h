@@ -14,6 +14,7 @@
 #import <MAMapKit/MAAnnotation.h>
 #import <MAMapKit/MAAnnotationView.h>
 #import <MAMapKit/MAPointAnnotation.h>
+#import <MAMapKit/MAAnimatedAnnotation.h>
 #import <MAMapKit/MAPinAnnotationView.h>
 #import <MAMapKit/MAUserlocation.h>
 #import <MAMapKit/MAOverlay.h>

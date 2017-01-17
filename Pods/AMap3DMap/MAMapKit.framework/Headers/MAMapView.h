@@ -549,11 +549,20 @@ extern NSString * const kMAMapLayerCameraDegreeKey;
 - (void)insertOverlay:(id <MAOverlay>)overlay atIndex:(NSUInteger)index;
 
 /**
- * @brief 交换指定索引处的Overlay
+ * @brief 在MAOverlayLevelAboveLabels上交换指定索引处的Overlay
  * @param index1 索引1
  * @param index2 索引2
  */
 - (void)exchangeOverlayAtIndex:(NSUInteger)index1 withOverlayAtIndex:(NSUInteger)index2;
+
+
+/**
+ * @brief 交换指定索引处的Overlay
+ * @param index1 索引1
+ * @param index2 索引2
+ * @level level 所处层级
+ */
+- (void)exchangeOverlayAtIndex:(NSUInteger)index1 withOverlayAtIndex:(NSUInteger)index2 atLevel:(MAOverlayLevel)level;
 
 /**
  * @brief 交换两个overlay

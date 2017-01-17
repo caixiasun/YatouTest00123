@@ -110,7 +110,6 @@
 		00632F6F1E1A2FC800FE92EE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C2306D1DC1ACA00048A58E /* ImageIO.framework */; };
 		00632F701E1A2FC800FE92EE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003B4C051DBF5645006ED54F /* OpenGLES.framework */; };
 		00632F711E1A2FC800FE92EE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E52B9C1DB4B4DC004B9BED /* MapKit.framework */; };
-		00632F721E1A2FC800FE92EE /* libPods-YatouTest00123.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 853794390E4B2E6569D09DC2 /* libPods-YatouTest00123.a */; };
 		00632F741E1A2FC800FE92EE /* EmoticonQQ.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 00E7ADEA1E0CD00500019032 /* EmoticonQQ.bundle */; };
 		00632F751E1A2FC800FE92EE /* balloon55.png in Resources */ = {isa = PBXBuildFile; fileRef = 006AFDF31E0CCE7A0065373A /* balloon55.png */; };
 		00632F761E1A2FC800FE92EE /* balloon7.png in Resources */ = {isa = PBXBuildFile; fileRef = 006AFE031E0CCE7A0065373A /* balloon7.png */; };
@@ -551,6 +550,9 @@
 		006AFFAD1E0CCF660065373A /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 006AFFA51E0CCF660065373A /* ALView+PureLayout.m */; };
 		006AFFAE1E0CCF660065373A /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 006AFFA71E0CCF660065373A /* NSArray+PureLayout.m */; };
 		006AFFAF1E0CCF660065373A /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 006AFFA91E0CCF660065373A /* NSLayoutConstraint+PureLayout.m */; };
+		0078E2A11E2C6D23001357DC /* LocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0078E2A01E2C6D23001357DC /* LocationController.m */; };
+		0078E2A51E2DB81F001357DC /* BlockDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0078E2A41E2DB81F001357DC /* BlockDemoController.m */; };
+		0078E2A81E2DB87A001357DC /* YTBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0078E2A71E2DB87A001357DC /* YTBlock.m */; };
 		007A7E411E1F365900D6B12D /* ChineseCharactersSortedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007A7E401E1F365900D6B12D /* ChineseCharactersSortedController.m */; };
 		007A7E441E1F372900D6B12D /* YTCharacterConvertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 007A7E431E1F372900D6B12D /* YTCharacterConvertTool.m */; };
 		009E0BA61DADD3040066A458 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 009E0BA51DADD3040066A458 /* AppDelegate.m */; };
@@ -576,6 +578,9 @@
 		00E5C0141E25D72600B10AC5 /* BasicAnimationDemo_ride_indoor_ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 00E5C0111E25D72600B10AC5 /* BasicAnimationDemo_ride_indoor_ring.png */; };
 		00E5C0151E25D72600B10AC5 /* BasicAnimationDemo_ride_outdoor_ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 00E5C0121E25D72600B10AC5 /* BasicAnimationDemo_ride_outdoor_ring.png */; };
 		00E5C0161E25D72600B10AC5 /* BasicAnimationDemo_ride_video_ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 00E5C0131E25D72600B10AC5 /* BasicAnimationDemo_ride_video_ring.png */; };
+		00E5C06B1E277FFB00B10AC5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E5C06A1E277FFB00B10AC5 /* StoreKit.framework */; };
+		00E5C06F1E27807900B10AC5 /* InAppPurchaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E5C06E1E27807900B10AC5 /* InAppPurchaseController.m */; };
+		00E5C0731E2786D800B10AC5 /* ThirdLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E5C0721E2786D800B10AC5 /* ThirdLoginController.m */; };
 		00E7ADED1E0CD00500019032 /* EmoticonQQ.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 00E7ADEA1E0CD00500019032 /* EmoticonQQ.bundle */; };
 		00E7ADEE1E0CD00500019032 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 00E7ADEB1E0CD00500019032 /* images.bundle */; };
 		00E7ADEF1E0CD00500019032 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E7ADEC1E0CD00500019032 /* TencentOpenAPI.framework */; };
@@ -710,6 +715,7 @@
 		00EA19DC1DB7253D00BD0078 /* TestHeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EA19DB1DB7253D00BD0078 /* TestHeartView.m */; };
 		00F6C8E71E0A5A9700E49FD5 /* TestFlowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F6C8E61E0A5A9700E49FD5 /* TestFlowerView.m */; };
 		166D17DD8A301FCC34BB91B6 /* libPods-YatouTest00123.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 853794390E4B2E6569D09DC2 /* libPods-YatouTest00123.a */; };
+		C2BFED48299F7CEB320C66E7 /* libPods-YatouTest00123.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 853794390E4B2E6569D09DC2 /* libPods-YatouTest00123.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -998,6 +1004,12 @@
 		006AFFAA1E0CCF660065373A /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
 		006AFFAB1E0CCF660065373A /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
 		006AFFAC1E0CCF660065373A /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		0078E29F1E2C6D23001357DC /* LocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationController.h; sourceTree = "<group>"; };
+		0078E2A01E2C6D23001357DC /* LocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationController.m; sourceTree = "<group>"; };
+		0078E2A31E2DB81F001357DC /* BlockDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockDemoController.h; sourceTree = "<group>"; };
+		0078E2A41E2DB81F001357DC /* BlockDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockDemoController.m; sourceTree = "<group>"; };
+		0078E2A61E2DB87A001357DC /* YTBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTBlock.h; sourceTree = "<group>"; };
+		0078E2A71E2DB87A001357DC /* YTBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTBlock.m; sourceTree = "<group>"; };
 		007A7E3F1E1F365900D6B12D /* ChineseCharactersSortedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseCharactersSortedController.h; sourceTree = "<group>"; };
 		007A7E401E1F365900D6B12D /* ChineseCharactersSortedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseCharactersSortedController.m; sourceTree = "<group>"; };
 		007A7E421E1F372900D6B12D /* YTCharacterConvertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTCharacterConvertTool.h; sourceTree = "<group>"; };
@@ -1045,6 +1057,11 @@
 		00E5C0111E25D72600B10AC5 /* BasicAnimationDemo_ride_indoor_ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BasicAnimationDemo_ride_indoor_ring.png; sourceTree = "<group>"; };
 		00E5C0121E25D72600B10AC5 /* BasicAnimationDemo_ride_outdoor_ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BasicAnimationDemo_ride_outdoor_ring.png; sourceTree = "<group>"; };
 		00E5C0131E25D72600B10AC5 /* BasicAnimationDemo_ride_video_ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BasicAnimationDemo_ride_video_ring.png; sourceTree = "<group>"; };
+		00E5C06A1E277FFB00B10AC5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		00E5C06D1E27807900B10AC5 /* InAppPurchaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppPurchaseController.h; sourceTree = "<group>"; };
+		00E5C06E1E27807900B10AC5 /* InAppPurchaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppPurchaseController.m; sourceTree = "<group>"; };
+		00E5C0711E2786D800B10AC5 /* ThirdLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdLoginController.h; sourceTree = "<group>"; };
+		00E5C0721E2786D800B10AC5 /* ThirdLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdLoginController.m; sourceTree = "<group>"; };
 		00E7ADEA1E0CD00500019032 /* EmoticonQQ.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EmoticonQQ.bundle; sourceTree = "<group>"; };
 		00E7ADEB1E0CD00500019032 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
 		00E7ADEC1E0CD00500019032 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
@@ -1182,9 +1199,9 @@
 		00EA19DB1DB7253D00BD0078 /* TestHeartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHeartView.m; sourceTree = "<group>"; };
 		00F6C8E51E0A5A9700E49FD5 /* TestFlowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlowerView.h; sourceTree = "<group>"; };
 		00F6C8E61E0A5A9700E49FD5 /* TestFlowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFlowerView.m; sourceTree = "<group>"; };
-		5060BD617E82E5F85E85B306 /* Pods-YatouTest00123.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatouTest00123.release.xcconfig"; path = "Pods/Target Support Files/Pods-YatouTest00123/Pods-YatouTest00123.release.xcconfig"; sourceTree = "<group>"; };
+		34161BD4B22B5B83167B649C /* Pods-YatouTest00123.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatouTest00123.release.xcconfig"; path = "Pods/Target Support Files/Pods-YatouTest00123/Pods-YatouTest00123.release.xcconfig"; sourceTree = "<group>"; };
 		853794390E4B2E6569D09DC2 /* libPods-YatouTest00123.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YatouTest00123.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBA0B9E8C94C8941CB9A58DE /* Pods-YatouTest00123.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatouTest00123.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YatouTest00123/Pods-YatouTest00123.debug.xcconfig"; sourceTree = "<group>"; };
+		A945FF1BC10893CF4C57462C /* Pods-YatouTest00123.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatouTest00123.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YatouTest00123/Pods-YatouTest00123.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1192,6 +1209,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E5C06B1E277FFB00B10AC5 /* StoreKit.framework in Frameworks */,
 				00632F611E1A2FC800FE92EE /* WebP.framework in Frameworks */,
 				00632F621E1A2FC800FE92EE /* TencentOpenAPI.framework in Frameworks */,
 				00632F631E1A2FC800FE92EE /* libz.tbd in Frameworks */,
@@ -1209,7 +1227,6 @@
 				00632F6F1E1A2FC800FE92EE /* ImageIO.framework in Frameworks */,
 				00632F701E1A2FC800FE92EE /* OpenGLES.framework in Frameworks */,
 				00632F711E1A2FC800FE92EE /* MapKit.framework in Frameworks */,
-				00632F721E1A2FC800FE92EE /* libPods-YatouTest00123.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1235,6 +1252,7 @@
 				003B4C061DBF5645006ED54F /* OpenGLES.framework in Frameworks */,
 				00E52B9D1DB4B4DC004B9BED /* MapKit.framework in Frameworks */,
 				166D17DD8A301FCC34BB91B6 /* libPods-YatouTest00123.a in Frameworks */,
+				C2BFED48299F7CEB320C66E7 /* libPods-YatouTest00123.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1814,6 +1832,26 @@
 			path = PureLayout;
 			sourceTree = "<group>";
 		};
+		0078E29E1E2C6D09001357DC /* 定位功能 */ = {
+			isa = PBXGroup;
+			children = (
+				0078E29F1E2C6D23001357DC /* LocationController.h */,
+				0078E2A01E2C6D23001357DC /* LocationController.m */,
+			);
+			path = "定位功能";
+			sourceTree = "<group>";
+		};
+		0078E2A21E2DB80C001357DC /* Block使用 */ = {
+			isa = PBXGroup;
+			children = (
+				0078E2A31E2DB81F001357DC /* BlockDemoController.h */,
+				0078E2A41E2DB81F001357DC /* BlockDemoController.m */,
+				0078E2A61E2DB87A001357DC /* YTBlock.h */,
+				0078E2A71E2DB87A001357DC /* YTBlock.m */,
+			);
+			path = "Block使用";
+			sourceTree = "<group>";
+		};
 		007A7E3E1E1F360B00D6B12D /* 汉字排序 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1906,6 +1944,10 @@
 			isa = PBXGroup;
 			children = (
 				006AFD071E0CCB1A0065373A /* 主界面 */,
+				0078E2A21E2DB80C001357DC /* Block使用 */,
+				0078E29E1E2C6D09001357DC /* 定位功能 */,
+				00E5C0701E2786BC00B10AC5 /* 第三方登录 */,
+				00E5C06C1E27801200B10AC5 /* 苹果内购 */,
 				00E5BFD11E236A7E00B10AC5 /* NSTimer */,
 				00E5BFCA1E23238500B10AC5 /* Runtime */,
 				007A7E3E1E1F360B00D6B12D /* 汉字排序 */,
@@ -1994,6 +2036,7 @@
 		00E52B9B1DB4B4DC004B9BED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00E5C06A1E277FFB00B10AC5 /* StoreKit.framework */,
 				00B7DDC31DDD58A000324C7D /* WebP.framework */,
 				0040806B1DD3545B00102DF6 /* libz.tbd */,
 				004080691DD3545500102DF6 /* libstdc++.tbd */,
@@ -2030,6 +2073,24 @@
 				00E5BFD31E236A8F00B10AC5 /* TimerDemoController.m */,
 			);
 			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		00E5C06C1E27801200B10AC5 /* 苹果内购 */ = {
+			isa = PBXGroup;
+			children = (
+				00E5C06D1E27807900B10AC5 /* InAppPurchaseController.h */,
+				00E5C06E1E27807900B10AC5 /* InAppPurchaseController.m */,
+			);
+			path = "苹果内购";
+			sourceTree = "<group>";
+		};
+		00E5C0701E2786BC00B10AC5 /* 第三方登录 */ = {
+			isa = PBXGroup;
+			children = (
+				00E5C0711E2786D800B10AC5 /* ThirdLoginController.h */,
+				00E5C0721E2786D800B10AC5 /* ThirdLoginController.m */,
+			);
+			path = "第三方登录";
 			sourceTree = "<group>";
 		};
 		00E7ADF21E0CD0BB00019032 /* images */ = {
@@ -2231,8 +2292,8 @@
 		216884AD41A6437B3F97C240 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DBA0B9E8C94C8941CB9A58DE /* Pods-YatouTest00123.debug.xcconfig */,
-				5060BD617E82E5F85E85B306 /* Pods-YatouTest00123.release.xcconfig */,
+				A945FF1BC10893CF4C57462C /* Pods-YatouTest00123.debug.xcconfig */,
+				34161BD4B22B5B83167B649C /* Pods-YatouTest00123.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -2244,12 +2305,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 006330751E1A2FC800FE92EE /* Build configuration list for PBXNativeTarget "YatouTest00123 Release" */;
 			buildPhases = (
-				00632F161E1A2FC800FE92EE /* [CP] Check Pods Manifest.lock */,
 				00632F171E1A2FC800FE92EE /* Sources */,
 				00632F601E1A2FC800FE92EE /* Frameworks */,
 				00632F731E1A2FC800FE92EE /* Resources */,
-				006330731E1A2FC800FE92EE /* [CP] Embed Pods Frameworks */,
-				006330741E1A2FC800FE92EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2882,51 +2940,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00632F161E1A2FC800FE92EE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		006330731E1A2FC800FE92EE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YatouTest00123/Pods-YatouTest00123-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		006330741E1A2FC800FE92EE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YatouTest00123/Pods-YatouTest00123-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		0D5C4138B3D435AB4AB61D66 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -3066,6 +3079,7 @@
 				006AFFAD1E0CCF660065373A /* ALView+PureLayout.m in Sources */,
 				006AFD851E0CCB1A0065373A /* YYTextEditDemo.m in Sources */,
 				006AFDB71E0CCE270065373A /* GiftAnimationObjManager.m in Sources */,
+				00E5C06F1E27807900B10AC5 /* InAppPurchaseController.m in Sources */,
 				009E0BA61DADD3040066A458 /* AppDelegate.m in Sources */,
 				00E5BFD41E236A8F00B10AC5 /* TimerDemoController.m in Sources */,
 				006AFDB81E0CCE270065373A /* GiftObj.m in Sources */,
@@ -3088,6 +3102,7 @@
 				006AFD4F1E0CCB1A0065373A /* CheckLargeImageController.m in Sources */,
 				006AFD891E0CCB1A0065373A /* YYTextTagDemo.m in Sources */,
 				006AFDAE1E0CCE270065373A /* PlayChatCell.m in Sources */,
+				0078E2A51E2DB81F001357DC /* BlockDemoController.m in Sources */,
 				006AFD751E0CCB1A0065373A /* ViewGradientController.m in Sources */,
 				006AFD801E0CCB1A0065373A /* YYTextAsyncDemo.m in Sources */,
 				006AFD551E0CCB1A0065373A /* MapViewController.m in Sources */,
@@ -3098,6 +3113,7 @@
 				006AFD521E0CCB1A0065373A /* AnimationDemo.m in Sources */,
 				006AFD6A1E0CCB1A0065373A /* AFileDemoController.m in Sources */,
 				00BEEE3E1DB5B879008A8122 /* YTCalendarView.m in Sources */,
+				00E5C0731E2786D800B10AC5 /* ThirdLoginController.m in Sources */,
 				006AFD671E0CCB1A0065373A /* PlaySendGiftController.m in Sources */,
 				006AFD631E0CCB1A0065373A /* Demo3Controller.m in Sources */,
 				006AFD601E0CCB1A0065373A /* OtherController.m in Sources */,
@@ -3118,11 +3134,13 @@
 				006AFD701E0CCB1A0065373A /* CollectionViewDemo.m in Sources */,
 				009E0BAF1DADD3040066A458 /* YatouTest00123.xcdatamodeld in Sources */,
 				006AFDB41E0CCE270065373A /* PlayChatSingleLevelCell.m in Sources */,
+				0078E2A81E2DB87A001357DC /* YTBlock.m in Sources */,
 				006AFD771E0CCB1A0065373A /* CircleProgressController.m in Sources */,
 				006AFD6F1E0CCB1A0065373A /* UIDemoController.m in Sources */,
 				006AFDB91E0CCE270065373A /* GiftView.m in Sources */,
 				006AFD561E0CCB1A0065373A /* ViewController.m in Sources */,
 				00E5C0101E25D67000B10AC5 /* BasicAnimationDemoController.m in Sources */,
+				0078E2A11E2C6D23001357DC /* LocationController.m in Sources */,
 				006AFD6C1E0CCB1A0065373A /* MasonryGetKeyboardHeightController.m in Sources */,
 				006330981E1A520D00FE92EE /* ParagraphStyleController.m in Sources */,
 				00B203C61DF65F7700B5B0BF /* main.m in Sources */,
@@ -3181,7 +3199,6 @@
 /* Begin XCBuildConfiguration section */
 		006330761E1A2FC800FE92EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBA0B9E8C94C8941CB9A58DE /* Pods-YatouTest00123.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FG75MFKDAB;
@@ -3237,7 +3254,6 @@
 		};
 		006330771E1A2FC800FE92EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5060BD617E82E5F85E85B306 /* Pods-YatouTest00123.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FG75MFKDAB;
@@ -3381,7 +3397,7 @@
 		};
 		009E0BC41DADD3040066A458 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBA0B9E8C94C8941CB9A58DE /* Pods-YatouTest00123.debug.xcconfig */;
+			baseConfigurationReference = A945FF1BC10893CF4C57462C /* Pods-YatouTest00123.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FG75MFKDAB;
@@ -3437,7 +3453,7 @@
 		};
 		009E0BC51DADD3040066A458 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5060BD617E82E5F85E85B306 /* Pods-YatouTest00123.release.xcconfig */;
+			baseConfigurationReference = 34161BD4B22B5B83167B649C /* Pods-YatouTest00123.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FG75MFKDAB;

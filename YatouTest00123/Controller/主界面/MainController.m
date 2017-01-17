@@ -28,6 +28,9 @@
     _cellTitles = @[].mutableCopy;
     _classNames = @[].mutableCopy;
     
+    [self addCell:@"Block使用" Class:@"BlockDemoController"];
+    [self addCell:@"定位功能" Class:@"LocationController"];
+    [self addCell:@"苹果内购" Class:@"InAppPurchaseController"];
     [self addCell:@"NSTimer相关" Class:@"TimerDemoController"];
     [self addCell:@"RuntimeDemo" Class:@"RuntimeDemoController"];
     [self addCell:@"汉字排序" Class:@"ChineseCharactersSortedController"];
