@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00289E491E320B99002B9929 /* AutoLayoutCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00289E481E320B99002B9929 /* AutoLayoutCodeController.m */; };
 		003B4C061DBF5645006ED54F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003B4C051DBF5645006ED54F /* OpenGLES.framework */; };
 		0040805B1DD353F200102DF6 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 004080591DD353F200102DF6 /* TencentOpenApi_IOS_Bundle.bundle */; };
 		0040805C1DD353F200102DF6 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0040805A1DD353F200102DF6 /* TencentOpenAPI.framework */; };
@@ -553,6 +554,9 @@
 		0078E2A11E2C6D23001357DC /* LocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0078E2A01E2C6D23001357DC /* LocationController.m */; };
 		0078E2A51E2DB81F001357DC /* BlockDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0078E2A41E2DB81F001357DC /* BlockDemoController.m */; };
 		0078E2A81E2DB87A001357DC /* YTBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0078E2A71E2DB87A001357DC /* YTBlock.m */; };
+		0078E2AD1E2E0ACB001357DC /* GLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0078E2AB1E2E0ACB001357DC /* GLKViewController.m */; };
+		0078E2AE1E2E0ACB001357DC /* GLKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0078E2AC1E2E0ACB001357DC /* GLKViewController.xib */; };
+		0078E2B01E2E0BB4001357DC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0078E2AF1E2E0BB4001357DC /* GLKit.framework */; };
 		007A7E411E1F365900D6B12D /* ChineseCharactersSortedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007A7E401E1F365900D6B12D /* ChineseCharactersSortedController.m */; };
 		007A7E441E1F372900D6B12D /* YTCharacterConvertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 007A7E431E1F372900D6B12D /* YTCharacterConvertTool.m */; };
 		009E0BA61DADD3040066A458 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 009E0BA51DADD3040066A458 /* AppDelegate.m */; };
@@ -729,6 +733,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00289E471E320B99002B9929 /* AutoLayoutCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutCodeController.h; sourceTree = "<group>"; };
+		00289E481E320B99002B9929 /* AutoLayoutCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutCodeController.m; sourceTree = "<group>"; };
 		003B4C051DBF5645006ED54F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		004080591DD353F200102DF6 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
 		0040805A1DD353F200102DF6 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
@@ -1010,6 +1016,10 @@
 		0078E2A41E2DB81F001357DC /* BlockDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockDemoController.m; sourceTree = "<group>"; };
 		0078E2A61E2DB87A001357DC /* YTBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTBlock.h; sourceTree = "<group>"; };
 		0078E2A71E2DB87A001357DC /* YTBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTBlock.m; sourceTree = "<group>"; };
+		0078E2AA1E2E0ACB001357DC /* GLKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLKViewController.h; sourceTree = "<group>"; };
+		0078E2AB1E2E0ACB001357DC /* GLKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLKViewController.m; sourceTree = "<group>"; };
+		0078E2AC1E2E0ACB001357DC /* GLKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLKViewController.xib; sourceTree = "<group>"; };
+		0078E2AF1E2E0BB4001357DC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		007A7E3F1E1F365900D6B12D /* ChineseCharactersSortedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseCharactersSortedController.h; sourceTree = "<group>"; };
 		007A7E401E1F365900D6B12D /* ChineseCharactersSortedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseCharactersSortedController.m; sourceTree = "<group>"; };
 		007A7E421E1F372900D6B12D /* YTCharacterConvertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTCharacterConvertTool.h; sourceTree = "<group>"; };
@@ -1234,6 +1244,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0078E2B01E2E0BB4001357DC /* GLKit.framework in Frameworks */,
 				00B7DDC41DDD58A000324C7D /* WebP.framework in Frameworks */,
 				00E7ADF11E0CD01600019032 /* TencentOpenAPI.framework in Frameworks */,
 				0040806C1DD3545B00102DF6 /* libz.tbd in Frameworks */,
@@ -1266,6 +1277,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00289E461E320B85002B9929 /* 纯代码AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				00289E471E320B99002B9929 /* AutoLayoutCodeController.h */,
+				00289E481E320B99002B9929 /* AutoLayoutCodeController.m */,
+			);
+			path = "纯代码AutoLayout";
+			sourceTree = "<group>";
+		};
 		004080571DD353C500102DF6 /* OtherLib */ = {
 			isa = PBXGroup;
 			children = (
@@ -1852,6 +1872,16 @@
 			path = "Block使用";
 			sourceTree = "<group>";
 		};
+		0078E2A91E2E0AB4001357DC /* GLKViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0078E2AA1E2E0ACB001357DC /* GLKViewController.h */,
+				0078E2AB1E2E0ACB001357DC /* GLKViewController.m */,
+				0078E2AC1E2E0ACB001357DC /* GLKViewController.xib */,
+			);
+			path = GLKViewDemo;
+			sourceTree = "<group>";
+		};
 		007A7E3E1E1F360B00D6B12D /* 汉字排序 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1944,6 +1974,8 @@
 			isa = PBXGroup;
 			children = (
 				006AFD071E0CCB1A0065373A /* 主界面 */,
+				00289E461E320B85002B9929 /* 纯代码AutoLayout */,
+				0078E2A91E2E0AB4001357DC /* GLKViewDemo */,
 				0078E2A21E2DB80C001357DC /* Block使用 */,
 				0078E29E1E2C6D09001357DC /* 定位功能 */,
 				00E5C0701E2786BC00B10AC5 /* 第三方登录 */,
@@ -2036,6 +2068,7 @@
 		00E52B9B1DB4B4DC004B9BED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0078E2AF1E2E0BB4001357DC /* GLKit.framework */,
 				00E5C06A1E277FFB00B10AC5 /* StoreKit.framework */,
 				00B7DDC31DDD58A000324C7D /* WebP.framework */,
 				0040806B1DD3545B00102DF6 /* libz.tbd */,
@@ -2717,6 +2750,7 @@
 				006AFEF01E0CCE7A0065373A /* balloon58.png in Resources */,
 				00E7AEDD1E0CD0BB00019032 /* car85.webp in Resources */,
 				006AFED51E0CCE7A0065373A /* balloon33.png in Resources */,
+				0078E2AE1E2E0ACB001357DC /* GLKViewController.xib in Resources */,
 				006AFEBD1E0CCE7A0065373A /* balloon11.png in Resources */,
 				00E7AEC41E0CD0BB00019032 /* car62.webp in Resources */,
 				006AFF1A1E0CCE7A0065373A /* balloon96.png in Resources */,
@@ -3113,6 +3147,7 @@
 				006AFD521E0CCB1A0065373A /* AnimationDemo.m in Sources */,
 				006AFD6A1E0CCB1A0065373A /* AFileDemoController.m in Sources */,
 				00BEEE3E1DB5B879008A8122 /* YTCalendarView.m in Sources */,
+				00289E491E320B99002B9929 /* AutoLayoutCodeController.m in Sources */,
 				00E5C0731E2786D800B10AC5 /* ThirdLoginController.m in Sources */,
 				006AFD671E0CCB1A0065373A /* PlaySendGiftController.m in Sources */,
 				006AFD631E0CCB1A0065373A /* Demo3Controller.m in Sources */,
@@ -3134,6 +3169,7 @@
 				006AFD701E0CCB1A0065373A /* CollectionViewDemo.m in Sources */,
 				009E0BAF1DADD3040066A458 /* YatouTest00123.xcdatamodeld in Sources */,
 				006AFDB41E0CCE270065373A /* PlayChatSingleLevelCell.m in Sources */,
+				0078E2AD1E2E0ACB001357DC /* GLKViewController.m in Sources */,
 				0078E2A81E2DB87A001357DC /* YTBlock.m in Sources */,
 				006AFD771E0CCB1A0065373A /* CircleProgressController.m in Sources */,
 				006AFD6F1E0CCB1A0065373A /* UIDemoController.m in Sources */,

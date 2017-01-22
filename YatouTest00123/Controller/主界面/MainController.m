@@ -28,6 +28,8 @@
     _cellTitles = @[].mutableCopy;
     _classNames = @[].mutableCopy;
     
+    [self addCell:@"纯代码AutoLayout" Class:@"AutoLayoutCodeController"];
+    [self addCell:@"OpenGL Demo" Class:@"GLKViewController"];
     [self addCell:@"Block使用" Class:@"BlockDemoController"];
     [self addCell:@"定位功能" Class:@"LocationController"];
     [self addCell:@"苹果内购" Class:@"InAppPurchaseController"];
