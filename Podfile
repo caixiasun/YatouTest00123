@@ -7,4 +7,7 @@ platform :ios, ’9.0’ #手机的系统
   pod ‘Masonry’
   #pod ‘NIMSDK’
   pod ‘WeiboSDK’
+  pod 'MBProgressHUD'
+  pod ‘MJExtension’
+  pod ‘iCarousel’
   end

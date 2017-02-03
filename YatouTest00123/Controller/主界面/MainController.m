@@ -28,6 +28,8 @@
     _cellTitles = @[].mutableCopy;
     _classNames = @[].mutableCopy;
     
+    [self addCell:@"轮播iCarousel" Class:@"CycleScrollController"];
+    [self addCell:@"MBProgressHUD" Class:@"MBProgressHUDController"];
     [self addCell:@"纯代码AutoLayout" Class:@"AutoLayoutCodeController"];
     [self addCell:@"OpenGL Demo" Class:@"GLKViewController"];
     [self addCell:@"Block使用" Class:@"BlockDemoController"];

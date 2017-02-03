@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		00289E491E320B99002B9929 /* AutoLayoutCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00289E481E320B99002B9929 /* AutoLayoutCodeController.m */; };
+		00289E4D1E34B950002B9929 /* MBProgressHUDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00289E4C1E34B950002B9929 /* MBProgressHUDController.m */; };
+		00289E541E35AD1E002B9929 /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00289E531E35AD1E002B9929 /* LoginModel.m */; };
+		00289E571E35AD66002B9929 /* LoginModel+Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 00289E561E35AD66002B9929 /* LoginModel+Server.m */; };
+		00289E5B1E35B54E002B9929 /* CycleScrollController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00289E5A1E35B54E002B9929 /* CycleScrollController.m */; };
 		003B4C061DBF5645006ED54F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003B4C051DBF5645006ED54F /* OpenGLES.framework */; };
 		0040805B1DD353F200102DF6 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 004080591DD353F200102DF6 /* TencentOpenApi_IOS_Bundle.bundle */; };
 		0040805C1DD353F200102DF6 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0040805A1DD353F200102DF6 /* TencentOpenAPI.framework */; };
@@ -735,6 +739,14 @@
 /* Begin PBXFileReference section */
 		00289E471E320B99002B9929 /* AutoLayoutCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutCodeController.h; sourceTree = "<group>"; };
 		00289E481E320B99002B9929 /* AutoLayoutCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutCodeController.m; sourceTree = "<group>"; };
+		00289E4B1E34B950002B9929 /* MBProgressHUDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUDController.h; sourceTree = "<group>"; };
+		00289E4C1E34B950002B9929 /* MBProgressHUDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUDController.m; sourceTree = "<group>"; };
+		00289E521E35AD1E002B9929 /* LoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginModel.h; sourceTree = "<group>"; };
+		00289E531E35AD1E002B9929 /* LoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginModel.m; sourceTree = "<group>"; };
+		00289E551E35AD66002B9929 /* LoginModel+Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LoginModel+Server.h"; sourceTree = "<group>"; };
+		00289E561E35AD66002B9929 /* LoginModel+Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LoginModel+Server.m"; sourceTree = "<group>"; };
+		00289E591E35B54E002B9929 /* CycleScrollController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollController.h; sourceTree = "<group>"; };
+		00289E5A1E35B54E002B9929 /* CycleScrollController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollController.m; sourceTree = "<group>"; };
 		003B4C051DBF5645006ED54F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		004080591DD353F200102DF6 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
 		0040805A1DD353F200102DF6 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
@@ -1284,6 +1296,57 @@
 				00289E481E320B99002B9929 /* AutoLayoutCodeController.m */,
 			);
 			path = "纯代码AutoLayout";
+			sourceTree = "<group>";
+		};
+		00289E4A1E34B944002B9929 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				00289E4B1E34B950002B9929 /* MBProgressHUDController.h */,
+				00289E4C1E34B950002B9929 /* MBProgressHUDController.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		00289E4E1E35AAFD002B9929 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		00289E4F1E35AB39002B9929 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		00289E501E35AB4D002B9929 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00289E511E35AB5F002B9929 /* MJExtension */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00289E511E35AB5F002B9929 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				00289E521E35AD1E002B9929 /* LoginModel.h */,
+				00289E531E35AD1E002B9929 /* LoginModel.m */,
+				00289E551E35AD66002B9929 /* LoginModel+Server.h */,
+				00289E561E35AD66002B9929 /* LoginModel+Server.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		00289E581E35B52F002B9929 /* 轮播 */ = {
+			isa = PBXGroup;
+			children = (
+				00289E591E35B54E002B9929 /* CycleScrollController.h */,
+				00289E5A1E35B54E002B9929 /* CycleScrollController.m */,
+			);
+			path = "轮播";
 			sourceTree = "<group>";
 		};
 		004080571DD353C500102DF6 /* OtherLib */ = {
@@ -1924,6 +1987,7 @@
 				009E0BA51DADD3040066A458 /* AppDelegate.m */,
 				00BEEE2D1DB5B804008A8122 /* Controller */,
 				00BEEE361DB5B804008A8122 /* View */,
+				00289E501E35AB4D002B9929 /* Model */,
 				00BEEE521DB5FD13008A8122 /* PureLayout */,
 				00EA19D51DB7210D00BD0078 /* HeartFlyView-master */,
 				009E0BA11DADD3040066A458 /* Supporting Files */,
@@ -1974,6 +2038,9 @@
 			isa = PBXGroup;
 			children = (
 				006AFD071E0CCB1A0065373A /* 主界面 */,
+				00289E581E35B52F002B9929 /* 轮播 */,
+				00289E4E1E35AAFD002B9929 /* MJExtension */,
+				00289E4A1E34B944002B9929 /* MBProgressHUD */,
 				00289E461E320B85002B9929 /* 纯代码AutoLayout */,
 				0078E2A91E2E0AB4001357DC /* GLKViewDemo */,
 				0078E2A21E2DB80C001357DC /* Block使用 */,
@@ -2014,6 +2081,7 @@
 		00BEEE361DB5B804008A8122 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				00289E4F1E35AB39002B9929 /* MJExtension */,
 				006AFD8B1E0CCE270065373A /* 查看大图 */,
 				006AFD8E1E0CCE270065373A /* 杂乱小知识 */,
 				006AFD911E0CCE270065373A /* 直播聊天cell设计 */,
@@ -3133,14 +3201,17 @@
 				007A7E441E1F372900D6B12D /* YTCharacterConvertTool.m in Sources */,
 				00E5BFCD1E2323B900B10AC5 /* RuntimeClass.m in Sources */,
 				006AFDAC1E0CCE270065373A /* YTCheckLargeImageView.m in Sources */,
+				00289E541E35AD1E002B9929 /* LoginModel.m in Sources */,
 				006AFD4F1E0CCB1A0065373A /* CheckLargeImageController.m in Sources */,
 				006AFD891E0CCB1A0065373A /* YYTextTagDemo.m in Sources */,
 				006AFDAE1E0CCE270065373A /* PlayChatCell.m in Sources */,
 				0078E2A51E2DB81F001357DC /* BlockDemoController.m in Sources */,
 				006AFD751E0CCB1A0065373A /* ViewGradientController.m in Sources */,
 				006AFD801E0CCB1A0065373A /* YYTextAsyncDemo.m in Sources */,
+				00289E571E35AD66002B9929 /* LoginModel+Server.m in Sources */,
 				006AFD551E0CCB1A0065373A /* MapViewController.m in Sources */,
 				006AFEB81E0CCE7A0065373A /* giftData.m in Sources */,
+				00289E4D1E34B950002B9929 /* MBProgressHUDController.m in Sources */,
 				006AFDB01E0CCE270065373A /* PlayChatGiftCell.m in Sources */,
 				006AFD821E0CCB1A0065373A /* YYTextBindDemo.m in Sources */,
 				006330891E1A441C00FE92EE /* RegexController.m in Sources */,
@@ -3154,6 +3225,7 @@
 				006AFD601E0CCB1A0065373A /* OtherController.m in Sources */,
 				006AFD511E0CCB1A0065373A /* GetPicFromPlistController.m in Sources */,
 				00632F091E19EDC600FE92EE /* CollectionViewDemoCell.m in Sources */,
+				00289E5B1E35B54E002B9929 /* CycleScrollController.m in Sources */,
 				006AFDB21E0CCE270065373A /* PlayChatHostCell.m in Sources */,
 				00E5BFD01E232B9900B10AC5 /* RuntimeDemoController.m in Sources */,
 				006AFD881E0CCB1A0065373A /* YYTextSimpleMarkdownParserDemo.m in Sources */,
