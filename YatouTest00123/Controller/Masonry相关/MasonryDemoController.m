@@ -8,10 +8,12 @@
 
 #import "MasonryDemoController.h"
 #import "MasonryGetKeyboardHeightController.h"
+#import "MasonryHeightCellController.h"
 
 @interface MasonryDemoController ()<UITableViewDelegate,UITableViewDataSource>
 
-@property (nonatomic, strong) NSMutableArray *dataSource;
+@property (nonatomic, strong) NSMutableArray *titles;
+@property (nonatomic, strong) NSMutableArray *classNames;
 
 @end
 
@@ -28,29 +30,35 @@ static NSString *cellID = @"CellID";
     [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:cellID];
     [self.view addSubview:tableView];
     
-    self.dataSource = [NSMutableArray arrayWithObjects:@"获取 键盘 高度", nil];
+    self.titles = [NSMutableArray new];
+    self.classNames = [NSMutableArray new];
+    
+    [self addCell:@"获取 键盘 高度" ClassName:@"MasonryGetKeyboardHeightController"];
+    [self addCell:@"高度不定Cell" ClassName:@"MasonryHeightCellController"];
+    [self addCell:@"mas_updateConstraints" ClassName:@"MasonryDemo01Controller"];
+}
+
+- (void)addCell:(NSString *)title ClassName:(NSString *)className {
+    [self.titles addObject:title];
+    [self.classNames addObject:className];
 }
 
 #pragma mark - UITableViewDelegate,UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.dataSource.count;
+    return self.titles.count;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
-    cell.textLabel.text = [self.dataSource objectAtIndex:indexPath.row];
+    cell.textLabel.text = [self.titles objectAtIndex:indexPath.row];
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    switch (indexPath.row) {
-        case 0:
-        {
-            MasonryGetKeyboardHeightController *vc = [MasonryGetKeyboardHeightController new];
-            [self.navigationController pushViewController:vc animated:YES];
-//            [self presentViewController:vc animated:YES completion:nil];
-            break;
-        }
-        default:
-            break;
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    NSString *className = [self.classNames objectAtIndex:indexPath.row];
+    Class class = NSClassFromString(className);
+    if (class) {
+        UIViewController *vc = class.new;
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 

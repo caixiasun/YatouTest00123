@@ -7,18 +7,12 @@
 //
 
 #import "OtherController.h"
-#import <Masonry.h>
-#import "OtherTestView.h"
-#import "TestFlowerView.h"
 
-@interface OtherController ()
-{
-    int _linkNumber;
-}
+@interface OtherController () <UITableViewDelegate, UITableViewDataSource>
 
-@property (nonatomic, strong) CADisplayLink *link;
-@property (nonatomic, strong) NSMutableArray *linkDataSource;
-@property (nonatomic, strong) UIImageView *linkImgView;
+@property (nonatomic, strong) NSMutableArray *titles;
+@property (nonatomic, strong) NSMutableArray *classNames;
+@property (nonatomic, strong) UITableView    *tableView;
 
 @end
 
@@ -27,123 +21,57 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor whiteColor];
-    
-//    [self alphaMethod];
-    
-    [self cadisplaylinkTest];
-    
-//    [self loadWebpImage];
-    //文件路径测试
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"balloon0" ofType:@"png"];
-    
-    //Masonry 修改圆角
-//    [self cornerRadiusWithMasonry];
-    
-    /*
-    //NSInvocation的使用
-    //其实NSInvocation就是将一个方法变成一个对象
-    SEL selector = @selector(invocationTestMethod:);
-    NSMethodSignature *signature = [OtherController instanceMethodSignatureForSelector:selector];
-    NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:signature];
-    invocation.target = self;
-    invocation.selector = selector;
-    NSString *test = @"yatouTest";
-    //这里的Index要从2开始，以为0跟1已经被占据了，分别是self（target）,selector(_cmd)
-    [invocation setArgument:&test atIndex:2];
-    //调用NSInvocation指定的方法
-    [invocation invoke];
-     */
-    
-//    TestFlowerView *flower = [[TestFlowerView alloc] initWithFrame:CGRectMake(10, 200, 300, 300)];
-//    [self.view addSubview:flower];
-    
+    [self addTitle:@"YTCADisplayLinkController" ClassName:@"YTCADisplayLinkController"];
+    [self addTitle:@"YTInputDemoController" ClassName:@"YTInputDemoController"];
 }
 
-- (void)invocationTestMethod:(NSString *)method {
-    
-    DLog(@"_________%@",method);
+- (void)addTitle:(NSString *)title ClassName:(NSString *)className {
+    [self.titles addObject:title];
+    [self.classNames addObject:className];
+    [self.tableView reloadData];
 }
 
-- (void)cornerRadiusWithMasonry {
-    [[OtherTestView alloc] createOtherTestViewInView:self.view];
+#pragma mark - 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.titles.count;
 }
-
-- (void)loadWebpImage {
-    UIImageView *imageView = [UIImageView new];
-    imageView.frame = self.view.bounds;
-    imageView.center = self.view.center;
-    [self.view addSubview:imageView];
-    
-    
-}
-
-//CADisplayLink测试
-- (void)cadisplaylinkTest {
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.frame = CGRectMake(10, 100, 200, 50);
-    [btn setTitle:@"开始" forState:UIControlStateNormal];
-    btn.backgroundColor = [UIColor yellowColor];
-    [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-    [btn addTarget:self action:@selector(linkAction) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
-    
-    
-    self.linkDataSource = [NSMutableArray new];
-    for (int i=0; i<100; i++) {
-        [self.linkDataSource addObject:[NSString stringWithFormat:@"balloon%d.png",i]];
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     }
-    
-    UIImageView *imgV = [UIImageView new];
-    imgV.frame = self.view.bounds;
-    imgV.center = self.view.center;
-    [self.view addSubview:imgV];
-    self.linkImgView = imgV;
-    
+    cell.textLabel.text = [self.titles objectAtIndex:indexPath.row];
+    return cell;
 }
 
-- (CADisplayLink *)link {
-    if (!_link) {
-        _link = [CADisplayLink displayLinkWithTarget:self selector:@selector(linkUpdate)];
-        _link.paused = YES;
-        [_link addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
-        _linkNumber = 0;
-    }
-    return _link;
-}
-
-- (void)linkAction {
-    self.link.paused = NO;
-}
-
-- (void)linkUpdate {
-    
-    if (_linkNumber < self.linkDataSource.count) {
-        UIImage *image = [UIImage imageNamed:[self.linkDataSource objectAtIndex:_linkNumber]];
-        self.linkImgView.image = image;
-        _linkNumber++;
-    }else {
-        self.link.paused = YES;
-        [self.link invalidate];
-        self.link = nil;
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    Class class = NSClassFromString([self.classNames objectAtIndex:indexPath.row]);
+    if (class) {
+        UIViewController *vc = class.new;
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 
-//只改变父视图的alpha，不改变子视图的。
-- (void)alphaMethod {
-    UIView *v1 = [UIView new];
-    v1.frame = CGRectMake(20, 100, 200, 200);
-    v1.backgroundColor = [[UIColor redColor] colorWithAlphaComponent:.3];
-    //    v1.alpha = .3;
-    [self.view addSubview:v1];
-    
-    UIView *v2 = [UIView new];
-    v2.frame = CGRectMake(10, 10, 50, 50);
-    v2.backgroundColor = [UIColor greenColor];
-    [v1 addSubview:v2];
+- (NSMutableArray *)titles {
+    if (!_titles) {
+        _titles = [NSMutableArray new];
+    }
+    return _titles;
 }
-
-- (void)dealloc {
+- (NSMutableArray *)classNames {
+    if (!_classNames) {
+        _classNames = [NSMutableArray new];
+    }
+    return _classNames;
+}
+- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, Screen_Width, Screen_Height) style:UITableViewStylePlain];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        [self.view addSubview:_tableView];
+    }
+    return _tableView;
 }
 
 @end

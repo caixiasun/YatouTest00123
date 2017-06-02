@@ -28,6 +28,6 @@
 
 @protocol ProtocolTest <NSObject>
 
-
+@optional
 
 @end

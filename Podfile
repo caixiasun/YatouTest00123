@@ -10,4 +10,5 @@ platform :ios, ’9.0’ #手机的系统
   pod 'MBProgressHUD'
   pod ‘MJExtension’
   pod ‘iCarousel’
+  pod ‘MJRefresh’
   end

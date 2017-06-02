@@ -9,7 +9,13 @@
 #ifndef YTCore_h
 #define YTCore_h
 
-#import "YTDLog.h"
-#import "YTRegex.h"
+//Headers
+#import "YTHeaders.h"
+
+//Tools
+#import "YTTools.h"
+
+//Categorys
+#import "YTCategorys.h"
 
 #endif /* YTCore_h */

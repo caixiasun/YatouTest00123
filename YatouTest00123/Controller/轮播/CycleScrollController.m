@@ -21,18 +21,31 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"切换" style:UIBarButtonItemStylePlain target:self action:@selector(change)];
+    self.navigationItem.rightBarButtonItem = item;
     
-    CGFloat cardWidth = [UIScreen mainScreen].bounds.size.width*5.0f/7.0f;
-    self.cardSize = CGSizeMake(cardWidth, cardWidth*16.0f/9.0f);
+    
+//    CGFloat cardWidth = [UIScreen mainScreen].bounds.size.width*5.0f/7.0f;
+    self.cardSize = CGSizeMake(250, 200);
     self.view.backgroundColor = [UIColor blackColor];
     
-    self.carousel = [[iCarousel alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.carousel = [[iCarousel alloc] initWithFrame:CGRectMake(0, 100, Screen_Width, 200)];
     [self.view addSubview:self.carousel];
     self.carousel.delegate = self;
     self.carousel.dataSource = self;
-    self.carousel.type = iCarouselTypeCustom;
-    self.carousel.bounceDistance = 0.2f;
+    self.carousel.type = iCarouselTypeRotary;
+    self.carousel.bounceDistance = 10.0f;
     
+}
+
+- (void)change {
+    static NSInteger index = 0;
+    index ++;
+    self.carousel.type = index;
+    [self.carousel reloadData];
+    if (index > 11) {
+        index = 0;
+    }
 }
 
 - (NSInteger)numberOfItemsInCarousel:(iCarousel *)carousel

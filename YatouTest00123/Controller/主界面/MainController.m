@@ -29,6 +29,12 @@
     _classNames = @[].mutableCopy;
     
     [self addCell:@"轮播iCarousel" Class:@"CycleScrollController"];
+    [self addCell:@"其他小知识" Class:@"OtherController"];
+    [self addCell:@"UIScrollView测试" Class:@"ScrollViewTestController"];
+    [self addCell:@"转场动画" Class:@"ViewAnimationController"];
+    [self addCell:@"过渡动画" Class:@"TransitionAnimationController"];
+    [self addCell:@"ParisDemo" Class:@"ParisDemoController"];
+    [self addCell:@"卡片堆叠" Class:@"CardStackController"];
     [self addCell:@"MBProgressHUD" Class:@"MBProgressHUDController"];
     [self addCell:@"纯代码AutoLayout" Class:@"AutoLayoutCodeController"];
     [self addCell:@"OpenGL Demo" Class:@"GLKViewController"];
@@ -51,7 +57,6 @@
     [self addCell:@"点击图像查看大图" Class:@"CheckLargeImageController"];
     [self addCell:@"View渐变色" Class:@"ViewGradientController"];
     [self addCell:@"从Plist中读取图片信息" Class:@"GetPicFromPlistController"];
-    [self addCell:@"其他小知识" Class:@"OtherController"];
     [self addCell:@"直播送礼物动画" Class:@"PlaySendGiftController"];
     [self addCell:@"直播聊天cell设计" Class:@"PlayChatController"];
     [self addCell:@"UITableView相关属性" Class:@"MyTableViewDemoController"];

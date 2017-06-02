@@ -13,7 +13,7 @@
 /**
  对一个汉字数组排序
 
- @param characterArray 需要排序的汉字数组
+ @param chineseArray 需要排序的汉字数组
  @return 排序后的汉字数组
  */
 + (NSArray *)sortedChineseCharacter:(NSArray *)chineseArray;
